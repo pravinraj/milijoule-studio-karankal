@@ -1,0 +1,5 @@
+@import './home/navigation-bar.css';
+
+.custom-header {
+	padding: 0;
+}
