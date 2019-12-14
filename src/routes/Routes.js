@@ -1,6 +1,5 @@
 import React from 'react';
-import { Route } from "react-router-dom";
-import Home from '../container/Home';
+import { Switch, Route } from "react-router-dom";
 import Shop from '../container/Shop';
 import Projects from '../container/Projects';
 import Blog from '../container/Blog';
@@ -11,12 +10,12 @@ const history = createBrowserHistory();
 
 function Routes() {
 	return(
-		<div>
+		<Switch>
 			<Route exact path='/shop' component={Shop} history={history} />
 			<Route exact path='/projects' component={Projects} history={history} />
 			<Route exact path='/blog' component={Blog} history={history} />
 			<Route exact path='/contactus' component={ContactUs} history={history} />
-		</div>
+		</Switch>
 	);
 }
 

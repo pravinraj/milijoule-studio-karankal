@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  HashRouter as Router, NavLink
+  HashRouter as Router
 } from 'react-router-dom';
 import {
   Container,
@@ -10,7 +10,7 @@ import {
 
 import Routes from './routes/Routes';
 import Home from './container/Home';
-import './app.css';
+import './css/main.scss';
 
 function App() {
   return (

@@ -1,0 +1,66 @@
+.studio-header-wrapper {
+	box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.09), 0 0 4px 0 rgba(0, 0, 0, 0.12);
+  	background-color: #fafafa;
+  	.nav-images {
+		max-width: 16%;
+		img{
+			width: 35%;
+		}
+	}
+
+	.brand-image img {
+		width: 138px;
+	}
+
+	.route-type-shop img {
+		width: 44px;
+	}
+
+	.route-type-projects img {
+		width: 69px;
+	}
+
+	.route-type-blog  img {
+		width: 39px;
+	}
+
+	.contact-us-dropdown > a {
+		font-size: 18px;
+	    font-weight: 650;
+	    font-stretch: normal;
+	    font-style: normal;
+	    line-height: normal;
+	    letter-spacing: normal;
+	    color: #453a3a !important;
+	    .contact-us-dropdown-item  span {
+	    	font-family: ProximaNova;
+			  font-size: 17px;
+			  font-weight: normal;
+			  font-stretch: normal;
+			  font-style: normal;
+			  line-height: normal;
+			  letter-spacing: normal;
+			  color: #0b0b0b !important;
+	    }
+
+	}
+
+	.contact-detail {
+		display: inline-block;
+    	margin-left: 8px;
+	}
+
+	 .mail-icon {
+		width: 24px;
+	}
+
+	.phone-icon {
+		width: 18px;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.studio-header-wrapper {
+		height: 84px;
+	}
+}

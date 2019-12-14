@@ -1,0 +1,77 @@
+.one-stop-shop-wrapper {
+	margin-top: 124px;
+	.one-stop-content {
+		> p{
+			font-family: ProximaNova;
+			font-size: 17px;
+			font-weight: normal;
+			font-stretch: normal;
+			font-style: normal;
+			line-height: 1.53;
+			letter-spacing: normal;
+			color: #000000;
+		}
+		> p:nth-child(1) {
+			font-size: 36px;
+			font-weight: bold;
+			line-height: normal;
+		}
+		> p:nth-child(2) {
+			font-weight: 600;
+  			line-height: normal;
+  			color: #f73d2f;
+		}
+
+		.meeting-detail {
+			margin-top: 3em;
+			margin-bottom: 3em;
+			.meeting-detail-desc {
+				font-family: ProximaNova;
+				font-size: 17px;
+				font-weight: bold;
+				font-stretch: normal;
+				font-style: normal;
+				line-height: normal;
+				letter-spacing: normal;
+				color: #000000;
+			}
+			.email-detail, .email-detail {
+				display: inline-block;
+				width: 75%;
+				input, input:focus{
+					border: none;
+					box-shadow: none;
+					border-bottom: 1px solid #979797;
+				}
+			}
+			.email-submit {
+				display: inline-block;
+				img {
+					width: 33.4%;
+				}
+			}
+		}
+	}
+	
+}
+
+@media only screen and (max-width: 600px) {
+	.one-stop-shoop-wrapper {
+		margin-top: 62px;
+	}
+
+	.bit-map-image {
+		img {
+			width: 100%;
+		}
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.bit-map-image {
+		text-align: right;
+		img {
+			width: 64.207%;
+		}
+	}
+}
