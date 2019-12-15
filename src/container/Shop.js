@@ -1,8 +1,9 @@
 import React from 'react';
 
 function Shop() {
+	console.log('inside shop#############');
 	return (
-		<div>Shop inside</div>
+		<div>Shop inside@@@@@@@@@@@@@</div>
 	);
 }
 

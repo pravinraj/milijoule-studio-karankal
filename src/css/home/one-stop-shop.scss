@@ -1,6 +1,7 @@
 .one-stop-shop-wrapper {
-	margin-top: 124px;
+	margin-top: 116px;
 	.one-stop-content {
+		border-bottom: 2px solid #f7f7f7;
 		> p{
 			font-family: ProximaNova;
 			font-size: 17px;
@@ -37,7 +38,7 @@
 			}
 			.email-detail, .email-detail {
 				display: inline-block;
-				width: 75%;
+				width: 70%;
 				input, input:focus{
 					border: none;
 					box-shadow: none;
@@ -52,7 +53,10 @@
 			}
 		}
 	}
-	
+
+	.bit-map-image {
+		border-bottom: 2px solid #f7f7f7;
+	}
 }
 
 @media only screen and (max-width: 600px) {
@@ -71,7 +75,15 @@
 	.bit-map-image {
 		text-align: right;
 		img {
-			width: 64.207%;
+			width: 81.207%;
 		}
 	}
 }
+
+@media only screen and (min-width: 992px) {
+	.one-stop-shop-wrapper {
+		margin-left: 3em;
+	}
+}
+
+

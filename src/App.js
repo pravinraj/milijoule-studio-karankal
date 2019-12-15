@@ -9,8 +9,8 @@ import {
 } from 'react-bootstrap'
 
 import Routes from './routes/Routes';
-import Home from './container/Home';
 import './css/main.scss';
+import NavigationBar from './routes/NavigationBar';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       <Row>
         <Col bsPrefix='col custom-header'>
           <Router basename='/studio'>
-            <Home/>
+            <NavigationBar/>
             <Routes/>
           </Router>
         </Col>

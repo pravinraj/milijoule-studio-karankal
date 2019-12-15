@@ -1,0 +1,69 @@
+@media only screen and (min-width: 992px) {
+	.service-offered-wrapper {
+		margin-left: 3em;
+	}
+}
+.service-offered-wrapper {
+	margin-top: 116px;
+
+	.service-offered-desc {
+		p:first-child {
+			font-family: ProximaNova;
+		  	font-size: 36px;
+		  	font-weight: bold;
+		  	font-stretch: normal;
+		  	font-style: normal;
+		  	line-height: normal;
+		  	letter-spacing: normal;
+		  	color: #000000;
+		  	text-align: center;
+		}
+		p:nth-child(2) {
+			font-family: ProximaNova;
+			font-size: 17px;
+			font-weight: normal;
+			font-stretch: normal;
+			font-style: normal;
+			line-height: 1.59;
+			letter-spacing: normal;
+			text-align: center;
+			color: #000000;
+		}
+
+		div {
+			margin-top: 51px;
+			text-align: center;
+			img {
+				width: 60%;
+			}
+		}
+	}
+
+	.know-more-wrapper {
+		cursor: pointer;
+		margin-top: 3em;
+		div{
+			border-bottom: 2px solid #f7f7f7;
+			padding-bottom: 3em;
+			text-align: center;
+		}
+		span {
+			display: inline-block;
+    		margin-right: 8px;
+			font-family: ProximaNova;
+			font-size: 17px;
+			font-weight: 600;
+			font-stretch: normal;
+			font-style: normal;
+			line-height: normal;
+			letter-spacing: normal;
+			text-align: left;
+			color: #e53532;
+		}
+
+		img {
+			width: 16px;
+			display: inline-block;
+		}
+	}
+}

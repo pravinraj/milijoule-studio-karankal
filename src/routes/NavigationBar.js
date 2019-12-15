@@ -5,17 +5,17 @@ import {
 	NavDropdown
 } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-import brandImage from '../../images/home/header/karankal-com.png';
-import filter from '../../images/home/header/filter.png';
-import nounProfile from '../../images/home/header/noun-profile.png';
-import group from '../../images/home/header/group.png';
-import search from '../../images/home/header/search.png';
-import combinedShape from '../../images/home/header/combined-shape.png';
-import shop from '../../images/home/header/shop.png';
-import projects from '../../images/home/header/projects.png';
-import blog from '../../images/home/header/blog.png';
-import mail from '../../images/home/header/mail.png';
-import phone from '../../images/home/header/phone.png';
+import brandImage from '../images/home/header/karankal-com.png';
+import filter from '../images/home/header/filter.png';
+import nounProfile from '../images/home/header/noun-profile.png';
+import group from '../images/home/header/group.png';
+import search from '../images/home/header/search.png';
+import combinedShape from '../images/home/header/combined-shape.png';
+import shop from '../images/home/header/shop.png';
+import projects from '../images/home/header/projects.png';
+import blog from '../images/home/header/blog.png';
+import mail from '../images/home/header/mail.png';
+import phone from '../images/home/header/phone.png';
 
 
 function NavigationBar(argument) {

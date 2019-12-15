@@ -1,0 +1,66 @@
+@media only screen and (min-width: 992px) {
+	.testimonals-wrapper {
+		margin-left: 3em;
+	}
+}
+
+.testimonals-wrapper {
+	margin-top: 90px;
+	.testimonal-heading {
+		font-family: ProximaNova;
+		font-size: 36px;
+		font-weight: bold;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		color: #000000;
+		text-align: center;
+	}
+
+	p {
+		font-family: ProximaNova;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		text-align: center;
+		
+	}
+	.testimonal-slides {
+		margin-top: 60px;
+		padding-bottom: 3em;
+    	border-bottom: 1px solid #979797;
+		.testimonal-slide-heading {
+			font-size: 36px;
+	  		font-weight: bold;
+	  		color: #000000;
+		}
+
+		.testimonal-footer:first-child {
+			margin-top: 1em;
+		}
+
+		.testimonal-footer {
+			font-size: 17px;
+	  		font-weight: normal;
+	  		color: #292828;
+		}
+
+		.carousel-indicators {
+			display: none;
+		}
+
+		.carousel-control-prev-icon {
+			background-image: url('../../images/home/testimonals/prev-arrow.png');
+			background-repeat: no-repeat;
+			padding: 1em;
+		}
+
+		.carousel-control-next-icon {
+			background-image: url('../../images/home/testimonals/next-arrow.png');
+			background-repeat: no-repeat;
+			padding: 1em;
+		}
+	}
+}

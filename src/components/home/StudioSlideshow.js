@@ -10,7 +10,7 @@ import cafe from '../../images/home/slideshow/cafe.jpg';
 function StudioSlideshow() {
 	return (
 		<Row>
-			<Carousel>
+			<Carousel className='studio-slides'>
 			  	<Carousel.Item>
 				    <img
 				      className="d-block w-100"
