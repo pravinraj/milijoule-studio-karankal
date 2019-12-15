@@ -1,7 +1,5 @@
 import React from 'react';
 import {
-	Col,
-	Row,
 	Carousel
 } from 'react-bootstrap';
 

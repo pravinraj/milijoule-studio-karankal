@@ -1,8 +1,7 @@
 import React from 'react';
 import {
 	Col,
-	Row,
-	ResponsiveEmbed
+	Row
 } from 'react-bootstrap';
 
 
@@ -13,7 +12,7 @@ function  ContactUs() {
 			<Row>
 				<Col xs={12} className='contact-address'>
 					<div className="embed-responsive embed-responsive-1by1">
-				      	<iframe className="embed-responsive-item" src="https://goo.gl/UJkbS5" width={"600"} height={"450"} allowfullscreen></iframe>
+				      	<iframe className="embed-responsive-item" title="Karankal.com" src="https://goo.gl/UJkbS5" width={"600"} height={"450"} allowfullscreen></iframe>
 				    </div>		
 				</Col>
 			</Row>
