@@ -1,46 +1,55 @@
 .studio-header-wrapper {
 	box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.09), 0 0 4px 0 rgba(0, 0, 0, 0.12);
   	background-color: #fafafa;
-  	.nav-images {
-		max-width: 16%;
-		img{
-			width: 35%;
+  	.nav-images-list {
+  		justify-content: flex-end;
+  		.nav-images {
+  			text-align: right;
+  			width: 20%;
+  			padding-right: 40px;
+			img{
+				width: 24px;
+			}
 		}
-	}
+  	}
+  	
 
 	.brand-image img {
 		width: 138px;
 	}
 
-	.route-type-shop img {
-		width: 44px;
+	.route-type , .contact-us-dropdown {
+		a, a.nav-link {
+			object-fit: contain;
+		  	font-family: Proxima Nova Lt;
+		  	font-size: 19px;
+		  	font-weight: 600;
+		    font-stretch: normal;
+		 	font-style: normal;
+		    line-height: normal;
+		    letter-spacing: normal;
+		    color: #343232;
+		    text-decoration: none;
+		    padding-right: 2.5em;
+		}
+		
 	}
 
-	.route-type-projects img {
-		width: 69px;
-	}
-
-	.route-type-blog  img {
-		width: 39px;
+	.contact-us-dropdown > a.navlink {
+		padding-right: 0;
 	}
 
 	.contact-us-dropdown > a {
-		font-size: 18px;
-	    font-weight: 650;
-	    font-stretch: normal;
-	    font-style: normal;
-	    line-height: normal;
-	    letter-spacing: normal;
-	    color: #453a3a !important;
 	    .contact-us-dropdown-item  span {
-	    	font-family: ProximaNova;
+	    	font-family: Proxima Nova Lt;
 			  font-size: 17px;
 			  font-weight: normal;
 			  font-stretch: normal;
 			  font-style: normal;
 			  line-height: normal;
 			  letter-spacing: normal;
-			  color: #0b0b0b !important;
+			  color: #0b0b0b;
+			  
 	    }
 
 	}
@@ -62,5 +71,17 @@
 @media only screen and (min-width: 992px) {
 	.studio-header-wrapper {
 		height: 84px;
+		.search {
+			width: 46.3%;
+		}
+		.noun-profile {
+			width: 46.6%;
+		}
+		.group {
+			width: 46.9%;
+		}
+		.combined-shape {
+			width: 50%;
+		}
 	}
 }
