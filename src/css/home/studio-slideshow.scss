@@ -56,22 +56,27 @@
 			}
 		}
 
+		
+
+		@media only screen and (min-width: 768px) {
+			.carousel-indicators {
+				left: -71%;
+	    		bottom: 20%;
+			}
+		}
+
 		@media only screen and (min-width: 992px) {
+			.carousel-indicators {
+				left: -73%;
+	    		bottom: 23%;
+			}
+		}
+
+		@media only screen and (min-width: 1200px) {
 			.carousel-indicators {
 				left: -75%;
 	    		bottom: 25%;
 			}
-		}
-
-		@media only screen and (min-width: 768px) {
-			.carousel-indicators {
-				left: -72%;
-	    		bottom: 18%;
-			}
-		}
-
-		@media only screen and (min-width: 600px) {
-
 		}
 
 		.carousel-control-prev, .carousel-control-next {
