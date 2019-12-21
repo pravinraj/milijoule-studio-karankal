@@ -7,6 +7,7 @@ import {
 import cafe from '../../images/home/slideshow/cafe.jpg';
 import customFurniture from '../../images/home/slideshow/custom-furniture.jpg';
 import brandStrategy from '../../images/home/slideshow/brand-strategy.jpg';
+import mouse from '../../images/home/slideshow/mouse.png';
 import arrowIcon from  '../../images/home/arrow-icon.png';
 
 function StudioSlideshow() {
@@ -48,6 +49,7 @@ function StudioSlideshow() {
 				  </Carousel.Item>}
 			</Carousel>
 			<p className='furniture-design-slide'><span>Furniture Design</span><span><img src={arrowIcon} alt='Arrow-icon' /></span></p>
+			<span className='mouse-pointer'><img src={mouse} alt='mouse pointer' /></span>
 		</Row>
 			
 	);

@@ -105,6 +105,17 @@
 			}
 		}
 	}
+
+	.mouse-pointer {
+		cursor: pointer;
+		position: absolute;
+	    top: 92%;
+	    z-index: 1;
+	    left: 50%;
+	    img {
+	    	width: 30.8%;
+	    }
+	}
 }
 
 
