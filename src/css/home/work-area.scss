@@ -3,7 +3,7 @@
 
 	.work-area-desc {
 		p {
-			font-family: ProximaNova;
+			font-family: Proxima Nova;
 			font-size: 17px;
 			font-weight: normal;
 			font-stretch: normal;
@@ -25,18 +25,19 @@
 			text-align: center;
 			.work-area-image-caption {
 				p:first-child {
-					font-family: ProximaNova;
+					font-family: Proxima Nova Lt;
 				    font-size: 17px;
 				    font-weight: bold;
 				    font-stretch: normal;
 				    font-style: normal;
 				    line-height: normal;
 				    letter-spacing: normal;
-				    text-align: center;
+				    text-align: left;
 				    color: #050505;
+				    margin-left: 0.4em;
 				}
 				p:last-child {
-					font-family: ProximaNova;
+					font-family: Proxima Nova;
 					font-size: 17px;
 					font-weight: normal;
 					font-stretch: normal;
@@ -61,7 +62,7 @@
 		span {
 			display: inline-block;
     		margin-right: 8px;
-			font-family: ProximaNova;
+			font-family: Proxima Nova;
 			font-size: 17px;
 			font-weight: 600;
 			font-stretch: normal;

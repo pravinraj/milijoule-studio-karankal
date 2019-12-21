@@ -1,22 +1,16 @@
 import React from 'react';
 import {
 	Container,
-	Row,
-	Col,
 	Navbar,
 	Nav,
 	NavDropdown
 } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import brandImage from '../images/home/header/karankal-com.png';
-import filter from '../images/home/header/filter.png';
 import nounProfile from '../images/home/header/noun-profile.png';
 import cart from '../images/home/header/cart.png';
 import search from '../images/home/header/search.png';
 import hamburger from '../images/home/header/hamburger.png';
-import shop from '../images/home/header/shop.png';
-import projects from '../images/home/header/projects.png';
-import blog from '../images/home/header/blog.png';
 import mail from '../images/home/header/mail.png';
 import phone from '../images/home/header/phone.png';
 
@@ -24,7 +18,7 @@ import phone from '../images/home/header/phone.png';
 function NavigationBar(argument) {
 	return (
 		<Container>
-			<Navbar fixed="top" className='studio-header-wrapper' collapseOnSelect expand="lg" bg="light" variant="light">
+			<Navbar fixed="top" className='studio-header-wrapper' collapseOnSelect expand="lg">
 				<Navbar.Brand href="#" bsPrefix='navbar brand-image'><img src={brandImage} alt='brandImage'/></Navbar.Brand>
 			  	<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 			  	<Navbar.Collapse id="responsive-navbar-nav">

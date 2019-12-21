@@ -8,7 +8,7 @@
 
 	.service-offered-desc {
 		p:first-child {
-			font-family: ProximaNova;
+			font-family: Proxima Nova;
 		  	font-size: 36px;
 		  	font-weight: bold;
 		  	font-stretch: normal;
@@ -19,7 +19,9 @@
 		  	text-align: center;
 		}
 		p:nth-child(2) {
-			font-family: ProximaNova;
+			width: 35%;
+    		margin: 0 auto;
+			font-family: Proxima Nova;
 			font-size: 17px;
 			font-weight: normal;
 			font-stretch: normal;
@@ -50,7 +52,7 @@
 		span {
 			display: inline-block;
     		margin-right: 8px;
-			font-family: ProximaNova;
+			font-family: Proxima Nova;
 			font-size: 17px;
 			font-weight: 600;
 			font-stretch: normal;

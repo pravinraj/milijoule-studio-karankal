@@ -7,7 +7,7 @@
 .testimonals-wrapper {
 	margin-top: 90px;
 	.testimonal-heading {
-		font-family: ProximaNova;
+		font-family: Proxima Nova;
 		font-size: 36px;
 		font-weight: bold;
 		font-stretch: normal;
@@ -19,7 +19,7 @@
 	}
 
 	p {
-		font-family: ProximaNova;
+		font-family: Proxima Nova;
 		font-stretch: normal;
 		font-style: normal;
 		line-height: normal;
@@ -32,13 +32,12 @@
 		padding-bottom: 3em;
     	border-bottom: 1px solid #979797;
 		.testimonal-slide-heading {
+			width: 33%;
+    		margin: 0 auto;
 			font-size: 36px;
 	  		font-weight: bold;
 	  		color: #000000;
-		}
-
-		.testimonal-footer:first-child {
-			margin-top: 1em;
+	  		margin-bottom: 1em;
 		}
 
 		.testimonal-footer {
@@ -54,13 +53,15 @@
 		.carousel-control-prev-icon {
 			background-image: url('../../images/home/testimonals/prev-arrow.png');
 			background-repeat: no-repeat;
-			padding: 1em;
+			background-size: 2em;
+    		padding: 2em;
 		}
 
 		.carousel-control-next-icon {
 			background-image: url('../../images/home/testimonals/next-arrow.png');
 			background-repeat: no-repeat;
-			padding: 1em;
+			background-size: 2em;
+    		padding: 2em;
 		}
 	}
 }

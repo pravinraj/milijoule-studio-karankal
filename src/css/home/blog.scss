@@ -9,7 +9,7 @@
 
 	.blog-desc {
 		p:first-child {
-			font-family: ProximaNova;
+			font-family: Proxima Nova;
 			font-size: 36px;
 			font-weight: bold;
 			font-stretch: normal;
@@ -19,23 +19,26 @@
 			color: #000000;
 		}
 	}
+	.blog-images-wrapper{
+		margin-top: 113px;
+		.blog-list {
+			p {
+				font-family: Proxima Nova;
+			    font-size: 17px;
+			    font-weight: normal;
+			    font-stretch: normal;
+			    font-style: normal;
+			    line-height: normal;
+			    letter-spacing: normal;
+			    color: #000000;
+			}
 
-	.blog-list {
-		p {
-			font-family: ProximaNova;
-		    font-size: 17px;
-		    font-weight: normal;
-		    font-stretch: normal;
-		    font-style: normal;
-		    line-height: normal;
-		    letter-spacing: normal;
-		    color: #000000;
-		}
-
-		p:first-child {
-			font-size: 36px;
-			font-weight: bold;
-			color: #080808;
+			p:first-child {
+				margin-top: 29px;
+				font-size: 36px;
+				font-family: Proxima Nova Rg;
+				color: #080808;
+			}
 		}
 	}
 
@@ -49,7 +52,7 @@
 		span {
 			display: inline-block;
     		margin-right: 8px;
-			font-family: ProximaNova;
+			font-family: Proxima Nova;
 			font-size: 17px;
 			font-weight: 600;
 			font-stretch: normal;

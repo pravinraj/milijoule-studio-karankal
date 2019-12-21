@@ -9,7 +9,7 @@
 
 	.design-process-desc {
 		p:first-child {
-			font-family: ProximaNova;
+			font-family: Proxima Nova Rg;
 		  	font-size: 36px;
 		  	font-weight: bold;
 		  	font-stretch: normal;
@@ -20,7 +20,9 @@
 		  	text-align: center;
 		}
 		p:nth-child(2) {
-			font-family: ProximaNova;
+			width: 33%;
+    		margin: 0 auto;
+			font-family: Proxima Nova;
 			font-size: 17px;
 			font-weight: normal;
 			font-stretch: normal;
@@ -33,6 +35,7 @@
 	}
 
 	.design-img {
+		margin-top: 116px;
 		text-align: center;
 
 		img {
@@ -45,7 +48,7 @@
 		.design-process-img-desc {
 			text-align: center;
 			p:first-child {
-				font-family: ProximaNova;
+				font-family: Proxima Nova;
 				font-size: 17px;
 				font-weight: bold;
 				font-stretch: normal;
@@ -56,7 +59,7 @@
 			}
 
 			p:nth-child(2) {
-			    font-family: ProximaNova;
+			    font-family: Proxima Nova;
 			    font-size: 17px;
 			    font-weight: normal;
 			    font-stretch: normal;
@@ -80,7 +83,7 @@
 		span {
 			display: inline-block;
     		margin-right: 8px;
-			font-family: ProximaNova;
+			font-family: Proxima Nova;
 			font-size: 17px;
 			font-weight: 600;
 			font-stretch: normal;

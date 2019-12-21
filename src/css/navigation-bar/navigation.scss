@@ -1,12 +1,12 @@
 .studio-header-wrapper {
 	box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.09), 0 0 4px 0 rgba(0, 0, 0, 0.12);
-  	background-color: #fafafa;
+  	background-color: #fff;
   	.nav-images-list {
   		justify-content: flex-end;
   		.nav-images {
   			text-align: right;
   			width: 20%;
-  			padding-right: 40px;
+  			padding-right: 4.49vw;
 			img{
 				width: 24px;
 			}
@@ -30,7 +30,7 @@
 		    letter-spacing: normal;
 		    color: #343232;
 		    text-decoration: none;
-		    padding-right: 2.5em;
+		    padding-right: 5.079vw;
 		}
 		
 	}

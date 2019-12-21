@@ -1,55 +1,114 @@
 
-.studio-slides {
-	.slide-caption {
-		top: 41%;
-	    width: 471px;
-		p {
-			 font-family: ProximaNova;
-			 font-size: 1.432vw;
-			 font-weight: normal;
-			 font-stretch: normal;
-			 font-style: normal;
-			 line-height: normal;
-			 letter-spacing: normal;
-			 color: #000000;
-			 text-align: left;
-			 margin-bottom: 0;
+.slide-show-wrapper {
+	position: relative;
+	.studio-slides {
+		.slide-caption {
+			top: 35%;
+		    width: 32.16vw;
+		    left: 10.5%;
+			p {
+				 font-family: Proxima Nova Th;
+				 font-size: 1.432vw;
+				 font-weight: normal;
+				 font-stretch: normal;
+				 font-style: normal;
+				 line-height: normal;
+				 letter-spacing: normal;
+				 color: #000000;
+				 text-align: left;
+				 margin-bottom: 0;
+				 font-weight: bold;
+			}
+
+			p:first-child {
+				font-size: 3.385vw;
+			}
+
+			p:nth-child(2).cafe-slide-desc {
+				font-family: Proxima Nova;
+				font-weight: normal;
+				width: 21vw;
+			}
+
+			p:nth-child(2).custom-furniture-slide-desc {
+				font-family: Proxima Nova;
+				font-weight: normal;
+				width: 26vw;
+			}
+
+			p:nth-child(2).brand-strategy-slide-desc{
+				font-family: Proxima Nova;
+				font-weight: normal;
+				width: 26vw;
+			}
 		}
 
-		p:first-child {
-			font-size: 3.385vw;
-	  		font-weight: bold;
+
+		.carousel-indicators {
+		    li {
+		    	width: 15px;
+		  		height: 15px;
+				border-radius: 100%;
+				background-color: #7c7c7c;
+		    }
+		    .active {
+				background-color: #ea0000;
+			}
 		}
 
-		p:nth-child(3) {
-			font-family: ProximaNova;
-			font-size: 1.432vw;
-			font-weight: 600;
-			font-stretch: normal;
-			font-style: normal;
-			line-height: normal;
-			letter-spacing: normal;
-			color: #ed3232;
-			margin-top: 2.4em;
+		@media only screen and (min-width: 992px) {
+			.carousel-indicators {
+				left: -75%;
+	    		bottom: 25%;
+			}
 		}
+
+		@media only screen and (min-width: 768px) {
+			.carousel-indicators {
+				left: -72%;
+	    		bottom: 18%;
+			}
+		}
+
+		@media only screen and (min-width: 600px) {
+
+		}
+
+		.carousel-control-prev, .carousel-control-next {
+			display: none;
+		}	
 	}
 
-
-	.carousel-indicators {
-	    li {
-	    	width: 15px;
-	  		height: 15px;
-			border-radius: 100%;
-			background-color: #7c7c7c;
-	    }
-	    .active {
-			background-color: #ea0000;
-		}
+	.cafe-slide > .slide-caption {
+		top: 35%;
 	}
 
-	.carousel-control-prev, .carousel-control-next {
-		display: none;
-	}	
+	.custom-furniture-slide > .slide-caption {
+		top: 28%;
+	}
+
+	.furniture-design-slide	{
+		position: absolute;
+    	top: 58%;
+    	left: 10.5%;
+    	font-family: Proxima Nova Cn Th;
+		font-size: 1.432vw;
+		font-weight: bold;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		color: #ed3232;
+		margin-top: 2.4em;
+		z-index: 1;
+		span {
+			margin-right: 8px;
+			img {
+				width: 16px;
+			}
+		}
+	}
 }
+
 
 
