@@ -22,7 +22,7 @@
 		p:nth-child(2) {
 			width: 33%;
     		margin: 0 auto;
-			font-family: Proxima Nova;
+			font-family: Proxima Nova Rg;
 			font-size: 17px;
 			font-weight: normal;
 			font-stretch: normal;
@@ -39,7 +39,14 @@
 		text-align: center;
 
 		img {
-			width: 100%;
+			width: 90%;
+			
+		}
+
+		@media only screen and (min-width: 992px) {
+			img {
+				margin-right: 45px;
+			}
 		}
 	}
 
@@ -48,7 +55,7 @@
 		.design-process-img-desc {
 			text-align: center;
 			p:first-child {
-				font-family: Proxima Nova;
+				font-family: Proxima Nova Rg;
 				font-size: 17px;
 				font-weight: bold;
 				font-stretch: normal;
@@ -83,7 +90,7 @@
 		span {
 			display: inline-block;
     		margin-right: 8px;
-			font-family: Proxima Nova;
+			font-family: Proxima Nova Rg;
 			font-size: 17px;
 			font-weight: 600;
 			font-stretch: normal;

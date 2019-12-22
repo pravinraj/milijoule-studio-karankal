@@ -3,7 +3,7 @@
 	.one-stop-content {
 		border-bottom: 2px solid #f7f7f7;
 		> p{
-			font-family: Proxima Nova;
+			font-family: Proxima Nova Rg;
 			font-size: 17px;
 			font-weight: normal;
 			font-stretch: normal;
@@ -27,7 +27,7 @@
 			margin-top: 3em;
 			margin-bottom: 3em;
 			.meeting-detail-desc {
-				font-family: Proxima Nova;
+				font-family: Proxima Nova Rg;
 				font-size: 17px;
 				font-weight: bold;
 				font-stretch: normal;
@@ -36,19 +36,40 @@
 				letter-spacing: normal;
 				color: #000000;
 			}
-			.email-detail, .email-detail {
-				display: inline-block;
-				width: 70%;
+			.email-detail {
+				display: inline-block;				
 				input, input:focus{
+					padding-left: 0;
 					border: none;
 					box-shadow: none;
 					border-bottom: 1px solid #979797;
+					border-radius: 0;
+					font-size: 2.34vw;
+					font-family: Proxima Nova Rg;
 				}
 			}
 			.email-submit {
 				display: inline-block;
 				img {
 					width: 33.4%;
+				}
+			}
+
+			@media only screen and (min-width: 992px) {
+				.email-detail {
+					width: 85%;
+				}
+				.email-submit {
+					width: 15%;
+				}	
+			}
+
+			@media only screen and (min-width: 1200px) {
+				.email-detail {
+					width: 85%;
+				}
+				.email-submit {
+					width: 15%;
 				}
 			}
 		}

@@ -19,10 +19,11 @@ function Home() {
 	return (
 		<Row>
 			<Col className='home-contents-overview'>
-				<StudioSlideshow/>
+				
 				<Row>
 					<Col sm={1} className='home-content-margin'></Col>
 					<Col sm={10} className='home-content-detail'>
+						<StudioSlideshow/>
 						<OneStopShop/>
 						<CuratedProducts/>
 						<WorkArea/>

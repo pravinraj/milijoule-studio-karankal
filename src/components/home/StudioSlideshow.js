@@ -13,7 +13,7 @@ import arrowIcon from  '../../images/home/arrow-icon.png';
 function StudioSlideshow() {
 	return (
 		<Row className='slide-show-wrapper'>
-			<Carousel className='studio-slides' fade='true'>
+			<Carousel className='studio-slides'>
 			  	{<Carousel.Item className='cafe-slide'>
 				    <img
 				      className="d-block w-100"
@@ -23,9 +23,10 @@ function StudioSlideshow() {
 				    <Carousel.Caption bsPrefix='carousel-caption slide-caption'>
 				      	<p>Restaurant and Cafe Interior Design</p>
 						<p className='cafe-slide-desc'>An excellent restaurant interior design attracts new diners and retains existing ones.</p>
+						<p><span>INTERIOR DESIGN</span><span><img src={arrowIcon} alt='Arrow-icon' /></span></p>
 				    </Carousel.Caption>
 				  </Carousel.Item>}
-				  {<Carousel.Item className='custom-furniture-slide'>
+				  {/*<Carousel.Item className='custom-furniture-slide'>
 				    <img
 				      className="d-block w-100"
 				      src={customFurniture}
@@ -34,6 +35,7 @@ function StudioSlideshow() {
 				    <Carousel.Caption bsPrefix='carousel-caption slide-caption'>
 				      	<p>Custom Furniture Makers</p>
 						<p className='custom-furniture-slide-desc'>When you have a unique taste, custom designed furniture is what you need to enrich your interiors and wow your clients.</p>
+						<p><span>FURNITURE DESIGN</span><span><img src={arrowIcon} alt='Arrow-icon' /></span></p>
 				    </Carousel.Caption>
 				  </Carousel.Item>}
 				  {<Carousel.Item className='brand-strategy-slide'>
@@ -45,10 +47,11 @@ function StudioSlideshow() {
 				    <Carousel.Caption bsPrefix='carousel-caption slide-caption'>
 				      	<p>Brand Strategy Agency</p>
 						<p className='brand-strategy-slide-desc'>Creating customised brand strategies to help expand your overall reach, and attract new customers</p>
+						<p><span>BRANDING AND PACKAGING</span><span><img src={arrowIcon} alt='Arrow-icon' /></span></p>
 				    </Carousel.Caption>
-				  </Carousel.Item>}
+				  </Carousel.Item>*/}
 			</Carousel>
-			<p className='furniture-design-slide'><span>Furniture Design</span><span><img src={arrowIcon} alt='Arrow-icon' /></span></p>
+			{/*<p className='furniture-design-slide'><span>FURNITURE DESIGN</span><span><img src={arrowIcon} alt='Arrow-icon' /></span></p>*/}
 			<span className='mouse-pointer'><img src={mouse} alt='mouse pointer' /></span>
 		</Row>
 			

@@ -22,7 +22,7 @@ function NavigationBar(argument) {
 				<Navbar.Brand href="#" bsPrefix='navbar brand-image'><img src={brandImage} alt='brandImage'/></Navbar.Brand>
 			  	<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 			  	<Navbar.Collapse id="responsive-navbar-nav">
-			    	<Nav className="mx-auto" >
+			    	<Nav className="ml-auto" >
 				      	<Nav.Link bsPrefix='nav-link route-type'><NavLink exact activeClassName='activeNav' to='/shop'>Shop</NavLink></Nav.Link>
 				      	<Nav.Link bsPrefix='nav-link route-type'><NavLink exact activeClassName='activeNav' to='/projects'>Projects</NavLink></Nav.Link>
 				      	<Nav.Link bsPrefix='nav-link route-type'><NavLink exact activeClassName='activeNav' to='/blog'>Blog</NavLink></Nav.Link>

@@ -16,7 +16,7 @@ function WorkArea() {
 		<div className='work-area-wrapper'>
 			<Row>
 				<Col xl={6} lg={8} sm={12} className='work-area-desc'>
-					<p>Buy Well Curated Products</p>
+					<p>Area of Work</p>
 					<p>studio Karankal collaborated with the best local artist and designer  to give the best curated artwork and products for making your unique space</p>
 				</Col>
 			</Row>

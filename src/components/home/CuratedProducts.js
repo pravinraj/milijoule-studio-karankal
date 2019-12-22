@@ -15,7 +15,7 @@ function CuratedProducts() {
 		<div className='curated-products-wrapper'>
 			<Row>
 				<Col xl={5} lg={7} sm={12} className='curated-product-desc'>
-					<p>Area of work</p>
+					<p>Buy Well Curated Products</p>
 					<p>For your cafe and corporate space, we have the best limited edition furniture to avoid similar products in the market. </p>
 				</Col>
 			</Row>
