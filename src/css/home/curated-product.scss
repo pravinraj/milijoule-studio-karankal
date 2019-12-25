@@ -1,9 +1,3 @@
-@media only screen and (min-width: 992px) {
-	.curated-products-wrapper {
-		margin-left: 3em;
-	}
-}
-
 .curated-products-wrapper {
 	margin-top: 116px;
 	.curated-product-desc {
@@ -22,6 +16,10 @@
 			font-size: 36px;
 		  	font-weight: bold;
 		  	line-height: normal;
+		}
+
+		p:last-child {
+			margin-bottom: 0;
 		}
 	}
 
@@ -47,7 +45,7 @@
 		margin-top: 3em;
 		div{
 			border-bottom: 2px solid #f7f7f7;
-			padding-bottom: 3em;
+			padding-bottom: 64px;
 		}
 		span {
 			display: inline-block;
@@ -66,6 +64,118 @@
 		img {
 			width: 16px;
 			display: inline-block;
+		}
+	}
+}
+
+
+@media only screen and (max-width: 600px) {
+	.curated-products-wrapper  {
+		.curated-product-desc {
+			padding-left: 27px;
+			padding-right:  27px;
+			>p:first-child {
+				font-size: 22px;
+			}
+
+			>p:last-child {
+				font-size: 14px;
+			}
+		}
+		.curated-products-list {
+			margin-top: 16px;
+			 > div {
+			 	text-align: center;
+			 }
+			 .curated-figure {
+				box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3);
+				border-radius: 6px;
+				
+				.curated-image-caption {
+					margin-bottom: 21px;
+					margin-top: 13px;
+				}
+			}
+		}
+	}
+}
+
+/*@media only screen and (min-width: 600px) {
+	.curated-products-wrapper  {
+		.curated-product-desc {
+			padding-left: 27px;
+			padding-right:  27px;
+			>p:first-child {
+				font-size: 22px;
+			}
+
+			>p:last-child {
+				font-size: 14px;
+			}
+		}
+		.curated-products-list {
+			margin-top: 16px;
+			 > div {
+			 	text-align: center;
+			 }
+			 .curated-figure {
+				box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3);
+				border-radius: 6px;
+				
+				.curated-image-caption {
+					margin-bottom: 21px;
+					margin-top: 13px;
+				}
+			}
+		}
+	}	
+}*/
+
+@media only screen and (min-width: 768px) {
+	.curated-products-wrapper {
+		padding-left: 33px;
+		padding-right: 33px;
+		margin-top: 3em;
+		.curated-product-desc {
+			p:first-child {
+				font-size: 32px;
+			}
+			p:last-child {
+				font-size: 18.6px;
+			}
+		}
+
+		.curated-products-list {
+			margin-top: 20px;
+			.curated-image-caption {
+				font-size: 14px;
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.curated-products-wrapper {
+		.curated-product-desc {
+			p:first-child {
+				font-size: 32px;
+			}
+			p:last-child {
+				font-size: 18.6px;
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.curated-products-wrapper {
+		padding-left: 73px;
+		padding-right: 73px;
+		.curated-products-list {
+			.curated-image-caption {
+				font-size: 17px;
+				margin-top: 10px;
+			}
 		}
 	}
 }

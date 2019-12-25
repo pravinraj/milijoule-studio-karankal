@@ -1,7 +1,6 @@
 .one-stop-shop-wrapper {
 	margin-top: 116px;
 	.one-stop-content {
-		border-bottom: 2px solid #f7f7f7;
 		> p{
 			font-family: Proxima Nova Rg;
 			font-size: 17px;
@@ -23,9 +22,12 @@
   			color: #f73d2f;
 		}
 
-		.meeting-detail {
+		
+	}
+
+	.meeting-detail {
 			margin-top: 3em;
-			margin-bottom: 3em;
+			padding-bottom: 3em;
 			.meeting-detail-desc {
 				font-family: Proxima Nova Rg;
 				font-size: 17px;
@@ -44,47 +46,113 @@
 					box-shadow: none;
 					border-bottom: 1px solid #979797;
 					border-radius: 0;
-					font-size: 2.34vw;
+					font-size: 36px;
 					font-family: Proxima Nova Rg;
+					color: #000000;
+    				opacity: 1;
 				}
 			}
 			.email-submit {
 				display: inline-block;
 				img {
-					width: 33.4%;
+					width: 87.4%;
+    				margin-bottom: 12px;
 				}
+			}
+
+			@media only screen and (max-width: 600px) {
+				.email-detail {
+					width: 79%;
+					input {
+						font-size: 23px;
+					}
+				}
+
+				.email-submit {
+					width:  10%;
+					border-bottom: 1px solid #979797;
+    				padding-bottom: 7px;
+					img {
+						width:  66%;
+						margin-top: 5px;
+					}
+				}
+			}
+
+			@media only screen and (min-width: 768px) {
+				.email-detail {
+					width: 58%;
+				}
+				.email-submit {
+					width: 4%;
+					border-bottom: 1px solid #979797;
+    				padding-bottom: 13px;
+				}	
 			}
 
 			@media only screen and (min-width: 992px) {
 				.email-detail {
-					width: 85%;
+					width: 72%;
+					input {
+						font-size: 32px;
+					}
 				}
 				.email-submit {
-					width: 15%;
+					width: 6%;
+					border-bottom: 1px solid #979797;
+    				padding-bottom: 11px;
 				}	
 			}
 
 			@media only screen and (min-width: 1200px) {
 				.email-detail {
-					width: 85%;
+					width: 50%;
 				}
 				.email-submit {
-					width: 15%;
+					width: 4%;
+					border-bottom: 1px solid #979797;
+    				padding-bottom: 10.5px;
 				}
+			}
+		}
+}
+
+
+
+@media only screen and (max-width: 600px) {
+	.one-stop-shop-wrapper {
+		margin-top: 28px;
+		.one-stop-content {
+			padding-left: 27px;
+    		padding-right: 27px;
+			p:first-child {
+				font-size: 25px;
 			}
 		}
 	}
 
 	.bit-map-image {
-		border-bottom: 2px solid #f7f7f7;
+		padding-left: 27px;
+    	padding-right: 27px;
+		img {
+			width: 100%;
+		}
+	}
+
+	.one-stop-wrapper-nondesktop {
+		padding-left: 27px;
+    	padding-right: 27px;
+
+    	.meeting-detail {
+    		margin-top: 16px;
+    		.meeting-detail-desc{
+    			font-size: 18px;
+    		}
+    	}
 	}
 }
 
-@media only screen and (max-width: 600px) {
-	.one-stop-shoop-wrapper {
-		margin-top: 62px;
-	}
-
+@media only screen and (min-width: 600px) {
 	.bit-map-image {
 		img {
 			width: 100%;
@@ -92,18 +160,99 @@
 	}
 }
 
-@media only screen and (min-width: 600px) {
+
+
+@media only screen and (min-width: 768px) {
+	.one-stop-shop-wrapper {
+		margin-top: 48px;
+
+		.one-stop-content {
+			padding-left: 42px;
+    		padding-right: 42px;
+
+    		> p:first-child {
+    			width: 60%;
+    			font-size: 32px;
+    		}
+
+    		> p:nth-child(3) {
+    			font-size: 18.6px;
+    		}
+		}
+	}
+
 	.bit-map-image {
-		text-align: right;
+		padding-right: 48px;
+		padding-left: 48px;		
 		img {
 			width: 81.207%;
+			display: block;
+    		margin: 0 auto;
+		}
+	}
+
+	.one-stop-wrapper-nondesktop {
+		padding-left: 48px;
+		padding-right: 48px;
+	}
+
+		
+	.meeting-detail {
+		p:first-child {
+			font-size: 32px;
 		}
 	}
 }
 
 @media only screen and (min-width: 992px) {
 	.one-stop-shop-wrapper {
-		margin-left: 3em;
+		margin-top: 48px;
+
+		.one-stop-content {
+			padding-left: 48px;
+    		padding-right: 48px;
+
+    		> p:first-child {
+    			width: 90%;
+    		}
+		}
+	}
+
+	.bit-map-image {
+		padding-right: 48px;
+		padding-left: 48px;
+		img {
+			width: 100%;
+		}
+	}
+
+	.one-stop-wrapper-nondesktop {
+		padding-left: 48px;
+
+		.meeting-detail {
+			p:first-child {
+				font-size: 32px;
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.one-stop-shop-wrapper {
+		margin-top: 90px;
+
+		.one-stop-content {
+			padding-bottom: 50px;
+			padding-left: 88px;
+
+			> p:first-child {
+    			width: 60%;
+    		}
+		}
+	}
+
+	.bit-map-image {
+		padding-right: 88px;
 	}
 }
 

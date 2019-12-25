@@ -14,48 +14,45 @@ function CuratedProducts() {
 	return (
 		<div className='curated-products-wrapper'>
 			<Row>
-				<Col xl={5} lg={7} sm={12} className='curated-product-desc'>
+				<Col xl={5} lg={12} sm={12} className='curated-product-desc'>
 					<p>Buy Well Curated Products</p>
 					<p>For your cafe and corporate space, we have the best limited edition furniture to avoid similar products in the market. </p>
 				</Col>
 			</Row>
 			<Row className='curated-products-list'>
-				<Col>
-					<Figure>
+				<Col xl={4} lg={4} sm={12} xs={12}>
+					<Figure bsPrefix='figure curated-figure'>
 						<Figure.Image
 							width={348}
 						    height={347}
 						    alt='Furniture'
 						    src={furniture}
-						    rounded
 						/>
 					  	<Figure.Caption bsPrefix='figure-caption curated-image-caption'>
 					    	FURNITURE
 					  	</Figure.Caption>
 					</Figure>
 				</Col>
-				<Col>
-					<Figure>
+				<Col xl={4} lg={4} sm={12} xs={12}>
+					<Figure bsPrefix='figure curated-figure'>
 						<Figure.Image
 							width={348}
 						    height={347}
 						    alt='Accessories'
 						    src={accessories}
-						    rounded
 						/>
 					  	<Figure.Caption bsPrefix='figure-caption curated-image-caption'>
 					    	ACCESSORIES
 					  	</Figure.Caption>
 					</Figure>
 				</Col>
-				<Col>
-					<Figure>
+				<Col xl={4} lg={4} sm={12} xs={12}>
+					<Figure bsPrefix='figure curated-figure'>
 						<Figure.Image
 							width={348}
 						    height={347}
 						    alt='Art-work'
 						    src={artWork}
-						    rounded
 						/>
 					  	<Figure.Caption bsPrefix='figure-caption curated-image-caption'>
 					    	ARTWORK
@@ -64,7 +61,7 @@ function CuratedProducts() {
 				</Col>
 			</Row>
 			<Row className='know-more-wrapper'>
-				<Col><span>Know More</span><img src={arrowIcon} alt='Arrow-icon' /></Col>
+				<Col><span>KNOW MORE</span><img src={arrowIcon} alt='Arrow-icon' /></Col>
 			</Row>
 		</div>
 	);

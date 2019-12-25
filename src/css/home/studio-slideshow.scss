@@ -118,7 +118,7 @@
 	    		bottom: 18%;
 
 	    		li {
-	    			width: 15px;
+	    			width: 13px;
 		  			height: 15px;
 	    		}
 			}
@@ -198,6 +198,14 @@
 	    z-index: 1;
 	    left: 50%;
 	    
+	}
+
+	@media only screen and (max-width: 600px) {
+		.mouse-pointer {
+			img {
+				display: none;
+			}
+		}
 	}
 
 	@media only screen and (min-width: 600px) {
