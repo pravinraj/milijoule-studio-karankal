@@ -25,7 +25,7 @@ function NavigationBar(argument) {
 				  	<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 				  	<Navbar.Collapse id="responsive-navbar-nav">
 				    	<Nav className="ml-auto" >
-					      	<Nav.Link bsPrefix='nav-link route-type'><NavLink exact activeClassName='activeNav' to='/shop'>Shop</NavLink></Nav.Link>
+					      	<Nav.Link bsPrefix='nav-link route-type'><NavLink exact activeClassName='activeNav' to='/shopify'>Shop</NavLink></Nav.Link>
 					      	<Nav.Link bsPrefix='nav-link route-type'><NavLink exact activeClassName='activeNav' to='/projects'>Projects</NavLink></Nav.Link>
 					      	<Nav.Link bsPrefix='nav-link route-type'><NavLink exact activeClassName='activeNav' to='/blog'>Blog</NavLink></Nav.Link>
 					      	<NavDropdown className='contact-us-dropdown' title="Contact Us" id="collasible-nav-dropdown">
