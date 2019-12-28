@@ -11,9 +11,6 @@ function Drawer(props) {
 		setWidth('0');
 	}
 
-	const onMouseOutHandler = () => {
-		console.log('inside mouse out handler');
-	}
 	return (
 		<div className='drawer-wrapper'>
 			<span onClick={openNav}><img src={hamburger} alt='Hamburger' /></span>

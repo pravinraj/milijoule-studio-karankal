@@ -4,7 +4,7 @@
 	.heading {
 		margin-top: 80px;
 		margin-bottom: 103px;
-		font-family: Proxima  Nova;
+		font-family: Proxima  Nova Rg;
 		font-size: 36px;
 		font-weight: bold;
 		font-stretch: normal;
@@ -39,7 +39,7 @@
 		p{
 			border: 1px solid #fff;
 		    padding: 0.6em;
-		    width: 56%;
+		    width: 45%;
 		    margin: 0 auto;
 		    background-color: #fff;
 		    text-align: left;
@@ -47,12 +47,54 @@
 	}
 
 	.social-media-link {
-		width: 35%;
+		width: 21%;
     	margin: 0 auto;
     	margin-top: 113px;
     	margin-bottom: 73px;
 		img {
 			width:  34px;
+		}
+	}
+}
+
+@media only screen and (max-width:600px){ 
+	.contactus-wrapper {
+		background-color: #fff;
+		.contact-us-list  {
+			font-size: 14px;
+			p{
+				border: solid 1px #979797;
+			}
+		}
+		.social-media-link {
+			width: 65%;
+		}
+	}
+}
+
+@media only screen and (min-width:600px){ 
+	.contactus-wrapper {
+		background-color: #fff;
+		.contact-us-list  {
+			font-size: 14px;
+			p{
+				border: solid 1px #979797;
+			}
+		}
+		.social-media-link {
+			width: 40%;
+		}
+	}
+}
+
+@media only screen and (min-width:768px){ 
+	.contactus-wrapper {
+		background-color: #e0e0e0;
+		.contact-us-list  {
+			font-size: 24px;
+		}
+		.social-media-link {
+			width: 26%;
 		}
 	}
 }

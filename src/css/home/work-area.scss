@@ -1,5 +1,5 @@
 .work-area-wrapper {
-	margin-top: 116px;
+	margin-top: 64px;
 
 	.work-area-desc {
 		p {
@@ -24,26 +24,22 @@
 		.work-area-image {
 			text-align: center;
 			.work-area-image-caption {
-				p:first-child {
+				p {
 					font-family: Proxima Nova Rg;
 				    font-size: 17px;
-				    font-weight: bold;
 				    font-stretch: normal;
 				    font-style: normal;
-				    line-height: normal;
 				    letter-spacing: normal;
+				}
+				p:first-child {
+				    font-weight: bold;
+				    line-height: normal;
 				    text-align: left;
 				    color: #050505;
 				    margin-left: 0.4em;
 				}
 				p:last-child {
-					font-family: Proxima Nova Rg;
-					font-size: 17px;
-					font-weight: normal;
-					font-stretch: normal;
-					font-style: normal;
 					line-height: 1.53;
-					letter-spacing: normal;
 					color: #000000;
 					text-align: left;
 				}
@@ -57,7 +53,7 @@
 		margin-top: 3em;
 		div{
 			border-bottom: 2px solid #f7f7f7;
-			padding-bottom: 3em;
+			padding-bottom:64px;
 		}
 		span {
 			display: inline-block;
@@ -80,8 +76,130 @@
 	}	
 }
 
-@media only screen and (min-width: 992px) {
+@mixin work-area-wrapper-mobile {
+	.work-area-wrapper  {
+		.work-area-desc {
+			p:first-child {
+				font-size: 22px;
+			}
+			p:last-child {
+				font-size: 14px;
+			}
+		}
+		.work-area-list {
+			>  div {
+				text-align: center;
+			}
+			margin-top: 0;
+			.work-area-image {
+				box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.3);
+    			border-radius: 6px;
+    			.work-area-image-caption {
+    				width: 100%;
+    				.work-area-caption-mobile-heading {
+    					display: inline-block;
+    					width: 70%;
+    					margin-left: 26px;
+    				}
+    				.work-area-up-arrow {
+    					background-image: url('../../images/home/work-area/up-arrow.png');
+    					background-repeat: no-repeat;
+					    padding: 1em;
+					    background-size: 15px;
+					    background-position: bottom;
+					    display: inline-block;
+					    width: 14%;
+    				}
+    				.work-area-down-arrow {
+    					background-image: url('../../images/home/work-area/down-arrow.png');
+    					background-repeat: no-repeat;
+					    padding: 1em;
+					    background-size: 15px;
+					    background-position: bottom;
+					    display: inline-block;
+					    width: 14%;
+    				}
+    				.work-area-caption-mobile-desc {
+    					margin-left: 18px;
+    					margin-right: 18px;
+    					font-size: 15px;
+    					font-weight: normal;
+					    font-stretch: normal;
+					    font-style: normal;
+					    line-height: normal;
+					    letter-spacing: normal;
+					    color: #000000;
+					    font-family: Proxima Nova Rg;
+    				}
+    			}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	@include work-area-wrapper-mobile;
+}
+
+@media only screen and (min-width: 600px) {
+	@include work-area-wrapper-mobile;
+}
+
+@media only screen and (min-width: 768px) {
+	.work-area-wrapper  {
+		padding-left: 33px;
+    	padding-right: 33px;
+
+    	.work-area-desc {
+    		p:first-child{
+    			font-size:36px;
+    		}
+			p:nth-child(2) {
+				font-size: 18.6px;
+			}
+		}
+
+		.work-area-list {
+			margin-top: 0;
+
+			.work-area-image {
+			    box-shadow: none;
+			    border-radius:auto;
+				.work-area-image-caption{
+				   width:100%;
+
+				  p{
+					font-size: 14px;
+				   }
+				}
+			}
+		}
+
+
+	}
+}
+
+@media only screen and (min-width: 1200px) {
 	.work-area-wrapper {
-		margin-left: 3em;
+		padding-left: 73px;
+		padding-right: 73px;
+		.work-area-desc {
+			p:nth-child(2) {
+				font-size: 17px;
+			}
+		}
+
+		.work-area-list {
+			.work-area-image {
+				.work-area-image-caption {
+					p {
+						font-size: 17px;
+					}
+					p:first-child{
+						line-height: 1.53;
+					}
+				}
+			}
+		}
 	}
 }

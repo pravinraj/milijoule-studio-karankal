@@ -248,6 +248,10 @@
 			> p:first-child {
     			width: 60%;
     		}
+
+    		> p:nth-child(3) {
+    			font-size: 17px;
+    		}
 		}
 	}
 

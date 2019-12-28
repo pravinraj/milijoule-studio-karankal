@@ -1,11 +1,7 @@
-@media only screen and (min-width: 992px) {
-	.testimonals-wrapper {
-		margin-left: 3em;
-	}
-}
-
 .testimonals-wrapper {
-	margin-top: 90px;
+	margin-top: 64px;
+	border-bottom: 2px solid #f7f7f7;
+    height: 21em;
 	.testimonal-heading {
 		font-family: Proxima Nova Rg;
 		font-size: 36px;
@@ -29,21 +25,25 @@
 	}
 	.testimonal-slides {
 		margin-top: 60px;
-		padding-bottom: 3em;
-    	border-bottom: 1px solid #979797;
+		padding-bottom: 4em;
+		height: 4em;
 		.testimonal-slide-heading {
-			width: 33%;
+			width: 40%;
     		margin: 0 auto;
-			font-size: 36px;
-	  		font-weight: bold;
+    		text-align: left;
+			font-size: 17px;
+	  		font-weight: normal;
 	  		color: #000000;
 	  		margin-bottom: 1em;
 		}
 
 		.testimonal-footer {
-			font-size: 17px;
+			width:  40%;
+			font-size: 14px;
 	  		font-weight: normal;
 	  		color: #292828;
+	  		margin: 0 auto;
+    		text-align: left;
 		}
 
 		.carousel-indicators {
@@ -63,5 +63,76 @@
 			background-size: 2em;
     		padding: 2em;
 		}
+	}
+}
+
+@media only screen and (max-width:600px) {
+	.testimonals-wrapper {
+		.testimonal-heading {
+			font-size: 22px;
+		}
+		.testimonal-slides {
+			margin-top: 25px;
+			.testimonal-slide-heading {
+				font-size: 14px;
+				width:  60%;
+			}
+			.testimonal-footer {
+				font-size: 12px;
+				width:  60%;
+			}
+		}
+	}
+}
+
+@media only screen and (min-width:600px) {
+	.testimonals-wrapper {
+		.testimonal-heading {
+			font-size: 22px;
+		}
+		.testimonal-slides {
+			margin-top: 25px;
+			.testimonal-slide-heading {
+				font-size: 14px;
+				width:  70%;
+			}
+			.testimonal-footer {
+				font-size: 12px;
+				width:  70%;
+			}
+		}
+	}
+}
+
+@media only screen and (min-width:768px) {
+	.testimonals-wrapper {
+		padding-left:33px;
+		padding-right:33px;
+		.testimonal-slides {
+			margin-top: 115px;
+			.testimonal-slide-heading {
+				font-size: 17px;
+			}
+			.testimonal-footer {
+				font-size: 14px;
+			}
+		}
+		.testimonal-heading {
+			font-size: 36px;
+		}
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.testimonals-wrapper {
+		padding-left:33px;
+		padding-right:33px;
+	}
+}
+
+@media only screen and (min-width:1200px) {
+	.testimonals-wrapper {
+		padding-left:73px;
+		padding-right:73px;
 	}
 }

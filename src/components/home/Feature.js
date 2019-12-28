@@ -19,7 +19,7 @@ function Feature() {
 		<div className='feature-wrapper'>
 			<p className='feature-heading'>Featured In</p>
 			<Row className='feature-list'>
-				<Col xl={3} lg={3} md={3} sm={3} xs={6}>
+				<Col xl={3} lg={3} md={3} sm={6} xs={6}>
 					<Figure>
 					  	<Figure.Image
 					    	width={208}
@@ -33,7 +33,7 @@ function Feature() {
 					  	</Figure.Caption>
 					</Figure>
 				</Col>
-				<Col xl={3} lg={3} md={3} sm={3} xs={6}>
+				<Col xl={3} lg={3} md={3} sm={6} xs={6}>
 					<Figure>
 					  	<Figure.Image
 					    	width={208}
@@ -47,7 +47,7 @@ function Feature() {
 					  	</Figure.Caption>
 					</Figure>
 				</Col>
-				<Col xl={3} lg={3} md={3} sm={3} xs={6}>
+				<Col xl={3} lg={3} md={3} sm={6} xs={6}>
 					<Figure>
 					  	<Figure.Image
 					    	width={208}
@@ -61,7 +61,7 @@ function Feature() {
 					  	</Figure.Caption>
 					</Figure>
 				</Col>
-				<Col xl={3} lg={3} md={3} sm={3} xs={6}>
+				<Col xl={3} lg={3} md={3} sm={6} xs={6}>
 					<Figure>
 					  	<Figure.Image
 					    	width={208}
@@ -77,7 +77,7 @@ function Feature() {
 				</Col>
 			</Row>
 			<Row className='feature-list'>
-				<Col xl={3} lg={3} md={3} sm={3} xs={6}>
+				<Col xl={3} lg={3} md={3} sm={6} xs={6}>
 					<Figure>
 					  	<Figure.Image
 					    	width={208}
@@ -91,7 +91,7 @@ function Feature() {
 					  	</Figure.Caption>
 					</Figure>
 				</Col>
-				<Col xl={3} lg={3} md={3} sm={3} xs={6}>
+				<Col xl={3} lg={3} md={3} sm={6} xs={6}>
 					<Figure>
 					  	<Figure.Image
 					    	width={208}
@@ -105,7 +105,7 @@ function Feature() {
 					  	</Figure.Caption>
 					</Figure>
 				</Col>
-				<Col xl={3} lg={3} md={3} sm={3} xs={6}>
+				<Col xl={3} lg={3} md={3} sm={6} xs={6}>
 					<Figure>
 					  	<Figure.Image
 					    	width={208}
@@ -119,7 +119,7 @@ function Feature() {
 					  	</Figure.Caption>
 					</Figure>
 				</Col>
-				<Col xl={3} lg={3} md={3} sm={3} xs={6}>
+				<Col xl={3} lg={3} md={3} sm={6} xs={6}>
 					<Figure>
 					  	<Figure.Image
 					    	width={208}

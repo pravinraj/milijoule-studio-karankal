@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {
 	Container,
 	Navbar,
@@ -10,7 +10,6 @@ import brandImage from '../images/home/header/karankal-com.png';
 import nounProfile from '../images/home/header/noun-profile.png';
 import cart from '../images/home/header/cart.png';
 import search from '../images/home/header/search.png';
-import hamburger from '../images/home/header/hamburger.png';
 import mail from '../images/home/header/mail.png';
 import phone from '../images/home/header/phone.png';
 

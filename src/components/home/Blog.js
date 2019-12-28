@@ -14,13 +14,13 @@ function Blog() {
 	return (
 		<div className='blog-wrapper'>
 			<Row>
-				<Col xl={6} lg={8} sm={12} className='blog-desc'>
+				<Col xl={7} lg={12} sm={12} className='blog-desc'>
 					<p>Blog</p>
 					<p>studio Karankal collaborated with the best local artist and designer  to give the best curated artwork and products for making your unique space</p>
 				</Col>
 			</Row>
 			<Row className='blog-images-wrapper'>
-				<Col className='blog-list'>
+				<Col md={4} sm={12} className='blog-list'>
 					<Figure bsPrefix='figure blog-image'>
 						<Figure.Image
 							width={302}
@@ -36,7 +36,7 @@ function Blog() {
 					  	</Figure.Caption>
 					</Figure>
 				</Col>
-				<Col className='blog-list'>
+				<Col md={4} sm={12} className='blog-list'>
 					<Figure bsPrefix='figure blog-image'>
 						<Figure.Image
 							width={302}
@@ -52,7 +52,7 @@ function Blog() {
 					  	</Figure.Caption>
 					</Figure>
 				</Col>
-				<Col className='blog-list'>
+				<Col md={4} sm={12} className='blog-list'>
 					<Figure bsPrefix='figure blog-image'>
 						<Figure.Image
 							width={302}
@@ -70,7 +70,7 @@ function Blog() {
 				</Col>
 			</Row>
 			<Row className='know-more-wrapper'>
-				<Col><span>Know More</span><img src={arrowIcon} alt='Arrow-icon' /></Col>
+				<Col><span>KNOW MORE</span><img src={arrowIcon} alt='Arrow-icon' /></Col>
 			</Row>
 		</div>
 	);

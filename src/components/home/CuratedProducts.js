@@ -20,7 +20,7 @@ function CuratedProducts() {
 				</Col>
 			</Row>
 			<Row className='curated-products-list'>
-				<Col xl={4} lg={4} sm={12} xs={12}>
+				<Col xl={4} lg={4} md={4} sm={12} xs={12}>
 					<Figure bsPrefix='figure curated-figure'>
 						<Figure.Image
 							width={348}
@@ -33,7 +33,7 @@ function CuratedProducts() {
 					  	</Figure.Caption>
 					</Figure>
 				</Col>
-				<Col xl={4} lg={4} sm={12} xs={12}>
+				<Col xl={4} lg={4} md={4} sm={12} xs={12}>
 					<Figure bsPrefix='figure curated-figure'>
 						<Figure.Image
 							width={348}
@@ -46,7 +46,7 @@ function CuratedProducts() {
 					  	</Figure.Caption>
 					</Figure>
 				</Col>
-				<Col xl={4} lg={4} sm={12} xs={12}>
+				<Col xl={4} lg={4} md={4} sm={12} xs={12}>
 					<Figure bsPrefix='figure curated-figure'>
 						<Figure.Image
 							width={348}

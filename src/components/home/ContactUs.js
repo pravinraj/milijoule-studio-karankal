@@ -25,10 +25,10 @@ function  ContactUs() {
 				<p>Contact Us</p>
 			</div>
 			<Row className='social-media-link'>
-				<Col><img src={fbLogo} alt='FB-logo' /></Col>
-				<Col><img src={instagramLogo} rounded alt='instagram-logo' /></Col>
-				<Col><img src={linkedinLogo} rounded alt='LinkedIn-logo' /></Col>
-				<Col><img src={twitterLogo} rounded alt='Twitter-logo' /></Col>
+				<Col xs={3}><img src={fbLogo} alt='FB-logo' /></Col>
+				<Col xs={3}><img src={instagramLogo} rounded alt='instagram-logo' /></Col>
+				<Col xs={3}><img src={linkedinLogo} rounded alt='LinkedIn-logo' /></Col>
+				<Col xs={3}><img src={twitterLogo} rounded alt='Twitter-logo' /></Col>
 			</Row>
 		</div>
 	);

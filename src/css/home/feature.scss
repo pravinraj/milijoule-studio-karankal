@@ -1,9 +1,3 @@
-@media only screen and (min-width: 992px) {
-	.feature-wrapper {
-		margin-left: 3em;
-	}
-}
-
 .feature-wrapper {
 	margin-top: 115px;
 	.feature-heading {
@@ -35,4 +29,70 @@
 			}
 		}
 	}	
+}
+@media only screen and (max-width:600px){
+	.feature-wrapper {
+		.feature-heading {
+			font-size: 22px;
+		}
+		.feature-list {
+			>div:nth-child(odd){
+				padding-left:43px;
+
+			}
+			>div:nth-child(even){
+				padding-right:43px;
+			}
+
+			.feature-image-caption p{
+				font-size: 12px;
+			}
+        }
+	}
+
+}
+@media only screen and (min-width:600px){
+	.feature-wrapper {
+		.feature-heading {
+			font-size: 22px;
+		}
+		.feature-list {
+			>div:nth-child(odd){
+				padding-left:48px;
+
+			}
+			.feature-image-caption p{
+				font-size: 12px;
+			}
+        }
+    }    
+}
+@media only screen and (min-width:768px){
+	.feature-wrapper {
+		.feature-heading {
+			font-size: 36px;
+		}
+		.feature-list {
+			padding-left:48px;
+			padding-right:48px;
+
+			> div:nth-of-type(n) {
+				padding-left: 15px;
+			}
+
+			.feature-image-caption p{
+				font-size: 17px;
+			}
+		}
+	}
+}
+@media only screen and (min-width:1200px) {
+	.feature-wrapper {
+
+		
+		.feature-list {
+			padding-left: 73px;
+			padding-right: 10px;
+		}
+	}
 }

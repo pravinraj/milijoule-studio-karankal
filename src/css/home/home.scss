@@ -8,3 +8,20 @@
 	}
 }
 
+@media only screen and (max-width:600px){ 
+	.home-content-overview {
+		background-color: #fff;
+	}
+}
+
+@media only screen and (min-width:768px){ 
+	.home-content-overview {
+		background-color: #e0e0e0;
+	}
+}
+
+@media only screen and (min-width:1200px){ 
+	.home-content-overview {
+		background-color: #e0e0e0;
+	}
+}

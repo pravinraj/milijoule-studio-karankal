@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {
 	Col,
 	Row,
@@ -12,10 +12,46 @@ import retail from '../../images/home/work-area/retail.png';
 import arrowIcon from  '../../images/home/arrow-icon.png';
 
 function WorkArea() {
+	const width = window.innerWidth;
+	const [isExpandCafe, setExpandCafe] = useState(false);
+	const [isExpandCorporate, setExpandCorporate] = useState(false);
+	const [isExpandRetail, setExpandRetail] = useState(false);
+
+	/*const setData=(workAreaParam)=>{
+		switch (workAreaParam){
+			case 'cafe':{
+				setExpandCafe(true);
+				setExpandCorporate(false);
+				setExpandRetail(false);
+				
+            }
+            case 'corporate':{
+            	setExpandCafe(false);
+            	setExpandCorporate(true);
+            	setExpandRetail(false);
+            	
+            }
+            case 'retail':{
+            	setExpandCafe(false);
+            	setExpandCorporate(false);
+            	setExpandRetail(true);
+            	
+
+            }
+            default:{
+            	setExpandCafe(false);
+            	setExpandCorporate(false);
+            	setExpandRetail(false);
+            	
+            }
+
+		}
+	}*/
+
 	return (
 		<div className='work-area-wrapper'>
 			<Row>
-				<Col xl={6} lg={8} sm={12} className='work-area-desc'>
+				<Col xl={7} lg={8} sm={12} className='work-area-desc'>
 					<p>Area of Work</p>
 					<p>studio Karankal collaborated with the best local artist and designer  to give the best curated artwork and products for making your unique space</p>
 				</Col>
@@ -24,51 +60,89 @@ function WorkArea() {
 				<Col sm={12} xl={4} lg={4} md={4}>
 					<Figure bsPrefix='figure work-area-image'>
 						<Figure.Image
-							width={356}
-						    height={356}
+							width={(width >= 768) ? 356 : 301}
+						    height={(width >= 768) ? 356 : 290}
 						    alt='Cafe'
 						    src={cafe}
-						    rounded
 						/>
 					  	<Figure.Caption bsPrefix='figure-caption work-area-image-caption'>
-					    	<p>CAFE AND RESTAURANT</p>
-					    	<p>Visitors at your cafe and restaurant are not just there to satisfy their taste buds! They need to know the story behind your brand, and have a memorable experience. Does your brand have a legendary tale that’s waiting to be told?</p>
+					    	{(width >= 768) ? (
+					    		<>
+					    			<p>CAFE AND RESTAURANT</p>
+					   				<p>Visitors at your cafe and restaurant are not just there to satisfy their taste buds! They need to know the story behind your brand, and have a memorable experience. Does your brand have a legendary tale that’s waiting to be told?</p>
+					   			</>
+					   		) : (
+						   			<>
+							   			<p>
+							   				<span className='work-area-caption-mobile-heading'>CAFE AND RESTAURANT</span>
+							   				<span className={isExpandCafe ? 'work-area-up-arrow' : 'work-area-down-arrow'} onClick={()=> {setExpandCafe(!isExpandCafe); setExpandCorporate(false); setExpandRetail(false)}}></span>
+							   			</p>
+							   			{isExpandCafe && (<p className='work-area-caption-mobile-desc'>Visitors at your cafe and restaurant are not just there to satisfy their taste buds! They need to know the story behind your brand, and have a memorable experience. Does your brand have a legendary tale that’s waiting to be told?</p>)}
+						   			</>
+					   			)}
 					  	</Figure.Caption>
 					</Figure>
 				</Col>
 				<Col sm={12} xl={4} lg={4} md={4}>
 					<Figure bsPrefix='figure work-area-image'>
 						<Figure.Image
-							width={356}
-						    height={356}
+							width={(width >= 768) ? 356 : 301}
+						    height={(width >= 768) ? 356 : 290}
 						    alt='Corporate'
 						    src={corporate}
-						    rounded
 						/>
 					  	<Figure.Caption bsPrefix='figure-caption work-area-image-caption'>
-					    	<p>CORPORATE</p>
-					    	<p>A lively workspace enhances energy levels and influences productivity. A fresh ambience with ergonomic seating, inspires the team and customers alike. Welcome the breeze of innovation and aesthetics into your work environment and experience the magic as we design your creative workspace.</p>
+					  	{
+					  		(width>=768) ? (
+					  			<>
+					  				<p>CORPORATE</p>
+					    			<p>A lively workspace enhances energy levels and influences productivity. A fresh ambience with ergonomic seating, inspires the team and customers alike. Welcome the breeze of innovation and aesthetics into your work environment and experience the magic as we design your creative workspace.</p>
+					  			</>
+					  		) : (
+					  			<>
+						   			<p>
+						   				<span className='work-area-caption-mobile-heading'>CORPORATE</span>
+						   				<span className={isExpandCorporate ? 'work-area-up-arrow' : 'work-area-down-arrow'} onClick={()=> {setExpandCafe(false); setExpandCorporate(!isExpandCorporate); setExpandRetail(false)}}></span>
+						   			</p>
+						   			{isExpandCorporate && (<p className='work-area-caption-mobile-desc'>A lively workspace enhances energy levels and influences productivity. A fresh ambience with ergonomic seating, inspires the team and customers alike. Welcome the breeze of innovation and aesthetics into your work environment and experience the magic as we design your creative workspace.</p>)}
+					   			</>
+					  		)
+					  	}
+					    	
 					  	</Figure.Caption>
 					</Figure>
 				</Col>
 				<Col sm={12} xl={4} lg={4} md={4}>
 					<Figure bsPrefix='figure work-area-image'>
 						<Figure.Image
-							width={356}
-						    height={356}
+							width={(width >= 768) ? 356 : 301}
+						    height={(width >= 768) ? 356 : 290}
 						    alt='Retail'
 						    src={retail}
-						    rounded
 						/>
 					  	<Figure.Caption bsPrefix='figure-caption work-area-image-caption'>
-					    	<p>RETAIL</p>
-					    	<p>People love to go for shopping, as it makes them feel great, and look confident. The ambience you create in your retail space makes them stay longer and spend more. Customers love basking in the glow of soft lighting, a cosy atmosphere and top-notch products. Is your store ready to handle the rush?</p>
+					  		{
+					  			(width >= 768) ?
+						  			(<>
+							    		<p>RETAIL</p>
+							    		<p>People love to go for shopping, as it makes them feel great, and look confident. The ambience you create in your retail space makes them stay longer and spend more. Customers love basking in the glow of soft lighting, a cosy atmosphere and top-notch products. Is your store ready to handle the rush?</p>
+							    	</>) : (
+							    	<>
+							   			<p>
+							   				<span className='work-area-caption-mobile-heading'>RETAIL</span>
+							   				<span className={isExpandRetail ? 'work-area-up-arrow' : 'work-area-down-arrow'} onClick={() => {setExpandCafe(false); setExpandCorporate(false); setExpandRetail(!isExpandRetail)}}></span>
+							   			</p>
+							   			{isExpandRetail && (<p className='work-area-caption-mobile-desc'>People love to go for shopping, as it makes them feel great, and look confident. The ambience you create in your retail space makes them stay longer and spend more. Customers love basking in the glow of soft lighting, a cosy atmosphere and top-notch products. Is your store ready to handle the rush?</p>)}
+					   				</>
+
+							    	)
+					    	}
 					  	</Figure.Caption>
 					</Figure>
 				</Col>
 			</Row>
 			<Row className='know-more-wrapper'>
-				<Col><span>Know More</span><img src={arrowIcon} alt='Arrow-icon' /></Col>
+				<Col><span>KNOW MORE</span><img src={arrowIcon} alt='Arrow-icon' /></Col>
 			</Row>
 		</div>
 	);
