@@ -19,10 +19,9 @@ function Home() {
 	return (
 		<Row>
 			<Col className='home-contents-overview'>
-				
 				<Row>
-					<Col sm={1} className='home-content-margin'></Col>
-					<Col sm={10} className='home-content-detail'>
+					<Col md={1} sm={0} className='home-content-margin'></Col>
+					<Col md={10} sm={12} className='home-content-detail'>
 						<StudioSlideshow/>
 						<OneStopShop/>
 						<CuratedProducts/>
@@ -33,7 +32,7 @@ function Home() {
 						<Testimonals/>
 						<Feature/>
 					</Col>
-					<Col sm ={1} className='home-content-margin'></Col>
+					<Col md={1} sm ={0} className='home-content-margin'></Col>
 				</Row>
 				<ContactUs/>
 			</Col>

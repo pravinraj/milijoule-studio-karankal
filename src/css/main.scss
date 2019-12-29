@@ -17,3 +17,9 @@
 
 @import './navigation-bar/navigation.scss';
 @import './navigation-bar/drawer.scss';
+
+@import './shopify/shopify.scss';
+
+html {
+	overflow-y: scroll;
+}

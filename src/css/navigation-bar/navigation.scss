@@ -8,7 +8,7 @@
   			width: 20%;
   			padding-right: 4.49vw;
 			img{
-				width: 51px;
+				width: 23px;
 			}
 		}
   	}
@@ -60,10 +60,12 @@
 	}
 
 	 .mail-icon {
+	 	display: inline-block;
 		width: 24px;
 	}
 
 	.phone-icon {
+		display: inline-block;
 		width: 18px;
 	}
 }

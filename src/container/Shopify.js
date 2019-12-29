@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Products from '../components/shopify/Products';
 import Cart from '../components/shopify/Cart';
-import './Shopify.css';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 
@@ -25,7 +24,7 @@ class Shopify extends Component {
         this.removeLineItemInCart = this.removeLineItemInCart.bind(this);
     }
 
-    componentWillMount() {
+    componentDidMount() {
         this.props.client.checkout.create().then((res) => {
             this.setState({
                 checkout: res,
