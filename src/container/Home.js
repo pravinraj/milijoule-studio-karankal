@@ -16,22 +16,37 @@ import Feature from '../components/home/Feature';
 import ContactUs from '../components/home/ContactUs';
 
 function Home() {
+	const width = window.innerWidth;
 	return (
 		<Row>
 			<Col className='home-contents-overview'>
 				<Row>
 					<Col md={1} sm={0} className='home-content-margin'></Col>
-					<Col md={10} sm={12} className='home-content-detail'>
-						<StudioSlideshow/>
-						<OneStopShop/>
-						<CuratedProducts/>
-						<WorkArea/>
-						<Blog/>
-						<ServiceOffered/>
-						<DesignProcess/>
-						<Testimonals/>
-						<Feature/>
-					</Col>
+					{(width >= 768) ? (
+						<Col md={10} sm={12} className='home-content-detail'>
+							<StudioSlideshow/>
+							<OneStopShop/>
+							<CuratedProducts/>
+							<WorkArea/>
+							<Blog/>
+							<ServiceOffered/>
+							<DesignProcess/>
+							<Testimonals/>
+							<Feature/>
+						</Col>
+					) : (<Row>
+							<Col md={10} sm={12} className='home-content-detail'>
+							<StudioSlideshow/>
+							<OneStopShop/>
+							<CuratedProducts/>
+							<WorkArea/>
+							<Blog/>
+							<ServiceOffered/>
+							<DesignProcess/>
+							<Testimonals/>
+							<Feature/>
+						</Col>
+						</Row>)}
 					<Col md={1} sm ={0} className='home-content-margin'></Col>
 				</Row>
 				<ContactUs/>
