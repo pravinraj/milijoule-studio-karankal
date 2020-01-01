@@ -22,7 +22,6 @@ function Home() {
 			<Col className='home-contents-overview'>
 				<Row>
 					<Col md={1} sm={0} className='home-content-margin'></Col>
-					{(width >= 768) ? (
 						<Col md={10} sm={12} className='home-content-detail'>
 							<StudioSlideshow/>
 							<OneStopShop/>
@@ -34,19 +33,6 @@ function Home() {
 							<Testimonals/>
 							<Feature/>
 						</Col>
-					) : (<Row>
-							<Col md={10} sm={12} className='home-content-detail'>
-							<StudioSlideshow/>
-							<OneStopShop/>
-							<CuratedProducts/>
-							<WorkArea/>
-							<Blog/>
-							<ServiceOffered/>
-							<DesignProcess/>
-							<Testimonals/>
-							<Feature/>
-						</Col>
-						</Row>)}
 					<Col md={1} sm ={0} className='home-content-margin'></Col>
 				</Row>
 				<ContactUs/>
