@@ -6,18 +6,13 @@
 	.home-content-detail {
 		background-color: #fff;
 	}
-}
-
-
-
-@media only screen and (min-width:768px){ 
-	.home-content-overview {
-		background-color: #e0e0e0;
+	@media only screen and (max-width: 600px){
+		background-color: #fff;
 	}
-}
-
-@media only screen and (min-width:1200px){ 
-	.home-content-overview {
+	@media only screen and (min-width: 600px){
+		background-color: #fff;
+	}
+	@media only screen and (min-width:768px) {
 		background-color: #e0e0e0;
 	}
 }

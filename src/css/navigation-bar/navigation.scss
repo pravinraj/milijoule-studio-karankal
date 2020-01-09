@@ -1,6 +1,9 @@
 .studio-header-wrapper {
 	box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.09), 0 0 4px 0 rgba(0, 0, 0, 0.12);
   	background-color: #fff;
+  	.studio-navbar {
+  		flex-basis: 100%;  	
+  	}
   	.nav-images-list {
   		justify-content: flex-end;
   		.nav-images {
@@ -8,7 +11,7 @@
   			width: 20%;
   			padding-right: 4.49vw;
 			img{
-				width: 23px;
+				width: 26px;
 			}
 		}
   	}

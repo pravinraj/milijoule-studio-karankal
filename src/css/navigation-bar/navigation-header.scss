@@ -1,0 +1,40 @@
+.studio-navheader-wrapper {
+	background-color: #f6f6f6;
+
+	.image-links-list{
+		.navbar {
+			padding-top: 0;
+			padding-right: 0;
+			.nav-images-list {
+				width: 75%;
+				.nav-images {
+					padding-top: 0;										
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.studio-navheader-wrapper {
+		.brand-image {
+			img {
+				width: 58%;
+			}
+		}
+
+		.image-links-list{
+			width: 70%;
+			.navbar {
+				padding-bottom: 0;
+				.nav-images-list {
+					.nav-images  {
+						img {
+							width: 38%;
+						}
+					}
+				}
+			}
+		}
+	}
+}

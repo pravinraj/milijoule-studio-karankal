@@ -5,14 +5,6 @@ import {
 	Image
 } from 'react-bootstrap';
 
-import experienceDesign from  '../../images/home/service-offered/experience-design.png';
-import architecture from  '../../images/home/service-offered/architecture.png';
-import branding from  '../../images/home/service-offered/branding.png';
-import digitalDesign from  '../../images/home/service-offered/digital-design.png';
-import furniture from  '../../images/home/service-offered/furniture.png';
-import interior from  '../../images/home/service-offered/interior.png';
-import packaging from  '../../images/home/service-offered/packaging.png';
-import spacePlanning from  '../../images/home/service-offered/space-planning.png';
 import serviceOffered from  '../../images/home/service-offered/service-offered.png';
 import serviceOfferedMobile from  '../../images/home/service-offered/service-offered-mobile.png';
 
