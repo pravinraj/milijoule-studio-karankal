@@ -9,6 +9,7 @@ import mouse from '../../images/home/slideshow/mouse.png';
 import arrowIcon from  '../../images/home/arrow-icon.png';
 import customFurniture from '../../images/home/slideshow/custom-furniture.jpg'
 import brandStrategy from '../../images/home/slideshow/brand-strategy.jpg'
+import uiUx from '../../images/home/slideshow/ui-ux.jpg'
 
 function StudioSlideshow() {
 
@@ -35,6 +36,13 @@ function StudioSlideshow() {
 				'Creating customised brand strategies to help expand your overall reach, and attract new customers',
 				'BRANDING AND PACKAGING'
 			]
+		},
+		{
+			captionHead:'UI/UX To Drive Engagement', 
+			captionContent: [
+				'User Interface and User Experience (UI/UX) are essential to gaining customer engagement and creating a buzz online',
+				'FURNITURE DESIGN'
+			]
 		}
 	];
 	const [carouselContent, setCarouselContent] = useState(carouselContents[0]);
@@ -55,6 +63,7 @@ function StudioSlideshow() {
 					<span style={{backgroundColor: (index===0) ? '#ff0000':'#d8d8d8'}}></span>
 					<span style={{backgroundColor: (index===1) ? '#ff0000':'#d8d8d8'}}></span>
 					<span style={{backgroundColor: (index===2) ? '#ff0000':'#d8d8d8'}}></span>
+					<span style={{backgroundColor: (index===3) ? '#ff0000':'#d8d8d8'}}></span>
 				</div>)}
 				<p className='design-type'><span>{slideContent.captionContent[1]}</span><span><img src={arrowIcon} alt='arrow'/></span></p>
 			</>
@@ -83,6 +92,13 @@ function StudioSlideshow() {
 					      className="d-block w-100"
 					      src={brandStrategy}
 					      alt="Brand Strategy Agency Slide"
+					    />
+					  </Carousel.Item>}
+					  {<Carousel.Item className='brand-strategy-slide'>
+					    <img
+					      className="d-block w-100"
+					      src={uiUx}
+					      alt="UI UX Slide"
 					    />
 					  </Carousel.Item>}
 				</Carousel>

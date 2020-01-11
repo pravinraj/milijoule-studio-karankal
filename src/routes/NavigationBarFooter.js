@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {
 	Container,
 	Row,
@@ -7,36 +7,57 @@ import {
 	Nav,
 	Figure
 } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 import home from '../images/nav-bar-footer/home.png';
 import shop from '../images/nav-bar-footer/shop.png';
 import projects from '../images/nav-bar-footer/projects.png';
 import blog from '../images/nav-bar-footer/blog.png';
 
 function NavigationBarFooter() {
+	let timer = null;
+	const [navDisplay, setNavDisplay] = useState('flex');
+	const [opacityValue, setOpacity] = useState('1');
+	window.addEventListener('scroll', function() {
+	    if(timer !== null) {
+	        console.log('timer not null')
+	        setNavDisplay('none');
+	        setOpacity('0');
+	        clearTimeout(timer);        
+	    }
+	    timer = setTimeout(function() {
+	          // do something
+	        console.log('inside set time out')
+	        setNavDisplay('flex');
+	        setOpacity('1');
+	    }, 150);
+	}, false);
 	return (
-		<Navbar fixed='bottom' className='studio-footer-wrapper' collapseOnSelect expand="lg">
+		<Navbar fixed='bottom' className='studio-footer-wrapper' collapseOnSelect expand="lg" style={{display: navDisplay, opacity: opacityValue}}>
 				<Row>
-					<Col xs={3}>
+					<Col xs={3} className='footer-images-container my-auto'>
 						<Nav.Link href="#" bsPrefix='nav-link nav-images'>
-							<Figure>
-							  <Figure.Image
-							    width={15}
-							    height={17}
-							    alt="home"
-							    src={home}
-							  />
-							  <Figure.Caption bsPrefix='figure-caption  footer-caption'>
-							    Home
-							  </Figure.Caption>
-							</Figure>
+							<NavLink exact activeClassName='activeNav' to='/'>
+								<Figure>
+								  <Figure.Image
+								    width={15}
+								    height={17}
+								    alt="home"
+								    src={home}
+								  />
+								  <Figure.Caption bsPrefix='figure-caption  footer-caption'>
+								    Home
+								  </Figure.Caption>
+								</Figure>
+							</NavLink>
 						</Nav.Link>
 					</Col>
-					<Col xs={3}>
+					<Col xs={3} className='footer-images-container my-auto'>
 						<Nav.Link href="#" bsPrefix='nav-link nav-images'>
+							<NavLink exact activeClassName='activeNav' to='/shopify'>
 							<Figure>
 							  <Figure.Image
-							    width={14}
-							    height={16}
+							    width={40}
+							    height={30}
 							    alt="shop"
 							    src={shop}
 							  />
@@ -44,25 +65,29 @@ function NavigationBarFooter() {
 							    Shop
 							  </Figure.Caption>
 							</Figure>
+							</NavLink>
 						</Nav.Link>
 					</Col>
-					<Col xs={3}>
+					<Col xs={3} className='footer-images-container my-auto'>
 						<Nav.Link href="#" bsPrefix='nav-link nav-images'>
-							<Figure>
-							  <Figure.Image
-							    width={13}
-							    height={14}
-							    alt="projects"
-							    src={projects}
-							  />
-							  <Figure.Caption bsPrefix='figure-caption  footer-caption'>
-							    Projects
-							  </Figure.Caption>
-							</Figure>
+							<NavLink exact activeClassName='activeNav' to='/projects'>
+								<Figure>
+								  <Figure.Image
+								    width={15}
+								    height={17}
+								    alt="projects"
+								    src={projects}
+								  />
+								  <Figure.Caption bsPrefix='figure-caption  footer-caption'>
+								    Projects
+								  </Figure.Caption>
+								</Figure>
+							</NavLink>
 						</Nav.Link>
 					</Col>
-					<Col xs={3}>
+					<Col xs={3} className='footer-images-container my-auto'>
 						<Nav.Link href="#" bsPrefix='nav-link nav-images'>
+							<NavLink exact activeClassName='activeNav' to='/blog'>
 							<Figure>
 							  <Figure.Image
 							    width={12}
@@ -74,6 +99,7 @@ function NavigationBarFooter() {
 							    Blog
 							  </Figure.Caption>
 							</Figure>
+							</NavLink>
 						</Nav.Link>
 					</Col>
 				</Row>

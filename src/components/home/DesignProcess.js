@@ -27,12 +27,12 @@ function DesignProcess() {
 			<Row className='design-process-img-details'>
 				<Col md={3} xs={6} className='design-process-img-desc'>
 					{(width < 768) && <Image src={discovery} />}
-					<p>Discovery & Strategy</p>
+					<p>DISCOVERY & STRATEGY</p>
 					<p>Visioning & Strategy Planning & Scheduling Understanding the space Client Interview Gather Brand Assets</p>
 				</Col>
 				<Col md={3} xs={6} className='design-process-img-desc'>
 					{(width < 768) && <Image src={customerResearch} />}
-					<p>User/Customer Research</p>
+					<p>USER/CUSTOMER RESEARCH</p>
 					<p>Competitive Analysis User/Customer Research Gather Proposed Materials Implementation Budget Concept Presentation</p>
 				</Col>
 				<Col md={3} xs={6} className='design-process-img-desc'>

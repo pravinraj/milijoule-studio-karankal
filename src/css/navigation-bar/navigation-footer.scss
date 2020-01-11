@@ -1,15 +1,30 @@
 .studio-footer-wrapper {
 	background-color:  #fff;
 	justify-content: center;
+	transition: opacity 0.5s ease;
 	box-shadow: 2px 0 2px 2px rgba(175, 175, 175, 0.15);
-	.footer-caption {
-		font-family: Proxima Nova Rg;
-		font-size: 13px;
-		font-weight: 600;
-		font-stretch: normal;
-		font-style: normal;
-		line-height: normal;
-		letter-spacing: normal;
-		color: #343232;
-	}
+	.footer-images-container {
+		line-height: 0;
+		.nav-images {
+			padding-top: 0;
+			padding-bottom: 0;
+			figure {
+				margin-bottom: 0;
+				img {
+					width: 100%;
+				}
+				.footer-caption {
+					font-family: Proxima Nova Rg;
+					font-size: 13px;
+					font-weight: 600;
+					font-stretch: normal;
+					font-style: normal;
+					line-height: normal;
+					letter-spacing: normal;
+					color: #343232;
+					text-align: center;
+				}
+			}
+		}
+	}	
 }

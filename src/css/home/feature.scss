@@ -1,5 +1,5 @@
 .feature-wrapper {
-	margin-top: 115px;
+	margin-top: 64px;
 	.feature-heading {
 		font-family: Proxima Nova Rg;
 	    font-size: 36px;
@@ -10,7 +10,7 @@
 	    letter-spacing: normal;
 	    color: #000000;
 	    text-align: center;
-	    margin-bottom: 80px;
+	    margin-bottom: 64px;
 	}
 
 	.feature-list {
@@ -88,11 +88,9 @@
 }
 @media only screen and (min-width:1200px) {
 	.feature-wrapper {
-
-		
 		.feature-list {
 			padding-left: 73px;
-			padding-right: 10px;
+			padding-right: 73px;
 		}
 	}
 }

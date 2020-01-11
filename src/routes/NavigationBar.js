@@ -24,7 +24,7 @@ function NavigationBar(argument) {
 				<Navbar fixed="top" className='studio-header-wrapper' collapseOnSelect expand="lg">
 					<Navbar.Brand href="#" bsPrefix='navbar brand-image'><img src={brandImage} alt='brandImage'/></Navbar.Brand>
 				  	<Navbar id="responsive-navbar-nav" bsPrefix={width > 768 ? 'navbar studio-navbar':''}>
-				  		<Nav className="ml-auto" >
+				  		<Nav className="mx-auto" >
 					      	<Nav.Link bsPrefix='nav-link route-type'><NavLink exact activeClassName='activeNav' to='/shopify'>Shop</NavLink></Nav.Link>
 					      	<Nav.Link bsPrefix='nav-link route-type'><NavLink exact activeClassName='activeNav' to='/projects'>Projects</NavLink></Nav.Link>
 					      	<Nav.Link bsPrefix='nav-link route-type'><NavLink exact activeClassName='activeNav' to='/blog'>Blog</NavLink></Nav.Link>
@@ -35,9 +35,9 @@ function NavigationBar(argument) {
 				      	</NavDropdown>
 				      	</Nav>
 			      		<Nav className='nav-images-list'>
-				      		<Nav.Link href="#" bsPrefix='nav-link nav-images'><img src={search} alt='search' /></Nav.Link>
+				      		{/*<Nav.Link href="#" bsPrefix='nav-link nav-images'><img src={search} alt='search' /></Nav.Link>
 					      	<Nav.Link href="#" bsPrefix='nav-link nav-images'><img src={nounProfile} alt='nounProfile' /></Nav.Link>
-					      	<Nav.Link href="#" bsPrefix='nav-link nav-images'><img src={cart} alt='cart' /></Nav.Link>
+					      	<Nav.Link href="#" bsPrefix='nav-link nav-images'><img src={cart} alt='cart' /></Nav.Link>*/}
 					      	<Nav.Link href="#" bsPrefix='nav-link nav-images'><Drawer/></Nav.Link>
 					     </Nav>
 				  	</Navbar>
