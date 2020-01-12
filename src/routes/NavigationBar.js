@@ -28,7 +28,7 @@ function NavigationBar(argument) {
 					      	<Nav.Link bsPrefix='nav-link route-type'><NavLink exact activeClassName='activeNav' to='/shopify'>Shop</NavLink></Nav.Link>
 					      	<Nav.Link bsPrefix='nav-link route-type'><NavLink exact activeClassName='activeNav' to='/projects'>Projects</NavLink></Nav.Link>
 					      	<Nav.Link bsPrefix='nav-link route-type'><NavLink exact activeClassName='activeNav' to='/blog'>Blog</NavLink></Nav.Link>
-					      	<NavDropdown className='contact-us-dropdown' title="Contact Us" id="collasible-nav-dropdown">
+					      	<NavDropdown className='contact-us-dropdown custom-carets' title="Contact Us" id="collasible-nav-dropdown">
 					       		<NavDropdown.Item href="#action/3.1" className='contact-us-dropdown-item'><img className='mail-icon' src={mail} alt='mail-icon' /><span className='contact-detail'>hello@karankal.com</span></NavDropdown.Item>
 					       		<NavDropdown.Divider />
 					       		<NavDropdown.Item href="#action/3.2" className='contact-us-dropdown-item'><img className='phone-icon' src={phone} alt='phone-icon' /><span className='contact-detail'>+917829 475707</span></NavDropdown.Item>				       		

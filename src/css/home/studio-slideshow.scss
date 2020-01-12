@@ -222,12 +222,21 @@
 				width: 9.3em;
 			}
 
+			p:first-child.architecture-heading {
+				width: 11em;
+			}
+
 			p:nth-child(2) {
 				font-size: 13px;
 				margin-top: 5px;
 				font-weight: normal;
 				width: 19em;
 			}
+
+			p:nth-child(2).architecture-content {
+				width: 22em;
+			}
+
 			.slideshow-indicator{
 				span{
 					width: 11px;
@@ -296,11 +305,23 @@
 				width: 9.3em;
 			}
 
+			p:first-child.architecture-heading {
+				width: 11em;
+			}
+
 			p:nth-child(2) {
 				font-size: 13px;
 				margin-top: 5px;
 				font-weight: normal;
 				width: 19em;
+			}
+
+			p:nth-child(2).architecture-content {
+				width: 22em;
+			}
+
+			p:nth-child(2).architecture-content {
+				width: 22em;
 			}
 			.slideshow-indicator{
 				span{
@@ -334,6 +355,7 @@
 
 @media only screen and (min-width: 768px) {
 	.slideshow-container {
+		border-bottom: none;
 		.slide-show-wrapper {
 			.studio-slides {
 				.carousel-indicators {
@@ -352,12 +374,25 @@
 				left: 10.6%;
 				top: 26.8%;
 
+				p:first-child.architecture-heading {
+					width: 11em;
+				}
+
 				p:first-child {
-					font-size: 3.645vw;
+					font-size: 3.385vw;
+					width: 10.4em;
+				}
+
+				p:first-child.architecture-slide  {
+					width: 11.3em;
 				}
 
 				p:nth-child(2) {
 					font-size: 1.432vw;
+				}
+
+				p:nth-child(2).architecture-content {
+					width: 22em;
 				}
 
 				.design-type{

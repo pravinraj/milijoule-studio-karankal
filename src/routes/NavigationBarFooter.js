@@ -11,6 +11,8 @@ import { NavLink } from 'react-router-dom';
 import home from '../images/nav-bar-footer/home.png';
 import shop from '../images/nav-bar-footer/shop.png';
 import projects from '../images/nav-bar-footer/projects.png';
+import projects1 from '../images/nav-bar-footer/projects-1.png';
+import project from '../images/nav-bar-footer/project.png';
 import blog from '../images/nav-bar-footer/blog.png';
 
 function NavigationBarFooter() {

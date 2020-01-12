@@ -1,7 +1,7 @@
 .testimonals-wrapper {
 	margin-top: 64px;
 	border-bottom: 2px solid #f7f7f7;
-    height: 21em;
+    height: 25em;
 	.testimonal-heading {
 		font-family: Proxima Nova Rg;
 		font-size: 36px;
@@ -68,6 +68,7 @@
 
 @media only screen and (max-width:600px) {
 	.testimonals-wrapper {
+		height: 21em;
 		.testimonal-heading {
 			font-size: 22px;
 		}
@@ -87,6 +88,7 @@
 
 @media only screen and (min-width:600px) {
 	.testimonals-wrapper {
+		height: 21em;
 		.testimonal-heading {
 			font-size: 22px;
 		}
@@ -94,11 +96,11 @@
 			margin-top: 25px;
 			.testimonal-slide-heading {
 				font-size: 14px;
-				width:  70%;
+				width:  60%;
 			}
 			.testimonal-footer {
 				font-size: 12px;
-				width:  70%;
+				width:  60%;
 			}
 		}
 	}
@@ -106,6 +108,7 @@
 
 @media only screen and (min-width:768px) {
 	.testimonals-wrapper {
+		height: 25em;
 		padding-left:33px;
 		padding-right:33px;
 		.testimonal-slides {

@@ -57,6 +57,15 @@
 
 	}
 
+	.custom-carets > a::after {
+		background-image: url('../../images/home/header/arrow.png');		
+		background-repeat: no-repeat;
+	    background-size: 0.7em;
+	    border: none;
+	    padding: 1.1px 15px 7px 0;
+	    background-position-x: 100%;
+	}
+
 	.contact-detail {
 		display: inline-block;
     	margin-left: 8px;
