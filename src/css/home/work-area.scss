@@ -45,7 +45,24 @@
 				}
 			}
 		}
-		
+		.work-area-image:hover {
+			img {
+				width: 100%;
+				cursor: pointer;
+				animation-name: tabs-hover;
+                animation-duration: 1s;
+                animation-timing-function: ease;
+                animation-iteration-count: 1;
+			}
+			@keyframes tabs-hover{
+            	from{
+                    width: 90%;
+                }
+                to{
+                	width: 100%;
+                }
+            }
+		}
 	}
 
 	.know-more-wrapper {
