@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="16px" viewBox="0 0 15 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>Filter</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Filter-Pop-UP-" transform="translate(-247.000000, -16.000000)" stroke="#FFFFFF" stroke-width="1.6">
+            <path d="M254.2,32 L254.2,26.3243243 L247.995285,18.2889386 C247.725251,17.9392333 247.789838,17.4368358 248.139544,17.1668025 C248.279592,17.0586608 248.451541,17 248.628482,17 L259.471858,17 C259.913685,17 260.271858,17.3581722 260.271858,17.8 C260.271858,17.9629127 260.22212,18.1219425 260.129296,18.2558237 L255.8,24.5" id="Filter"></path>
+        </g>
+    </g>
+</svg>

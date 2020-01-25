@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="204" height="437" viewBox="0 0 204 437">
+    <defs>
+        <path id="a" d="M1.162.26v31.259V.258z"/>
+        <path id="c" d="M.162.818h7.432H.162z"/>
+        <path id="e" d="M.162 1.043h7.432H.162z"/>
+        <path id="g" d="M.517.763c0-.2.165-.362.37-.36h13.72c.206 0 .37.16.37.36v1.413c0 .174-.007.347-.017.52h.319c1.213 0 2.201.96 2.201 2.14 0 1.182-.988 2.142-2.201 2.142h-1.48c-.9 1.672-2.268 2.962-3.94 3.582a.404.404 0 0 1-.133.024H5.768a.39.39 0 0 1-.132-.024C2.573 9.423.517 6.053.517 2.175V.763zm14.76 2.651h-.375a10.192 10.192 0 0 1-.747 2.845h1.123c.807 0 1.462-.638 1.462-1.422 0-.785-.655-1.423-1.462-1.423zM1.258 1.122v1.052c0 3.498 1.88 6.65 4.58 7.69h3.817c2.701-1.04 4.581-4.192 4.581-7.69V1.122H1.257z"/>
+        <path id="i" d="M2.593 3.707L.917 10.331l.268 1.07.9-.662 1.79-6.693-1.282-.339zm.367-1.465l-.141.578 1.297.351.112-.436.014-.042a.671.671 0 0 0-.634-.903.67.67 0 0 0-.634.452H2.96zM.212 12.938l.226-.803-.423-1.692a.429.429 0 0 1 0-.224L2.1 1.974l.012-.028A1.587 1.587 0 0 1 3.608.889c.867 0 1.579.711 1.579 1.578 0 .182-.042.344-.1.508h.016l-.015.027-.113.409.76.212c.43.117.652.56.55.972l-.887 3.608a.45.45 0 1 1-.875-.211l.875-3.524-.65-.183-1.831 6.835a.449.449 0 0 1-.168.254l-1.452 1.057-.225.748a.45.45 0 1 1-.86-.24v-.001z"/>
+        <path id="k" d="M.902 3.143v15.334a1.34 1.34 0 0 0 1.352 1.353h27.06a1.34 1.34 0 0 0 1.352-1.353V3.143a1.34 1.34 0 0 0-1.352-1.352H2.254A1.34 1.34 0 0 0 .902 3.143zm1.352 17.588A2.26 2.26 0 0 1 0 18.477V3.143A2.26 2.26 0 0 1 2.254.889h27.06a2.26 2.26 0 0 1 2.255 2.254v15.334a2.26 2.26 0 0 1-2.255 2.254h-10.05l2.95 5.149a2.84 2.84 0 0 0-.153.043c-.289-.01-.577 0-.866-.004l-2.958-5.188h-4.905l-3.047 5.345-1.057.025 3.076-5.37H2.254z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="14.4" letter-spacing="-.432" transform="translate(-1)">
+            <tspan x="21.35" y="52">R</tspan> <tspan x="29.241" y="52">etail</tspan> <tspan x="16.338" y="69">Design</tspan>
+        </text>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="14.4" transform="translate(-1)">
+            <tspan x="138" y="52.35">Corporate</tspan>
+        </text>
+        <path stroke="#231F20" d="M154 154.98l11.588-21.091 12.4 21.671"/>
+        <path stroke="#CB2027" stroke-linejoin="round" d="M154 143.889h24.684"/>
+        <path stroke="#E43122" d="M165.5 127.337v-3.334M165.5 146.91V141v5.91z"/>
+        <path stroke="#000" d="M168.448 130.562a2.724 2.724 0 1 1-5.448.102 2.724 2.724 0 0 1 5.448-.102z"/>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="14.4" transform="translate(-1)">
+            <tspan x="12.774" y="175">Cafe &amp;</tspan> <tspan x=".304" y="192">Restaurant</tspan>
+        </text>
+        <g transform="translate(21 124)">
+            <mask id="b" fill="#fff">
+                <use xlink:href="#a"/>
+            </mask>
+            <path fill="#000" d="M-3.838-4.74h10v41.258h-10z" mask="url(#b)"/>
+        </g>
+        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08" d="M22.162 124.26v31.259"/>
+        <g transform="translate(22 130)">
+            <mask id="d" fill="#fff">
+                <use xlink:href="#c"/>
+            </mask>
+            <path fill="#000" d="M-4.838-4.182h17.432v10H-4.838z" mask="url(#d)"/>
+        </g>
+        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08" d="M22.162 130.818h7.432"/>
+        <g transform="translate(22 147)">
+            <mask id="f" fill="#fff">
+                <use xlink:href="#e"/>
+            </mask>
+            <path fill="#000" d="M-4.838-3.957h17.432v10H-4.838z" mask="url(#f)"/>
+        </g>
+        <g stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08">
+            <path stroke="#000" d="M22.162 148.043h7.432"/>
+            <path stroke="#CC2027" d="M51.838 139.494c0 6.89-5.747 12.476-12.84 12.476-7.09 0-12.84-5.585-12.84-12.476 0-6.893 5.749-12.48 12.84-12.48 7.093.001 12.84 5.587 12.84 12.48z"/>
+        </g>
+        <g transform="translate(30 134)">
+            <mask id="h" fill="#fff">
+                <use xlink:href="#g"/>
+            </mask>
+            <path fill="#000" d="M-4.483-4.598H22.48v20.183H-4.483z" mask="url(#h)"/>
+        </g>
+        <path stroke="#000" stroke-width=".5" d="M30.517 134.763v1.412c0 3.878 2.056 7.248 5.12 8.385a.39.39 0 0 0 .13.024h3.96c.045 0 .087-.01.131-.024 1.673-.62 3.04-1.91 3.942-3.582h1.479c1.213 0 2.201-.96 2.201-2.141 0-1.18-.988-2.142-2.201-2.142h-.319c.01-.172.017-.344.017-.52v-1.412c0-.2-.164-.36-.37-.36h-13.72c-.205-.002-.37.16-.37.36z"/>
+        <path stroke="#000" stroke-width=".5" d="M45.278 137.414c.807 0 1.462.638 1.462 1.423 0 .784-.655 1.422-1.462 1.422h-1.123c.376-.876.629-1.836.747-2.845h.376zM31.257 135.122h12.978v1.052c0 3.498-1.88 6.65-4.581 7.69h-3.817c-2.7-1.04-4.58-4.192-4.58-7.69v-1.052z"/>
+        <path stroke="#CC2027" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08" d="M21.335 252.3l5.514 6.881M47.151 259.181l5.514-6.881"/>
+        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08" d="M26.989 259.135h20.15v20.343h-20.15z"/>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="14.4" transform="translate(-1)">
+            <tspan x="128.48" y="175.35">Architecture</tspan> <tspan x="144.838" y="192.35">Design</tspan>
+        </text>
+        <g transform="translate(39 373)">
+            <mask id="j" fill="#fff">
+                <use xlink:href="#i"/>
+            </mask>
+            <path fill="#020303" d="M-5-4.111h16.31v22.675H-5z" mask="url(#j)"/>
+        </g>
+        <g transform="translate(22 370)">
+            <mask id="l" fill="#fff">
+                <use xlink:href="#k"/>
+            </mask>
+            <path fill="#020303" d="M-5-4.111h41.569v35.212H-5z" mask="url(#l)"/>
+        </g>
+        <path stroke="#CB2027" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2" d="M26 387.489c1.657-1.82 3.898-1.018 5.727-.122 1.764.864 3.957.472 4.873-1.478"/>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="14.4" letter-spacing="-.288" transform="translate(-1)">
+            <tspan x="5" y="300.35">P</tspan> <tspan x="12.877" y="300.35">ackaging</tspan>
+        </text>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="14.4" transform="translate(-1)">
+            <tspan x="138.474" y="300.95">Branding</tspan>
+        </text>
+        <path stroke="#231F20" d="M175.386 256.876a1.633 1.633 0 1 0-2.227-2.389 1.633 1.633 0 0 0 2.227 2.389z"/>
+        <path stroke="#231F20" stroke-linecap="round" d="M169.432 247.689l11.411 1.153 1.154 11.411-19.232 19.231L150.2 266.92z"/>
+        <path stroke="#CB2027" stroke-linecap="round" d="M166.98 270.069l-7.18-7.18M163.78 273.269l-7.18-7.18"/>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="14.4" transform="translate(-1)">
+            <tspan x="21.556" y="416.871">Digital</tspan> <tspan x="19.338" y="433.871">Design</tspan>
+        </text>
+        <path stroke="#020303" stroke-width="1.134" d="M24.984 8.988h23.8a1.41 1.41 0 0 1 1.416 1.4c0 .044-.004.087-.006.131l-1.152 12.14a1.412 1.412 0 0 1-1.409 1.27H26.135a1.412 1.412 0 0 1-1.41-1.27l-1.151-12.14a1.39 1.39 0 0 1 .362-1.074 1.423 1.423 0 0 1 1.047-.457h.001z"/>
+        <path stroke="#020303" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.134" d="M16 2h6c.361 0 .667.272.703.63l1.305 12.491"/>
+        <path stroke="#CB2027" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.134" d="M33.973 16.463l2.279 2.34L41.29 14.6"/>
+        <path stroke="#CB2027" stroke-width="1.134" d="M32.838 29.475c0 1.498-1.228 2.713-2.743 2.713s-2.744-1.215-2.744-2.713c0-1.499 1.229-2.713 2.744-2.713 1.515 0 2.743 1.214 2.743 2.713zM45.703 29.475c0 .969-.523 1.865-1.372 2.35a2.77 2.77 0 0 1-2.743 0 2.708 2.708 0 0 1-1.372-2.35c0-1.499 1.228-2.713 2.743-2.713 1.516 0 2.744 1.214 2.744 2.713z"/>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="14.4" transform="translate(-1)">
+            <tspan x="140.096" y="417">Furniture</tspan> <tspan x="146.338" y="434">Design</tspan>
+        </text>
+        <path stroke="#231F20" d="M149.4 375.889h35.48"/>
+        <path stroke="#CB2027" d="M181.411 380.689H152.6"/>
+        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.04" d="M153.305 16.213V6.355s.567-2.891 4.865-2.571"/>
+        <path stroke="#CC2027" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.04" d="M158.2 3.96c-.983 1.742-.91 4.41.534 5.806l.122.12a.33.33 0 0 0 .287.122.45.45 0 0 0 .287-.121l5.872-5.803a.404.404 0 0 0 0-.568l-.123-.122a4.637 4.637 0 0 0-6.445 0l-.534.566"/>
+        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.04" d="M153.167 16.357c-.81.101-1.62.804-1.634 1.611v3.404M185.851 21.556v-3.588a1.63 1.63 0 0 0-1.642-1.622h-6.281v-3.327h6.077c1.36 0 2.462-1.09 2.462-2.435v-7.63c0-1.344-1.101-2.434-2.462-2.434H171.03c-1.36 0-2.462 1.09-2.462 2.435v7.629c0 1.345 1.101 2.435 2.462 2.435h6.077v3.327h-23.833"/>
+        <path stroke="#CC2027" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.04" d="M185.923 33.257V21.278h-34.379v11.896"/>
+        <path stroke="#231F20" d="M152.6 375.889v20.078M181.4 375.889v20.078"/>
+    </g>
+</svg>

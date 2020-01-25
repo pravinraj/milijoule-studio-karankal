@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="53" height="44" viewBox="0 0 53 44">
+    <g fill="none" fill-rule="evenodd" stroke-width="1.65" transform="translate(1 1)">
+        <path stroke="#000" d="M13.334 8.165h34.868a2.072 2.072 0 0 1 2.065 2.26l-1.686 17.93a2.074 2.074 0 0 1-2.066 1.875H15.02a2.074 2.074 0 0 1-2.067-1.876l-1.686-17.928a2.07 2.07 0 0 1 2.067-2.261z"/>
+        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M.354.616h8.788c.531 0 .98.402 1.033.93l1.913 18.447"/>
+        <path stroke="#CC2027" stroke-linecap="round" stroke-linejoin="round" d="M25.938 19.128l3.337 3.456 7.383-6.208"/>
+        <ellipse cx="20.696" cy="37.378" stroke="#CC2027" rx="4.019" ry="4.007"/>
+        <ellipse cx="39.946" cy="37.378" stroke="#CC2027" rx="4.019" ry="4.007"/>
+    </g>
+</svg>

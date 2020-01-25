@@ -1,0 +1,234 @@
+.About-us-container {
+  width: 100%;
+  box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.1);
+  min-height: 100%;
+  background-color: #fff;
+}
+
+.About-us-page {
+  padding-top: 98px;
+  text-align: center;
+  margin: auto;
+}
+
+.About-us-header {
+  font-weight: normal;
+  text-align: left;
+  position: fixed;
+  top: 60px;
+  width: inherit;
+  color: #212121;
+  font-size: 20px;
+  line-height: 20px;
+  /* padding: 20px; */
+  background-color: #fff;
+  text-transform: uppercase;
+  z-index: 1;
+  box-shadow: 1px 4px 4px 0px rgba(0, 0, 0, 0.2);
+  /* -webkit-box-shadow: 0px 3px 3px -3px rgba(189, 189, 189, 0.49);
+  -moz-box-shadow: 0px 3px 3px -3px rgba(189, 189, 189, 0.49);
+  box-shadow: 0px 3px 3px -3px rgba(189, 189, 189, 0.49); */
+}
+
+@media only screen and (max-width:600px){
+  .About-us-header {
+    top: 45px;
+    left: 0;
+  }
+}
+
+@media only screen and (min-width:600px){
+  .About-us-header {
+    top: 46px;
+    left: 0;
+  }
+}
+
+@media only screen and (min-width:768px){
+  .About-us-header {
+    top: 80px;
+    left: auto;
+  }
+}
+
+@media only screen and (min-width:992px){
+  .About-us-header {
+    top: 83px;
+    left: auto;
+  }
+}
+
+.About-us-header > .Project-page-title {
+  margin: 10px 20px 0px;
+}
+
+.About-us-page .state-page {
+  width: calc(100% - 40px);
+  margin: auto 20px;
+  text-align: left;
+}
+
+.About-us-page .page-image {
+  width: 100%;
+  max-width: 850px;
+}
+
+.About-us-page .text {
+  font-size: 24px;
+  line-height: 1.29;
+  margin: 0px 0px 20px;
+  font-family: Proxima Nova Lt;
+  font-weight: 600;
+}
+
+.About-us-page .subText {
+  font-weight: 300;
+  margin-top: 10px;
+  color: rgba(33, 33, 33, 1);
+  font-size: 17px;
+  line-height: 1.29;
+}
+
+.About-us-page .headerText {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0px 0px 20px;
+  text-transform: capitalize;
+}
+
+.About-us-page .founder-image {
+  width: 100%;
+}
+
+.About-us-page .name {
+  font-size: 17px;
+  line-height: 1.29;
+  font-weight: bold;
+  margin: 7px 0px;
+  color: #212121;
+}
+
+.About-us-page .designation {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 1.29;
+  color: rgba(33, 33, 33, 0.8);
+  margin: 5px 0px;
+}
+
+.About-us-page .link {
+  font-weight: 600;
+  color: #f44336;
+  font-size: 17px;
+  line-height: 1.29;
+  text-transform: capitalize;
+  cursor: pointer;
+  margin: 10px 0px;
+}
+
+.About-us-page .rahul .subText {
+  margin: 15px 0px 5px;
+}
+
+.About-us-page .expertiseImage {
+  margin: 10px 0px;
+}
+
+.About-us-page .tagline {
+  font-size: 18px;
+  line-height: 1.29;
+  font-weight: 300;
+  /* font-style: italic; */
+  font-family: Proxima Nova Lt;
+  font-weight: 600;
+  margin: 20px 0px 0px;
+}
+/* .About-us {
+  font-size: 10px;
+  color: #212121;
+  padding-top: 60px;
+  text-align: left;
+}
+
+.About-us .section {
+  margin-bottom: 30px;
+}
+
+.About-us .section > :first-child {
+  font-size: 14px;
+  color: #e53935;
+  margin-bottom: 20px;
+}
+
+.About-us img {
+  width: 100%;
+  height: 100%;
+}
+
+.About-us .section .descr {
+  margin-bottom: 10px;
+}
+ */
+
+@media only screen and (min-width: 600px) {
+  .About-us-header {
+    border-bottom: 1px solid #ebebeb;
+    box-shadow: none;
+  }
+
+  .About-us-container {
+    width: calc(100% - 40px);
+    margin: 0px 20px;
+    background-color: #fff;
+  }
+
+  .About-us-page .state-page {
+    width: 100%;
+    max-width: 850px;
+    margin: auto;
+  }
+
+  .About-us-page .tagline {
+    font-size: 24px;
+  }
+
+  .About-us-page .name {
+    margin: 10px 0px 6px;
+  }
+
+  .About-us-page .rahul .subText {
+    margin: 20px 0px 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .About-us-container {
+    width: calc(100% - 80px);
+    margin: 0px 40px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  /* .About-us {
+    font-size: 14px;
+  }
+
+  .About-us .section > :first-child {
+    font-size: 18px;
+  }
+
+  .About-us .section .descr {
+    margin-bottom: 15px;
+  } */
+}
+
+@media only screen and (min-width: 1200px) {
+  .About-us-container {
+    width: 1140px;
+    margin: 0px calc(50% - 570px);
+  }
+
+  .About-us-page {
+    padding-top: 98px;
+  }
+}

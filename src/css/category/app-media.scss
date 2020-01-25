@@ -1,0 +1,685 @@
+@media only screen and (max-width: 350px) {
+  .concepts {
+    font-size: 26px;
+  }
+
+  .concepts:hover {
+    font-size: 39px;
+  }
+
+  .App-concepts img {
+    width: 240px;
+    margin: 10px calc(50% - 120px);
+  }
+
+  .App-concepts-new-surroundings {
+    font-size: 26px;
+    top: calc(100% - 60px - 40px);
+  }
+
+  .concepts:hover .concept-description {
+    font-size: 10px;
+  }
+
+  .border-top {
+    border-top: 10px solid black;
+  }
+
+  .New-surroundings-header {
+    text-align: center;
+    top: 60px;
+    font-size: 16px;
+    padding: 20px;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+  }
+
+  .App-container .testimonials {
+    min-height: 250px;
+  }
+
+  .App-container .testimonials .centered {
+    width: 73%;
+  }
+
+  .App-container .testimonials .centered > :first-child {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-device-width: 351px) and (max-device-width: 374px) {
+  .App-container .testimonials .centered > :first-child {
+    font-size: 15px;
+  }
+}
+
+/* for iphone 5/6 */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  .concepts {
+    font-size: 28px;
+  }
+
+  .concepts:hover {
+    font-size: 42px;
+  }
+
+  .concepts:hover .concept-description {
+    font-size: 12px;
+  }
+
+  .App-concepts-new-surroundings {
+    font-size: 28px;
+    /* calc(50% + 150px + (75 - 57) / 2 px); */
+    top: calc(100% - 66px - 40px);
+    cursor: pointer;
+  }
+
+  .App-concepts img {
+    width: 280px;
+    margin: 10px calc(50% - 140px);
+  }
+
+  .New-surroundings-header {
+    text-align: center;
+    top: 60px;
+    font-size: 18px;
+    padding: 20px;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+  }
+
+  .App-container .testimonials {
+    min-height: 250px;
+  }
+
+  .App-container .testimonials .centered {
+    width: 73%;
+  }
+
+  .App-container .testimonials .centered > :first-child {
+    font-size: 18px;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+  .Contact-us iframe {
+    /* min-height: 200px; */
+  }
+
+  .App-container .testimonials {
+    min-height: 250px;
+  }
+
+  .App-container .testimonials .centered {
+    width: 65%;
+  }
+
+  .App-container .testimonials .centered > :first-child {
+    font-size: 18px;
+  }
+
+  .App-concepts img {
+    margin: 10px calc(50% - 180px);
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #conceptScroller::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  #conceptScroller::-webkit-scrollbar-track {
+    background: #fff;
+  }
+
+  #conceptScroller::-webkit-scrollbar-thumb {
+    background-color: #e6e6e6;
+    opacity: 0.1;
+    outline: 1px solid #e6e6e6;
+    /* border-radius: 10px; */
+  }
+
+  .flex-container {
+    display: flex;
+    text-align: center;
+    margin: 10px;
+  }
+
+  .App-header-menu-icon {
+    margin: 0px;
+  }
+
+  .App-header-karankal {
+    font-size: 24px;
+  }
+
+  .App-title > :first-child,
+  .App-title .inherit-color {
+    padding: 18px 0px;
+    margin-top: -20px;
+  }
+
+  .projects-button {
+    cursor: pointer;
+    width: 80px;
+    height: 23px;
+    object-fit: contain;
+    font-family: ProximaNova;
+    font-size: 19px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+    color: #343232;
+  }
+
+  .inherit-color {
+    margin-right: 100px;
+  }
+
+  .concepts-new-design {
+    line-height: 28px;
+  }
+
+  .New-surroundings-header {
+    text-align: center;
+    padding: 20px 40px;
+  }
+  .Contact-us .address {
+    text-align: right;
+  }
+
+  .Contact-us .contact-form > div {
+    width: 50%;
+    margin: auto;
+  }
+
+  .Featured-in .row {
+    width: 70%;
+    padding: 20px 0px;
+    margin: 0px auto;
+  }
+
+  .Contact-us .row {
+    padding: 20px 0px;
+  }
+
+  .Featured-in .row [class*='col-'] {
+    padding: 20px;
+  }
+
+  .Featured-in .col-s-3 {
+    /* max-width: 150px; */
+  }
+
+  .Design-process-description [class*='col-'] {
+    padding: 20px 10px;
+  }
+
+  .AboutUs-home > div:nth-child(2) {
+    padding: 20px 0px;
+  }
+
+  .App-container {
+    width: calc(100% - 40px);
+    margin: 0px 20px;
+  }
+
+  .dot {
+    width: 13px;
+    height: 13px;
+    margin-right: 10px;
+  }
+
+  .App-container .testimonials .centered {
+    width: 65%;
+  }
+
+  .App-container .testimonials .centered > :first-child {
+    font-size: 20px;
+  }
+
+  .App-container .slider-frame {
+    max-width: 500px;
+    margin: 20px calc(50% - 250px) !important;
+  }
+
+  /* .App-concepts-new-surroundings > div:first-child {
+    padding-top: 20px;
+  } */
+
+  .App-concepts-new-surroundings > div:nth-child(2) {
+    font-size: 17px;
+    padding: 5px 0px 10px;
+    width: 400px;
+    line-height: 1.29;
+  }
+
+  .App .product-button {
+    margin-top: 20px;
+  }
+
+  .App .product-button-carousel {
+    font-size: 17px;
+    margin-bottom: 0px;
+  }
+
+  .App .product-button-carousel > .icon-image {
+    height: 17px;
+  }
+
+  .App .product-button > img:nth-child(2) {
+    width: inherit;
+  }
+
+  .design-process-img {
+    width: 92%;
+    margin: 40px 4% 10px;
+  }
+
+  .design-process-img.home {
+    width: 70%;
+    margin: 40px 15% 10px;
+  }
+
+  .Design-process-description {
+    text-align: center;
+    width: 94%;
+    margin: 0px 3%;
+  }
+
+  .Design-process-description .design-concept {
+    height: 47px;
+  }
+
+  .Design-process .processList {
+    margin: 0px 20px;
+    text-align: left;
+  }
+
+  .Design-process .processList [class*='col-'] {
+    padding-right: 0px;
+    padding-left: 80px;
+  }
+
+  .Design-process .processList > div > div:first-child {
+    font-size: 120px;
+    font-weight: bold;
+  }
+
+  .Design-process .processList > div > div:nth-child(2) {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0px 0px 10px 5px;
+  }
+
+  .Design-process .processList > div > div:nth-child(3) {
+    font-size: 14px;
+    color: #e53935;
+    font-weight: 500;
+    margin: 0px 0px 15px 5px;
+  }
+
+  .Design-process .processList > div > div:nth-child(4) {
+    font-size: 14px;
+    text-align: left;
+    margin-left: 5px;
+  }
+
+  .Design-process,
+  .Featured-in,
+  .Contact-us,
+  .AboutUs-home,
+  .testimonials-home {
+    padding: 40px 0px;
+    font-size: 17px;
+    line-height: 1.29;
+  }
+
+  .Design-process-header,
+  .AboutUs-home > div:first-child,
+  .Contact-us > div:first-child,
+  .Featured-in > div:first-child,
+  .testimonials-home > div:first-child {
+    font-size: 38px;
+    line-height: 1;
+    margin: 0px 20px 20px;
+  }
+
+  .Design-process-complete {
+    padding-top: 60px;
+  }
+
+  .col-6.product-info .product-title {
+    font-size: 38px;
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+
+  .col-6.product-info .product-centered {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .Product-page {
+    padding-top: 0px;
+  }
+
+  .Product-page > .row {
+    font-size: 42px;
+  }
+
+  .Product-page .design-new-surroundings {
+    padding: 0px 0px 10px;
+  }
+
+  .product-description {
+    font-size: 17px;
+    line-height: 1.29;
+  }
+
+  .Product-page .whats-surrounding > div:first-child {
+    font-size: 38px;
+    padding-bottom: 20px;
+    font-weight: bold;
+  }
+
+  .Product-page .new-surroundings-text {
+    width: 73%;
+    font-size: 17px;
+  }
+}
+/* <link rel="stylesheet" media="only screen and (max-device-width: 1024px)" href="../ipad.css" type="text/css" /> */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .concepts {
+    font-size: 48px;
+    /* padding: 5px 0px; */
+  }
+
+  .concepts:hover {
+    font-size: 72px;
+  }
+
+  .concepts:hover .concept-description {
+    font-size: 14px;
+    padding: 0px 0px 10px 5px;
+  }
+
+  .App-concepts-new-surroundings {
+    font-size: 48px;
+    /* calc(50% + 150px + (75 - 57) / 2 px); */
+    top: calc(100vh - 137px);
+    cursor: pointer;
+  }
+
+  .App-concepts img {
+    margin: auto;
+  }
+
+  .New-surroundings-header {
+    text-align: center;
+    font-size: 24px;
+    top: 60px;
+    left: 0px;
+    padding: 20px 40px;
+    cursor: default;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+  }
+
+  .App-container .testimonials {
+    min-height: 280px;
+  }
+
+  .App-container .testimonials .centered > :first-child {
+    font-size: 20px;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) and (min-device-width: 769px) {
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  /* turn on for custom scroller */
+
+  /* body::-webkit-scrollbar {
+      width: 10px;
+  } */
+
+  /* body::-webkit-scrollbar-track {
+    background: #fff;
+  } */
+
+  /* body::-webkit-scrollbar-thumb {
+    background-color: #bdbdbd;
+    opacity: 0.1;
+    outline: 1px solid bdbdbd;
+    border-radius: 20px;
+  } */
+
+  .App-concepts {
+    padding: 60px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .App-concepts > div {
+    /* margin-top: calc(50vh - 60px - 171px); */
+    margin-top: 30px;
+  }
+
+  .App-concepts img {
+    width: 100%;
+    margin: auto;
+  }
+
+  .concept-image {
+    left: calc(100% - 55% + 60px);
+    top: calc(90px);
+    width: calc(100% - 120px - 45%);
+    position: fixed;
+    text-align: right;
+  }
+
+  .concepts {
+    font-size: 48px;
+    width: 40%;
+    /* padding: 5px 0px; */
+  }
+
+  .concepts:hover {
+    font-size: 72px;
+  }
+
+  .concepts:hover .concept-description {
+    padding: 0px 0px 10px 5px;
+  }
+
+  .App-concepts-new-surroundings {
+    font-size: 24px;
+    /* text-align: right; */
+    /* font-size: 48px; */
+    /* calc(50% + 150px + (75 - 57) / 2 px); */
+    /* top: calc(50% + 114px); */
+    /* padding: 0px 60px 0px 0px; */
+    /* width: 50%; */
+    /* left: 50%; */
+    cursor: pointer;
+    top: calc(100vh - 120px);
+  }
+
+  .New-surroundings-header {
+    text-align: center;
+    font-size: 24px;
+    top: 60px;
+    left: 0px;
+    padding: 20px 40px;
+    width: 100%;
+    margin-left: 0px;
+    cursor: default;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+  }
+
+  .App-container {
+    width: calc(100% - 80px);
+    margin: 0px 40px;
+  }
+
+  .App-container .slider {
+  }
+
+  .App-container .slider-frame {
+    max-width: 600px;
+    margin: 20px calc(50% - 300px) !important;
+  }
+
+  .App-container .testimonials .centered {
+    width: 100%;
+  }
+
+  .App-container .testimonials .centered > :first-child {
+    font-size: 22px;
+  }
+
+  .Product-page > .row {
+    font-size: 48px;
+  }
+
+  .Product-page .new-surroundings-text {
+    /* padding: 10px 0px 100px 0px; */
+    /* margin: auto; */
+  }
+
+  .col-6.product-info {
+    padding-top: 20px;
+  }
+
+  .Featured-in .col-3 {
+    max-width: 200px;
+  }
+
+  .Design-process .processList {
+    width: 70%;
+    margin: 20px 15%;
+  }
+
+  .Design-process .processList > div > div:nth-child(4) {
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .App-concepts > div {
+    /* margin-top: calc(50vh - 60px - 189px); */
+    margin-top: 60px;
+  }
+
+  .concept-image {
+    top: 120px;
+  }
+
+  .concepts {
+    font-size: 54px;
+    /* padding: 5px 0px; */
+  }
+
+  .concepts:hover {
+    font-size: 81px;
+  }
+
+  .concepts:hover .concept-description {
+    font-size: 15px;
+    line-height: 1.29;
+    padding: 10px 0px 20px 5px;
+  }
+
+  .App-concepts-new-surroundings {
+    /* font-size: 54px; */
+    /* calc(50% + 150px + (75 - 57) / 2 px); */
+    /* top: calc(50% + 126px); */
+    font-size: 24px;
+  }
+
+  .New-surroundings-header {
+    text-align: center;
+    top: 60px;
+    padding: 20px 40px;
+    width: 100%;
+    left: 0px;
+    cursor: default;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+  }
+
+  .App-concepts-new-surroundings .new {
+    font-size: 120px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .App-concepts-new-surroundings .new {
+    font-size: 148px;
+  }
+
+  .fixed-width {
+    max-width: 1200px;
+    margin: 0px calc(50% - 600px);
+  }
+
+  .App #karankalVideo {
+    max-width: 100%;
+  }
+
+  .App-container {
+    width: 1140px;
+    margin: 0px calc(50% - 570px);
+    padding: 0px 60px;
+  }
+
+  .App-container .Contact-us {
+    width: calc(100% + 120px);
+    margin-left: -60px;
+  }
+
+  .Design-process,
+  .Featured-in,
+  .Contact-us,
+  .AboutUs-home,
+  .testimonials-home {
+    padding: 60px 0px;
+  }
+
+  .Contact-us > div:first-child {
+    margin: 0px 60px;
+  }
+
+  .Contact-us .row {
+    margin: 0px 40px;
+  }
+
+  .Product-page > .row {
+    font-size: 48px;
+    padding: 60px 0px;
+  }
+
+  .Featured-in .row,
+  .Contact-us .row {
+    padding: 40px 0px;
+  }
+}

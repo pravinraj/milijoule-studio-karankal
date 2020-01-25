@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="94px" height="80px" viewBox="0 0 94 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Email-Template" transform="translate(-406.000000, -654.000000)">
+            <g id="Group" transform="translate(406.000000, 654.000000)">
+                <polyline id="Path-5" stroke="#2F2E2E" stroke-width="3.2" points="30.0369982 28.0025488 30.0369982 12.1358534 72.6789945 12.1358534 72.6789945 57.4075035 30.0085699 57.4075035 30.0085699 34.3110863"></polyline>
+                <path d="M48.0894309,49.3594858 L48.0894309,57.5937138" id="Path-7-Copy-2" stroke="#2F2E2E" stroke-width="1.92"></path>
+                <path d="M66.2741382,22.9787234 L72.3584018,22.9787234" id="Path-9" stroke="#2F2E2E" stroke-width="1.92"></path>
+                <path d="M48.6585366,22.9787234 L59.8380766,22.9787234" id="Path-9-Copy" stroke="#2F2E2E" stroke-width="1.92"></path>
+                <path d="M48.1006246,34.3262411 L48.1006246,43.4042553" id="Path-9-Copy-3" stroke="#2F2E2E" stroke-width="1.92"></path>
+                <path d="M30.4471545,22.9787234 L41.8292683,22.9787234" id="Path-9-Copy-2" stroke="#2F2E2E" stroke-width="1.92"></path>
+                <path d="M48.0894309,49.6453901 L41.8034531,49.6453901" id="Line-6" stroke="#2F2E2E" stroke-width="1.92" stroke-linecap="square"></path>
+                <path d="M48.0894309,41.1347518 L72.4252704,41.1347518" id="Path-8" stroke="#2F2E2E" stroke-width="1.92"></path>
+                <path d="M31.0162602,27.5177305 L34.1592491,30.6511662" id="Line-3" stroke="#2F2E2E" stroke-width="0.64" stroke-linecap="square"></path>
+                <path d="M36.1382114,49.6453901 L30.4213393,49.6453901 M48.0894309,13.0496454 L48.0894309,29.5615008" id="Line-5" stroke="#000000" stroke-width="1.92" stroke-linecap="square"></path>
+                <path d="" id="Path-4" stroke="#979797" stroke-width="0.64"></path>
+                <ellipse id="Oval-4" fill="#00C853" opacity="0.169836957" cx="85.2469195" cy="7.81804078" rx="7.84187627" ry="7.81804078"></ellipse>
+                <ellipse id="Oval-4-Copy-8" fill="#FE0692" opacity="0.169836957" cx="5.42373285" cy="16.7547651" rx="5.42373285" ry="5.40724734"></ellipse>
+                <ellipse id="Oval-4-Copy-10" fill="#F8E71C" opacity="0.169836957" cx="63.2163046" cy="20.9474734" rx="6.30573552" ry="6.28656915"></ellipse>
+                <ellipse id="Oval-4-Copy" fill="#e53935" opacity="0.345504982" cx="47.7326283" cy="40.2116578" rx="13.0171811" ry="12.9776152"></ellipse>
+                <ellipse id="Oval-4-Copy-2" fill="#4A90E2" opacity="0.401154891" cx="75.6977261" cy="64.1201241" rx="15.3725229" ry="15.3257979"></ellipse>
+                <ellipse id="Oval-4-Copy-3" fill="#000000" opacity="0.310178895" cx="25.5252795" cy="47.5753546" rx="9.02121443" ry="8.99379433"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

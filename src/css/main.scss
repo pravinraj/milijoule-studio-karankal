@@ -22,6 +22,15 @@
 
 @import './shopify/shopify.scss';
 
+@import './category/category-page.scss';
+@import './category/about-us.scss';
+@import './category/form.scss';
+@import './category/dropdown.scss';
+@import './category/project-page.scss';
+@import './category/grid.scss';
+@import './category/app-media.scss';
+@import './category/app.scss';
+
 html {
 	overflow-y: scroll;
 }

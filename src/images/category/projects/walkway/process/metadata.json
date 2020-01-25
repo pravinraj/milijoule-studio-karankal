@@ -1,0 +1,7 @@
+{
+  "templateName": "ClubcardSetPassword",
+  "journey": "PartnerToolkitClubcardSetPassword",
+  "service": "PartnerToolkit",
+  "defaultTemplateLanguage": "en",
+  "subject": "Set your password"
+}

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="612" height="278" viewBox="0 0 612 278">
+    <g fill="none" fill-rule="evenodd">
+        <text fill="#231F20" font-family="ProximaNova-Regular, Proxima Nova" font-size="18" transform="translate(333 -17)">
+            <tspan x="35.813" y="88">Space</tspan> <tspan x="26.381" y="110">Planning </tspan>
+        </text>
+        <g stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+            <path stroke="#020303" d="M380 33.904h25.904V8H380zM405 3h6.087v6.198"/>
+            <path stroke="#CB2027" d="M411.199 33v6.087H405M381.086 3H375v6.198"/>
+            <path stroke="#020303" d="M375 33v6.087h6.199"/>
+        </g>
+        <path d="M333-17h121v121H333z"/>
+        <text fill="#231F20" font-family="ProximaNova-Regular, Proxima Nova" font-size="18" transform="translate(-33 -17)">
+            <tspan x="33.064" y="88">Interior</tspan> <tspan x="33.298" y="110">Design</tspan>
+        </text>
+        <g stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+            <path stroke="#231F20" d="M44.169 17.131V39.72H11.554V17"/>
+            <path stroke="#CB2027" d="M9.554 18.301L28.076 3 47 18.301"/>
+        </g>
+        <path d="M-33-17H88v121H-33z"/>
+        <g>
+            <text fill="#231F20" font-family="ProximaNova-Regular, Proxima Nova" font-size="18" transform="translate(150 -17)">
+                <tspan x="12" y="88">Architecture</tspan>
+            </text>
+            <g stroke-linecap="round" stroke-width="1.5">
+                <path stroke="#231F20" d="M195 39.364L209.485 13l15.499 27.089"/>
+                <path stroke="#CB2027" stroke-linejoin="round" d="M195 26h30.855M210 5.168V1"/>
+                <path stroke="#231F20" d="M210 29.388V22M212.809 9.404A3.404 3.404 0 1 1 206 9.401a3.404 3.404 0 0 1 6.809.003z"/>
+            </g>
+            <path d="M150-17h121v121H150z"/>
+        </g>
+        <g>
+            <text fill="#231F20" font-family="ProximaNova-Regular, Proxima Nova" font-size="18" transform="translate(516 -17)">
+                <tspan x="25.495" y="88">Furniture</tspan> <tspan x="33.298" y="110">Design </tspan>
+            </text>
+            <g stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                <path stroke="#231F20" d="M554 8h44.349"/>
+                <path stroke="#CB2027" d="M594.014 14H558"/>
+                <path stroke="#231F20" d="M594 8v25.097M558 8v25.097"/>
+            </g>
+            <path d="M516-17h121v121H516z"/>
+        </g>
+        <g>
+            <text fill="#231F20" font-family="ProximaNova-Regular, Proxima Nova" font-size="18" transform="translate(-1 183)">
+                <tspan x="3.07" y="69">Digital </tspan> <tspan x=".298" y="91">Design </tspan>
+            </text>
+            <path fill="#020303" d="M31.242 190.523l-2.096 8.279.335 1.338 1.127-.827 2.238-8.367-1.604-.423zm.458-1.832l-.176.723 1.62.439.14-.546c.007-.017.014-.035.019-.052a.839.839 0 0 0-.793-1.129.836.836 0 0 0-.792.565H31.7zm-3.435 13.37l.283-1.004-.53-2.114a.536.536 0 0 1 0-.281l2.609-10.306c.004-.012.01-.024.015-.035A1.984 1.984 0 0 1 32.51 187a1.98 1.98 0 0 1 1.974 1.972c0 .228-.052.43-.124.635h.019l-.02.034-.14.511.95.265c.539.147.815.701.688 1.216l-1.11 4.509a.563.563 0 1 1-1.094-.264l1.095-4.404-.811-.229-2.29 8.544a.561.561 0 0 1-.211.317l-1.815 1.322-.281.934a.563.563 0 1 1-1.075-.301z"/>
+            <path fill="#020303" d="M8.127 185.818c0-.945.745-1.691 1.691-1.691h33.825c.946 0 1.69.746 1.69 1.691v19.167c0 .947-.744 1.691-1.69 1.691H9.818a1.675 1.675 0 0 1-1.691-1.691v-19.167zm1.691 21.985H22.38l-3.845 6.711c.441-.01.881-.019 1.321-.03l3.809-6.681h6.131l3.698 6.484c.361.005.721-.007 1.082.005.051-.016.119-.034.192-.053l-3.687-6.436h12.562a2.824 2.824 0 0 0 2.818-2.818v-19.167A2.825 2.825 0 0 0 43.643 183H9.818A2.825 2.825 0 0 0 7 185.818v19.167a2.824 2.824 0 0 0 2.818 2.818z"/>
+            <path stroke="#CB2027" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 204c2.071-2.276 4.873-1.273 7.159-.152 2.205 1.08 4.946.589 6.091-1.848M13 214h26.625"/>
+        </g>
+        <g>
+            <text fill="#231F20" font-family="ProximaNova-Regular, Proxima Nova" font-size="18" transform="translate(353 179)">
+                <tspan x="4.842" y="73">Branding </tspan>
+            </text>
+            <g stroke-linejoin="round" stroke-width="1.5">
+                <path stroke="#231F20" d="M405.482 190.484a2.041 2.041 0 1 0-2.885-2.886 2.041 2.041 0 0 0 2.885 2.886z"/>
+                <path stroke="#231F20" stroke-linecap="round" d="M398.04 179l14.264 1.441 1.442 14.264-24.04 24.039L374 203.039z"/>
+                <path stroke="#CB2027" stroke-linecap="round" d="M394.975 206.976L386 198M390.975 210.974L382 202"/>
+            </g>
+        </g>
+        <g>
+            <text fill="#231F20" font-family="ProximaNova-Regular, Proxima Nova" font-size="18" transform="translate(516 163)">
+                <tspan x="39.292" y="89">Retail</tspan> <tspan x="33.298" y="111">Design </tspan>
+            </text>
+            <g stroke-width="1.5">
+                <path stroke="#020303" d="M566.064 189.886h31.45c1.032 0 1.871.837 1.871 1.87 0 .06-.004.117-.008.176l-1.52 16.22a1.873 1.873 0 0 1-1.864 1.698h-28.408a1.874 1.874 0 0 1-1.865-1.697l-1.52-16.221a1.871 1.871 0 0 1 1.864-2.046z"/>
+                <path stroke="#020303" stroke-linecap="round" stroke-linejoin="round" d="M554.356 183.056h7.927c.48 0 .883.364.93.84l1.726 16.692"/>
+                <path stroke="#CB2027" stroke-linecap="round" stroke-linejoin="round" d="M577.432 199.805l3.01 3.127 6.66-5.616"/>
+                <path stroke="#CB2027" d="M576.33 216.317a3.625 3.625 0 1 1-7.251 0 3.625 3.625 0 0 1 7.25 0zM593.692 216.317a3.625 3.625 0 1 1-7.25 0 3.625 3.625 0 0 1 7.25 0z"/>
+            </g>
+            <path d="M516 163h121v121H516z"/>
+        </g>
+        <g>
+            <text fill="#231F20" font-family="ProximaNova-Regular, Proxima Nova" font-size="18" transform="translate(168 183)">
+                <tspan x="0" y="68">Packaging</tspan>
+            </text>
+            <g stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                <path stroke="#CB2027" d="M191 184l6.569 8.118M220 191.118l6.569-8.118"/>
+                <path stroke="#020303" d="M197 216h24v-24h-24z"/>
+            </g>
+        </g>
+    </g>
+</svg>

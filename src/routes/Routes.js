@@ -1,9 +1,10 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Switch, Route } from "react-router-dom";
 import Client from 'shopify-buy';
 
 import Shopify from '../container/Shopify';
-import Projects from '../container/Projects';
+import Project from '../container/Project';
+import Category from '../container/Category';
 import ContactUs from '../container/ContactUs';
 import Home from '../container/Home';
 import Blog from '../container/Blog';
@@ -17,6 +18,14 @@ function Routes() {
         storefrontAccessToken: '8890a11a532e31ca9253b90d1660c430'
     });
     let screenWidth = window.screen.width;
+    const [showTypePopup, setShowTypePopup] = useState(false);
+    const [selectedPopupTypes, setSelectedPopupTypes] = useState(['all']);
+    const [activeFilter, setActiveFilter] = useState(false);
+
+    const setForCategory = (d) => {
+        setSelectedPopupTypes(d);
+        setActiveFilter(!d.includes('all'))
+    }
 	return(
 		<Switch>
 			<Route exact path='/' component={Home} history={history} />
@@ -34,7 +43,35 @@ function Routes() {
                 />
             	)}
             />
-			<Route exact path='/projects' component={Projects} history={history} />
+			<Route 
+                exact 
+                path='/category/:category' 
+                history={history} 
+                render={({match, history}) => (
+                    <Category
+                        match={match}
+                        history={history}
+                        showTypePopup={showTypePopup}
+                        handleSelectedType={d =>
+                          screenWidth < 600 &&
+                          setForCategory,
+                            () => window.scrollTo(0, 0)
+                        }
+                        selectedPopupTypes={screenWidth < 600 && selectedPopupTypes}
+                        closePopup={d =>
+                          screenWidth < 600 && setShowTypePopup(false)
+                        }
+                    />
+                    )
+                }
+            />
+            <Route 
+                exact
+                path={'/category/:category/:projectName'}
+                render={({ match, history }) => (
+                  <Project match={match} history={history} />
+                )}
+            />
 			<Route exact path='/blog' component={Blog} history={history} />
 			<Route exact path='/contactus' component={ContactUs} history={history} />
 		</Switch>

@@ -1,0 +1,371 @@
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+.loadersmall {
+  border: 5px solid #f3f3f3;
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+  border-top: 5px solid #555;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+/*contact dropdown starts*/
+.dropbtn {
+  color: #343232;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  background-color: #f9f9f9;
+  font-family: ProximaNova;
+  font-size: 17px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0b0b0b;
+  min-width: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  position: absolute;
+  z-index: 100;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*contact dropdown ends */
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* --------------------------------
+Modules - reusable parts of our design
+-------------------------------- */
+.img-replace {
+  /* replace text with an image */
+  display: inline-block;
+  overflow: hidden;
+  text-indent: 100%;
+  color: transparent;
+  white-space: nowrap;
+}
+
+/* --------------------------------
+Main components
+-------------------------------- */
+.popup-trigger {
+  display: block;
+  width: 170px;
+  height: 50px;
+  line-height: 50px;
+  margin: 3em auto;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 50em;
+  background: #35a785;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.07);
+}
+@media only screen and (min-width: 1170px) {
+  .popup-trigger {
+    margin: 6em auto;
+  }
+}
+
+/* --------------------------------
+xpopup
+-------------------------------- */
+.popup {
+  position: fixed;
+  pointer-events: none;
+  /* opacity: 0; */
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  outline: none;
+  visibility: hidden;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+  z-index: 4000;
+}
+
+.About-us-container .popup {
+  top: 99px;
+}
+
+.popup.is-visible {
+  /* opacity: 1; */
+  visibility: visible;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.popup-container {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  margin: 0 auto;
+  pointer-events: auto;
+  background: #fff;
+  border-radius: 0.25em 0.25em 0.4em 0.4em;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translateY(-40px);
+  -moz-transform: translateY(-40px);
+  -ms-transform: translateY(-40px);
+  -o-transform: translateY(-40px);
+  transform: translateY(-40px);
+  /* Force Hardware Acceleration in WebKit */
+  -webkit-backface-visibility: hidden;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.popup-container .email-response-message {
+  font-size: 30px;
+}
+
+.popup-container .email-response-message > div:last-child {
+  font-size: 20px;
+  padding: 20px 0px 10px;
+}
+
+.popup-container .email-response-message img {
+  width: 50px;
+  height: auto;
+}
+
+.popup-container p {
+  padding: 3em 1em;
+}
+.popup-container .buttons:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.popup-container .buttons li {
+  float: left;
+}
+
+.popup-container .buttons a {
+  display: block;
+  padding: 10px;
+  text-transform: uppercase;
+  color: red;
+  cursor: pointer;
+  -webkit-transition: background-color 0.2s;
+  -moz-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+
+.popup-container .buttons.projectTypeList {
+  width: 100%;
+}
+
+.popup-container .buttons.projectTypeList a {
+  padding-bottom: 0px;
+}
+
+.popup-container .buttons li {
+  text-align: left;
+  font-size: 17px;
+  line-height: 1.29;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 10px;
+}
+
+.popup-container .buttons.projectTypeList li {
+  margin-bottom: 0px;
+}
+
+.popup-container .popup-close {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+.popup-container .popup-close::before,
+.popup-container .popup-close::after {
+  content: '';
+  position: absolute;
+  top: 12px;
+  width: 14px;
+  height: 3px;
+  background-color: #8f9cb5;
+}
+.popup-container .popup-close::before {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  left: 8px;
+}
+.popup-container .popup-close::after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  right: 8px;
+}
+.is-visible .popup-container {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.Select {
+  text-align: left;
+  font-size: 17px;
+}
+
+.Select-control {
+  text-align: left;
+  border-radius: 2px;
+  border: none;
+  color: rgba(33, 33, 33, 1);
+}
+
+.Select-placeholder,
+.Select--single > .Select-control .Select-value {
+  color: rgba(33, 33, 33, 1);
+  padding-left: 25px;
+  padding-right: 20px;
+  font-weight: 300;
+}
+
+.Select-control > *:last-child {
+  padding-right: 10px;
+}
+
+.Select-option {
+  padding: 8px 20px 8px 25px;
+  color: rgba(33, 33, 33, 1);
+  font-weight: 300;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.14);
+}
+
+.Select-option.is-focused {
+  background-color: #fafafa;
+  font-weight: 400;
+}
+
+.eyCtv2 {
+  position: absolute;
+  display: inline-block;
+  bottom: 10px;
+  left: 0;
+  padding-right: 5px;
+  border-right: 1px solid #c2c2c2;
+  bottom: 9px;
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (min-width: 600px) {
+  .Select {
+    position: relative;
+    line-height: 42px;
+  }
+
+  .Select-control {
+    height: 42px;
+  }
+
+  .Select-placeholder,
+  .Select--single > .Select-control .Select-value {
+    line-height: 42px;
+  }
+
+  .Select-input {
+    height: 38px;
+  }
+
+  .Select-menu-outer {
+    max-height: 240px;
+  }
+  .Select-menu {
+    max-height: 238px;
+  }
+}
+
+@media only screen and (min-width: 1170px) {
+  .popup-container {
+    margin: 8em auto;
+  }
+}
