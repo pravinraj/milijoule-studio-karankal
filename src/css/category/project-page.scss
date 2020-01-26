@@ -69,13 +69,31 @@
 
 .Project-page-title div,
 .Project-page-title a {
-  margin: 0px 4px 0px 2px;
+  margin: 0px 15px 0px 2px;
   padding: 6px 3px;
   cursor: pointer;
   color: rgba(33, 33, 33, 0.45);
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px) {
+  .Project-page-title div, .Project-page-title a {
+    margin-right: 4px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .Project-page-title div, .Project-page-title a {
+    margin-right: 4px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .Project-page-title div, .Project-page-title a {
+    margin-right: 15px;
+  }
 }
 
 .hovered-title:hover {
@@ -140,6 +158,7 @@
   padding-top: 30px;
   padding-bottom: 10px;
   padding-left: 25px;
+  font-family: Proxima Nova Rg;
   &::after {
     content: '';
     clear: both;
