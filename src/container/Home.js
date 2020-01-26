@@ -13,10 +13,13 @@ import ServiceOffered from '../components/home/ServiceOffered';
 import DesignProcess from '../components/home/DesignProcess';
 import Testimonals from '../components/home/Testimonals';
 import Feature from '../components/home/Feature';
-import ContactUs from '../components/home/ContactUs';
+// import ContactUs from '../components/home/ContactUs';
+import ContactUs  from '../components/category/contactus/ContactUs';
+import contactOptions  from '../components/category/contactus/ContactOptions';
 
 function Home() {
 	const width = window.innerWidth;
+	let screenWidth = window.screen.availWidth;
 	return (
 		<Row>
 			<Col className='home-contents-overview'>
@@ -35,7 +38,10 @@ function Home() {
 						</Col>
 					<Col md={1} sm ={0} className='home-content-margin'></Col>
 				</Row>
-				<ContactUs/>
+				<div>
+					<ContactUs screenWidth={screenWidth} options={contactOptions} />
+				</div>
+				{/*<ContactUs/>*/}
 			</Col>
 		</Row>
 	);

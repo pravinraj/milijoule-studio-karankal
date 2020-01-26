@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import { Switch, Route } from "react-router-dom";
 import Client from 'shopify-buy';
 
+import AboutUs from '../container/AboutUs';
 import Shopify from '../container/Shopify';
 import Project from '../container/Project';
 import Category from '../container/Category';
@@ -29,6 +30,12 @@ function Routes() {
 	return(
 		<Switch>
 			<Route exact path='/' component={Home} history={history} />
+            <Route
+                path={'/about-studio/:type'}
+                render={({ match, history }) => (
+                  <AboutUs selectedState={match.params.type} />
+                )}
+            />
 			/*<Route exact path='/shopify' 
 				render={() => (
                 <Shopify
