@@ -213,7 +213,7 @@ class ProjectPage extends React.Component {
             )}
           <div
             className={
-              'row client-info ' +
+              'client-info ' +
               (imageTypes && imageTypes.length > 0 ? 'borderBottom' : '')
             }
             style={{ fontSize: '17px', lineHeight: '1.29' }}

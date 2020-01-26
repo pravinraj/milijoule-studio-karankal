@@ -5,6 +5,12 @@
     padding: 20px;
 }
 
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .col-s-d-1 {

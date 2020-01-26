@@ -25,7 +25,7 @@ function NavigationBar(argument) {
 					<Navbar.Brand href="#" bsPrefix='navbar brand-image'><img src={brandImage} alt='brandImage'/></Navbar.Brand>
 				  	<Navbar id="responsive-navbar-nav" bsPrefix={width > 768 ? 'navbar studio-navbar':''}>
 				  		<Nav className="mx-auto" >
-					      	<Nav.Link bsPrefix='nav-link route-type'><NavLink exact activeClassName='activeNav' to='/shopify'>Shop</NavLink></Nav.Link>
+					      	<Nav.Link href='https://karankal.store/' target='_blank' bsPrefix='nav-link route-type'><a>Shop</a></Nav.Link>
 					      	<Nav.Link bsPrefix='nav-link route-type'><NavLink exact activeClassName='activeNav' to='/category/all'>Projects</NavLink></Nav.Link>
 					      	<Nav.Link bsPrefix='nav-link route-type'><NavLink exact activeClassName='activeNav' to='/blog'>Blog</NavLink></Nav.Link>
 					      	<NavDropdown className='contact-us-dropdown custom-carets' title="Contact Us" id="collasible-nav-dropdown">

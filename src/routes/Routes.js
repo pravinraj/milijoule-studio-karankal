@@ -29,7 +29,7 @@ function Routes() {
 	return(
 		<Switch>
 			<Route exact path='/' component={Home} history={history} />
-			<Route exact path='/shopify' 
+			/*<Route exact path='/shopify' 
 				render={() => (
                 <Shopify
                     style={{
@@ -42,7 +42,7 @@ function Routes() {
                     client={client}
                 />
             	)}
-            />
+            />*/
 			<Route 
                 exact 
                 path='/category/:category' 

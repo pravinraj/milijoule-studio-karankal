@@ -5,7 +5,7 @@
 }
 
 .Project-page {
-  padding-top: 130px;
+  padding-top: 40px;
   text-align: left;
   margin: auto;
 }
@@ -13,16 +13,31 @@
 .Project-header {
   font-weight: 600;
   text-align: center;
-  position: fixed;
+  position: sticky;
   top: 60px;
-  width: inherit;
   color: #212121;
   font-size: 16px;
   line-height: 20px;
-  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
   background-color: #fff;
   text-transform: uppercase;
   z-index: 1;
+  img {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Project-header {
+    top: 47px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .Project-header {
+    top: 47px;
+  }
 }
 
 .Project-header > :first-child {
@@ -54,7 +69,7 @@
 
 .Project-page-title div,
 .Project-page-title a {
-  margin: 0px 15px 0px 2px;
+  margin: 0px 4px 0px 2px;
   padding: 6px 3px;
   cursor: pointer;
   color: rgba(33, 33, 33, 0.45);
@@ -124,6 +139,12 @@
   border-top: 0.5px solid rgba(0, 0, 0, 0.14);
   padding-top: 30px;
   padding-bottom: 10px;
+  padding-left: 25px;
+  &::after {
+    content: '';
+    clear: both;
+    display: block;
+  }
 }
 
 .border-bottom {
@@ -199,7 +220,7 @@
 
   .Project-header .arrow {
     height: 18px;
-    padding: 6px 20px;
+    padding: 2px 20px;
   }
 
   .Project-header > :first-child {
