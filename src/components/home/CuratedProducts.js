@@ -22,12 +22,14 @@ function CuratedProducts() {
 			<Row className='curated-products-list'>
 				<Col xl={4} lg={4} md={4} sm={12} xs={12}>
 					<Figure bsPrefix='figure curated-figure'>
-						<Figure.Image
-							width={348}
-						    height={347}
-						    alt='Furniture'
-						    src={furniture}
-						/>
+						<a href='https://karankal.store/collections/furniture' target='_blank'>
+							<Figure.Image
+								width={348}
+							    height={347}
+							    alt='Furniture'
+							    src={furniture}
+							/>
+						</a>
 					  	<Figure.Caption bsPrefix='figure-caption curated-image-caption'>
 					    	FURNITURE
 					  	</Figure.Caption>
@@ -35,12 +37,14 @@ function CuratedProducts() {
 				</Col>
 				<Col xl={4} lg={4} md={4} sm={12} xs={12}>
 					<Figure bsPrefix='figure curated-figure'>
-						<Figure.Image
-							width={348}
-						    height={347}
-						    alt='Accessories'
-						    src={accessories}
-						/>
+						<a href='https://karankal.store/collections/accessories' target='_blank'>
+							<Figure.Image
+								width={348}
+							    height={347}
+							    alt='Accessories'
+							    src={accessories}
+							/>
+						</a>
 					  	<Figure.Caption bsPrefix='figure-caption curated-image-caption'>
 					    	ACCESSORIES
 					  	</Figure.Caption>
@@ -48,12 +52,14 @@ function CuratedProducts() {
 				</Col>
 				<Col xl={4} lg={4} md={4} sm={12} xs={12}>
 					<Figure bsPrefix='figure curated-figure'>
-						<Figure.Image
-							width={348}
-						    height={347}
-						    alt='Art-work'
-						    src={artWork}
-						/>
+						<a href='https://karankal.store/collections/artwork' target='_blank'>
+							<Figure.Image
+								width={348}
+							    height={347}
+							    alt='Art-work'
+							    src={artWork}
+							/>
+						</a>
 					  	<Figure.Caption bsPrefix='figure-caption curated-image-caption'>
 					    	ARTWORK
 					  	</Figure.Caption>
@@ -61,7 +67,7 @@ function CuratedProducts() {
 				</Col>
 			</Row>
 			<Row className='know-more-wrapper'>
-				<Col><span>KNOW MORE</span><img src={arrowIcon} alt='Arrow-icon' /></Col>
+				<Col><a href='https://karankal.store/collections/all' target='_blank'><span>KNOW MORE</span><img src={arrowIcon} alt='Arrow-icon' /></a></Col>
 			</Row>
 		</div>
 	);

@@ -13,6 +13,44 @@
 			}
 		}
 	}
+
+	.about, .contact {
+		align-self: flex-end;
+	}
+
+	.about .route-type, .contact > .route-type {
+		font-family: Proxima Nova Rg;
+	    font-size: 12px;
+	    font-weight: 600;
+	    font-stretch: normal;
+	    font-style: normal;
+	    line-height: normal;
+	    letter-spacing: normal;
+	    color: #000000;
+	 	a {
+		    color: #000000;
+	 	}
+
+	 	.activeNav {
+	 		color: red;
+	 	}
+	}
+
+	.contact .contact-us-dropdown {
+		.nav-link {
+			font-family: Proxima Nova Rg;
+		    font-size: 10px;
+		    font-weight: 600;
+		    font-stretch: normal;
+		    font-style: normal;
+		    line-height: normal;
+		    letter-spacing: normal;
+		    color: #000000;
+		    &::after {
+		    	display: none;
+		    }
+		}
+	}
 }
 
 @media only screen and (min-width: 600px) {

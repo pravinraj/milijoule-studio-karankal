@@ -6,6 +6,7 @@ import {
 	Navbar,
 	Nav
 } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 
 import brandImage from '../images/home/header/karankal-com.png';
 import nounProfile from '../images/home/header/noun-profile.png';
@@ -18,6 +19,12 @@ function NavigationBarHeader() {
 				<Row>
 				<Col xs={6} className='my-auto'>
 					<Navbar.Brand href="#" bsPrefix='navbar brand-image'><img src={brandImage} alt='brandImage'/></Navbar.Brand>
+				</Col>
+				<Col xs={2} className='about'>
+					<Nav.Link bsPrefix='nav-link route-type'><NavLink exact activeClassName='activeNav' to='/about-studio/team'>ABOUT</NavLink></Nav.Link>
+				</Col>
+				<Col xs={3} className='contact'>
+					<Nav.Link href='tel:+917829475707' bsPrefix='nav-link route-type'>CONTACT</Nav.Link>
 				</Col>
 				{/*<Col className='image-links-list'>
 					<Navbar id="responsive-navbar-nav">

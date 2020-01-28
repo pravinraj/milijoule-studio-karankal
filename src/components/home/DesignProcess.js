@@ -25,7 +25,7 @@ function DesignProcess() {
 			</Row>
 			{(width >= 768) && <div className='design-img'><img src={design} alt='Design data' /></div>}
 			<Row className='design-process-img-details'>
-				<Col md={3} xs={6} className='design-process-img-desc'>
+				<Col md={3} xs={6} className='design-process-img-desc' style={{paddingLeft: (width >=768) && '2em'}}>
 					{(width < 768) && <Image src={discovery} />}
 					<p>DISCOVERY & STRATEGY</p>
 					<p>Visioning & Strategy Planning & Scheduling Understanding the space Client Interview Gather Brand Assets</p>

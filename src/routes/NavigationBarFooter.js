@@ -39,7 +39,9 @@ function NavigationBarFooter() {
 					<Col xs={3} className='footer-images-container my-auto'>
 						<Nav.Link href="#" bsPrefix='nav-link nav-images'>
 							<NavLink exact activeClassName='activeNav' to='/'>
-								<Figure>
+								<div className='home'></div>
+								<div className='desc'>Home</div>
+								{/*<Figure>
 								  <Figure.Image
 								    width={15}
 								    height={17}
@@ -49,14 +51,14 @@ function NavigationBarFooter() {
 								  <Figure.Caption bsPrefix='figure-caption  footer-caption'>
 								    Home
 								  </Figure.Caption>
-								</Figure>
+								</Figure>*/}
 							</NavLink>
 						</Nav.Link>
 					</Col>
 					<Col xs={3} className='footer-images-container my-auto'>
 						<Nav.Link href="#" bsPrefix='nav-link nav-images'>
 							<NavLink exact activeClassName='activeNav' to='/shopify'>
-							<Figure>
+							{/*<Figure>
 							  <Figure.Image
 							    width={40}
 							    height={30}
@@ -66,14 +68,18 @@ function NavigationBarFooter() {
 							  <Figure.Caption bsPrefix='figure-caption  footer-caption'>
 							    Shop
 							  </Figure.Caption>
-							</Figure>
+							</Figure>*/}
+							<div className='shop'></div>
+							<div className='desc shop-desc'>Shop</div>
 							</NavLink>
 						</Nav.Link>
 					</Col>
 					<Col xs={3} className='footer-images-container my-auto'>
 						<Nav.Link href="#" bsPrefix='nav-link nav-images'>
 							<NavLink exact activeClassName='activeNav' to='/category/all'>
-								<Figure>
+								<div className='projects'></div>
+								<div className='desc'>Projects</div>
+								{/*<Figure>
 								  <Figure.Image
 								    width={15}
 								    height={17}
@@ -83,14 +89,14 @@ function NavigationBarFooter() {
 								  <Figure.Caption bsPrefix='figure-caption  footer-caption'>
 								    Projects
 								  </Figure.Caption>
-								</Figure>
+								</Figure>*/}
 							</NavLink>
 						</Nav.Link>
 					</Col>
 					<Col xs={3} className='footer-images-container my-auto'>
 						<Nav.Link href="#" bsPrefix='nav-link nav-images'>
 							<NavLink exact activeClassName='activeNav' to='/blog'>
-							<Figure>
+							{/*<Figure>
 							  <Figure.Image
 							    width={12}
 							    height={13}
@@ -100,7 +106,9 @@ function NavigationBarFooter() {
 							  <Figure.Caption bsPrefix='figure-caption  footer-caption'>
 							    Blog
 							  </Figure.Caption>
-							</Figure>
+							</Figure>*/}
+								<div className='blog'></div>
+								<div className='desc'>Blog</div>
 							</NavLink>
 						</Nav.Link>
 					</Col>
