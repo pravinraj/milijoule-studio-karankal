@@ -69,7 +69,7 @@ function WorkArea() {
 					    	{(width >= 768) ? (
 					    		<>
 					    			<p>CAFE AND RESTAURANT</p>
-					   				<p>Visitors at your cafe and restaurant are not just there to satisfy their taste buds! They need to know the story behind your brand, and have a memorable experience. Does your brand have a legendary tale that’s waiting to be told?</p>
+					   				<p>Visitors at your cafe and restaurant need to know the legendary tale behind your brand. Do you have one that needs to be told?</p>
 					   			</>
 					   		) : (
 						   			<>
@@ -77,7 +77,7 @@ function WorkArea() {
 							   				<span className='work-area-caption-mobile-heading'>CAFE AND RESTAURANT</span>
 							   				<span className={isExpandCafe ? 'work-area-up-arrow' : 'work-area-down-arrow'} onClick={()=> {setExpandCafe(!isExpandCafe); setExpandCorporate(false); setExpandRetail(false)}}></span>
 							   			</p>
-							   			{isExpandCafe && (<p className='work-area-caption-mobile-desc'>Visitors at your cafe and restaurant are not just there to satisfy their taste buds! They need to know the story behind your brand, and have a memorable experience. Does your brand have a legendary tale that’s waiting to be told?</p>)}
+							   			{isExpandCafe && (<p className='work-area-caption-mobile-desc'>Visitors at your cafe and restaurant need to know the legendary tale behind your brand. Do you have one that needs to be told?</p>)}
 						   			</>
 					   			)}
 					  	</Figure.Caption>
@@ -96,7 +96,7 @@ function WorkArea() {
 					  		(width>=768) ? (
 					  			<>
 					  				<p>CORPORATE</p>
-					    			<p>A lively workspace enhances energy levels and influences productivity. A fresh ambience with ergonomic seating, inspires the team and customers alike. Welcome the breeze of innovation and aesthetics into your work environment and experience the magic as we design your creative workspace.</p>
+					    			<p>A lively workspace with ergonomic seating enhances energy levels, preps up productivity, and positively influences clients.</p>
 					  			</>
 					  		) : (
 					  			<>
@@ -104,7 +104,7 @@ function WorkArea() {
 						   				<span className='work-area-caption-mobile-heading'>CORPORATE</span>
 						   				<span className={isExpandCorporate ? 'work-area-up-arrow' : 'work-area-down-arrow'} onClick={()=> {setExpandCafe(false); setExpandCorporate(!isExpandCorporate); setExpandRetail(false)}}></span>
 						   			</p>
-						   			{isExpandCorporate && (<p className='work-area-caption-mobile-desc'>A lively workspace enhances energy levels and influences productivity. A fresh ambience with ergonomic seating, inspires the team and customers alike. Welcome the breeze of innovation and aesthetics into your work environment and experience the magic as we design your creative workspace.</p>)}
+						   			{isExpandCorporate && (<p className='work-area-caption-mobile-desc'>A lively workspace with ergonomic seating enhances energy levels, preps up productivity, and positively influences clients.</p>)}
 					   			</>
 					  		)
 					  	}
@@ -125,14 +125,14 @@ function WorkArea() {
 					  			(width >= 768) ?
 						  			(<>
 							    		<p>RETAIL</p>
-							    		<p>People love to go for shopping, as it makes them feel great, and look confident. The ambience you create in your retail space makes them stay longer and spend more. Customers love basking in the glow of soft lighting, a cosy atmosphere and top-notch products. Is your store ready to handle the rush?</p>
+							    		<p>A spellbinding ambience at your retail space makes customers stay longer and spend more. Is your store ready to handle the crowd?</p>
 							    	</>) : (
 							    	<>
 							   			<p>
 							   				<span className='work-area-caption-mobile-heading'>RETAIL</span>
 							   				<span className={isExpandRetail ? 'work-area-up-arrow' : 'work-area-down-arrow'} onClick={() => {setExpandCafe(false); setExpandCorporate(false); setExpandRetail(!isExpandRetail)}}></span>
 							   			</p>
-							   			{isExpandRetail && (<p className='work-area-caption-mobile-desc'>People love to go for shopping, as it makes them feel great, and look confident. The ambience you create in your retail space makes them stay longer and spend more. Customers love basking in the glow of soft lighting, a cosy atmosphere and top-notch products. Is your store ready to handle the rush?</p>)}
+							   			{isExpandRetail && (<p className='work-area-caption-mobile-desc'>A spellbinding ambience at your retail space makes customers stay longer and spend more. Is your store ready to handle the crowd?</p>)}
 					   				</>
 
 							    	)
@@ -142,7 +142,7 @@ function WorkArea() {
 				</Col>
 			</Row>
 			<Row className='know-more-wrapper'>
-				<Col><span>KNOW MORE</span><img src={arrowIcon} alt='Arrow-icon' /></Col>
+				<Col><span>ALL PROJECTS</span><img src={arrowIcon} alt='Arrow-icon' /></Col>
 			</Row>
 		</div>
 	);

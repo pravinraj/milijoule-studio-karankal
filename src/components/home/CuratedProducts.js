@@ -67,7 +67,7 @@ function CuratedProducts() {
 				</Col>
 			</Row>
 			<Row className='know-more-wrapper'>
-				<Col><a href='https://karankal.store/collections/all' target='_blank'><span>KNOW MORE</span><img src={arrowIcon} alt='Arrow-icon' /></a></Col>
+				<Col><a href='https://karankal.store/collections/all' target='_blank'><span>BUY PRODUCTS</span><img src={arrowIcon} alt='Arrow-icon' /></a></Col>
 			</Row>
 		</div>
 	);

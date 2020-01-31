@@ -33,7 +33,7 @@ function StudioSlideshow() {
 			captionHead:'Custom Furniture Makers', 
 			captionContent: [
 				'When you have a unique taste, custom designed furniture is what you need to enrich your interiors and wow your clients.',
-				'FURNITURE DESIGN'
+				'BUY PRODUCTS'
 			]
 		},
 		{

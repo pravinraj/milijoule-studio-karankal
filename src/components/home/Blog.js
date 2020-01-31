@@ -76,7 +76,7 @@ function Blog() {
 				</Col>
 			</Row>
 			<Row className='know-more-wrapper'>
-				<Col><a href='https://studiokarankal.wordpress.com/' target='_blank'><span>KNOW MORE</span><img src={arrowIcon} alt='Arrow-icon' /></a></Col>
+				<Col><a href='https://studiokarankal.wordpress.com/' target='_blank'><span>VIEW BLOGS</span><img src={arrowIcon} alt='Arrow-icon' /></a></Col>
 			</Row>
 		</div>
 	);
