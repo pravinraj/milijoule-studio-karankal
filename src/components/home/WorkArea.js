@@ -59,12 +59,14 @@ function WorkArea() {
 			<Row className='work-area-list'>
 				<Col sm={12} xl={4} lg={4} md={4}>
 					<Figure bsPrefix='figure work-area-image'>
-						<Figure.Image
-							width={(width >= 768) ? 356 : 301}
-						    height={(width >= 768) ? 356 : 290}
-						    alt='Cafe'
-						    src={cafe}
-						/>
+						<div>
+							<Figure.Image
+								width={(width >= 768) ? 356 : 301}
+							    height={(width >= 768) ? 356 : 290}
+							    alt='Cafe'
+							    src={cafe}
+							/>
+						</div>
 					  	<Figure.Caption bsPrefix='figure-caption work-area-image-caption'>
 					    	{(width >= 768) ? (
 					    		<>
@@ -85,12 +87,14 @@ function WorkArea() {
 				</Col>
 				<Col sm={12} xl={4} lg={4} md={4}>
 					<Figure bsPrefix='figure work-area-image'>
-						<Figure.Image
-							width={(width >= 768) ? 356 : 301}
-						    height={(width >= 768) ? 356 : 290}
-						    alt='Corporate'
-						    src={corporate}
-						/>
+						<div>
+							<Figure.Image
+								width={(width >= 768) ? 356 : 301}
+							    height={(width >= 768) ? 356 : 290}
+							    alt='Corporate'
+							    src={corporate}
+							/>
+						</div>
 					  	<Figure.Caption bsPrefix='figure-caption work-area-image-caption'>
 					  	{
 					  		(width>=768) ? (
@@ -114,12 +118,14 @@ function WorkArea() {
 				</Col>
 				<Col sm={12} xl={4} lg={4} md={4}>
 					<Figure bsPrefix='figure work-area-image'>
-						<Figure.Image
-							width={(width >= 768) ? 356 : 301}
-						    height={(width >= 768) ? 356 : 290}
-						    alt='Retail'
-						    src={retail}
-						/>
+						<div>
+							<Figure.Image
+								width={(width >= 768) ? 356 : 301}
+							    height={(width >= 768) ? 356 : 290}
+							    alt='Retail'
+							    src={retail}
+							/>
+						</div>
 					  	<Figure.Caption bsPrefix='figure-caption work-area-image-caption'>
 					  		{
 					  			(width >= 768) ?

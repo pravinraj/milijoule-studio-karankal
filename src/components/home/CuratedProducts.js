@@ -23,12 +23,14 @@ function CuratedProducts() {
 				<Col xl={4} lg={4} md={4} sm={12} xs={12}>
 					<Figure bsPrefix='figure curated-figure'>
 						<a href='https://karankal.store/collections/furniture' target='_blank'>
-							<Figure.Image
-								width={348}
-							    height={347}
-							    alt='Furniture'
-							    src={furniture}
-							/>
+							<div>
+								<Figure.Image
+									width={348}
+								    height={347}
+								    alt='Furniture'
+								    src={furniture}
+								/>
+							</div>
 						</a>
 					  	<Figure.Caption bsPrefix='figure-caption curated-image-caption'>
 					    	FURNITURE
@@ -38,12 +40,14 @@ function CuratedProducts() {
 				<Col xl={4} lg={4} md={4} sm={12} xs={12}>
 					<Figure bsPrefix='figure curated-figure'>
 						<a href='https://karankal.store/collections/accessories' target='_blank'>
-							<Figure.Image
-								width={348}
-							    height={347}
-							    alt='Accessories'
-							    src={accessories}
-							/>
+							<div>
+								<Figure.Image
+									width={348}
+								    height={347}
+								    alt='Accessories'
+								    src={accessories}
+								/>
+							</div>
 						</a>
 					  	<Figure.Caption bsPrefix='figure-caption curated-image-caption'>
 					    	ACCESSORIES
@@ -53,12 +57,14 @@ function CuratedProducts() {
 				<Col xl={4} lg={4} md={4} sm={12} xs={12}>
 					<Figure bsPrefix='figure curated-figure'>
 						<a href='https://karankal.store/collections/artwork' target='_blank'>
-							<Figure.Image
-								width={348}
-							    height={347}
-							    alt='Art-work'
-							    src={artWork}
-							/>
+							<div>
+								<Figure.Image
+									width={348}
+								    height={347}
+								    alt='Art-work'
+								    src={artWork}
+								/>
+							</div>
 						</a>
 					  	<Figure.Caption bsPrefix='figure-caption curated-image-caption'>
 					    	ARTWORK
