@@ -9,6 +9,7 @@
 			background-image: url('../../images/home/slideshow/caption-background.png');
 			background-size: 100%;
 			background-repeat: no-repeat;
+			background-position: center;
 			top: 25%;
 		    width: 32.16vw;
 		    left: 10.5%;
@@ -46,6 +47,20 @@
 				font-family: Proxima Nova Rg;
 				font-weight: normal;
 				width: 27vw;
+			}
+
+			p:first-child.architecture-heading {
+				width: 11em;
+			}
+
+			p:nth-child(2).architecture-content{
+				font-family: Proxima Nova Rg;
+				font-weight: normal;
+				width: 22em;
+			}
+
+			p:first-child.architecture-slide  {
+					width: 11.3em;
 			}
 
 			p:nth-child(3) {

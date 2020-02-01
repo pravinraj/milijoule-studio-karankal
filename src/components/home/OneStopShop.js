@@ -15,11 +15,11 @@ function OneStopShop() {
 		<Row className='one-stop-shop-wrapper'>
 			<Col xl={7} lg={7} md={12} sm={12} className='one-stop-content'>
 				<p>One-stop-shop and design solution</p>
-				<p>Cafe / Corporate / Retail spaces</p>
-				<p>We are the first design and shop giving end to end design solution for your business. We are giving unique and curated products and services. Our user-friendly design that are as unique and useful</p>
+				<p>Cafe / Restaurants / Corporate</p>
+				<p>We are the first Design Studio giving End-to-End Branding / Packaging / Interior / Exterior / Digital Design Solutions for Cafes, Restaurants and Corporate Industry.</p>
 				{(width >= 992) && (
 					<div className='meeting-detail'>
-						<p className='meeting-detail-desc'>Let Karankal to do first free design meeting</p>
+						<p className='meeting-detail-desc'>Book your FIRST Consultation with Karankal – Absolutely FREE</p>
 						<Row>
 							<Col xs={8}>
 								<Row className='email-details'>
@@ -37,7 +37,7 @@ function OneStopShop() {
 				(width <=992) && (
 					<Col lg={12} md={12} sm={12} className='one-stop-wrapper-nondesktop'>
 						<div className='meeting-detail'>
-							<p className='meeting-detail-desc'>Let Karankal to do first free design meeting</p>
+							<p className='meeting-detail-desc'>Book your FIRST Consultation with Karankal – Absolutely FREE</p>
 							<Row>
 								<Col xs={8}>
 									<Row className='email-details'>

@@ -79,7 +79,7 @@ function Routes() {
                   <Project match={match} history={history} />
                 )}
             />
-			<Route exact path='/blog' component={Blog} history={history} />
+			{/*<Route exact path='/blog' component={Blog} history={history} />*/}
 			<Route exact path='/contactus' component={ContactUs} history={history} />
 		</Switch>
 	);

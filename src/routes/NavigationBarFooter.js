@@ -40,7 +40,7 @@ function NavigationBarFooter() {
 						<Nav.Link href="#" bsPrefix='nav-link nav-images'>
 							<NavLink exact activeClassName='activeNav' to='/'>
 								<div className='home'></div>
-								<div className='desc'>Home</div>
+								<div className='desc'>HOME</div>
 								{/*<Figure>
 								  <Figure.Image
 								    width={15}
@@ -70,15 +70,15 @@ function NavigationBarFooter() {
 							  </Figure.Caption>
 							</Figure>*/}
 							<div className='shop'></div>
-							<div className='desc shop-desc'>Shop</div>
+							<div className='desc shop-desc'>WORK</div>
 							</NavLink>
 						</Nav.Link>
 					</Col>
 					<Col xs={3} className='footer-images-container my-auto'>
-						<Nav.Link href="#" bsPrefix='nav-link nav-images'>
-							<NavLink exact activeClassName='activeNav' to='/category/all'>
+						<Nav.Link href='https://karankal.store/' target='_blank' bsPrefix='nav-link nav-images'>
+							<a>
 								<div className='projects'></div>
-								<div className='desc'>Projects</div>
+								<div className='desc'>STORE</div>
 								{/*<Figure>
 								  <Figure.Image
 								    width={15}
@@ -90,12 +90,12 @@ function NavigationBarFooter() {
 								    Projects
 								  </Figure.Caption>
 								</Figure>*/}
-							</NavLink>
+							</a>
 						</Nav.Link>
 					</Col>
 					<Col xs={3} className='footer-images-container my-auto'>
-						<Nav.Link href="#" bsPrefix='nav-link nav-images'>
-							<NavLink exact activeClassName='activeNav' to='/blog'>
+						<Nav.Link href='https://studiokarankal.wordpress.com/' target='_blank' bsPrefix='nav-link nav-images'>
+							<a>
 							{/*<Figure>
 							  <Figure.Image
 							    width={12}
@@ -108,8 +108,8 @@ function NavigationBarFooter() {
 							  </Figure.Caption>
 							</Figure>*/}
 								<div className='blog'></div>
-								<div className='desc'>Blog</div>
-							</NavLink>
+								<div className='desc'>BLOGS</div>
+							</a>
 						</Nav.Link>
 					</Col>
 				</Row>

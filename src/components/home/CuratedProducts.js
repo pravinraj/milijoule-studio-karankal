@@ -14,9 +14,9 @@ function CuratedProducts() {
 	return (
 		<div className='curated-products-wrapper'>
 			<Row>
-				<Col xl={5} lg={12} sm={12} className='curated-product-desc'>
-					<p>Buy Well Curated Products</p>
-					<p>For your cafe and corporate space, we have the best limited edition furniture to avoid similar products in the market. </p>
+				<Col lg={7} sm={5} className='curated-product-desc'>
+					<p>Buy well curated products</p>
+					<p>For your Cafe, Restaurant and Corporate you can buy the best limited edition furniture, as well as eco-friendly accessories, and artistic masterpieces.</p>
 				</Col>
 			</Row>
 			<Row className='curated-products-list'>
@@ -73,7 +73,7 @@ function CuratedProducts() {
 				</Col>
 			</Row>
 			<Row className='know-more-wrapper'>
-				<Col><a href='https://karankal.store/collections/all' target='_blank'><span>BUY PRODUCTS</span><img src={arrowIcon} alt='Arrow-icon' /></a></Col>
+				<Col><a href='https://karankal.store/collections/all' target='_blank'><span>BUY NOW</span><img src={arrowIcon} alt='Arrow-icon' /></a></Col>
 			</Row>
 		</div>
 	);

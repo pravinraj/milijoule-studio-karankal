@@ -8,14 +8,16 @@ import cafe from '../../images/home/slideshow/cafe.jpg';
 import cafeMobile from '../../images/home/slideshow/cafe-mobile.png';
 import mouse from '../../images/home/slideshow/mouse.png';
 import arrowIcon from  '../../images/home/arrow-icon.png';
-import customFurniture from '../../images/home/slideshow/custom-furniture.jpg'
-import customFurnitureMobile from '../../images/home/slideshow/custom-furniture-mobile.png'
-import brandStrategy from '../../images/home/slideshow/brand-strategy.jpg'
-import brandStrategyMobile from '../../images/home/slideshow/brand-strategy-mobile.png'
-import uiUx from '../../images/home/slideshow/ui-ux.jpg'
-import uiUxMobile from '../../images/home/slideshow/ui-ux-mobile.png'
-import architecture from '../../images/home/slideshow/architecture.jpg'
-import architectureMobile from '../../images/home/slideshow/architecture-mobile.png'
+import customFurniture from '../../images/home/slideshow/custom-furniture.jpg';
+import customFurnitureMobile from '../../images/home/slideshow/custom-furniture-mobile.png';
+import brandStrategy from '../../images/home/slideshow/brand-strategy.jpg';
+import brandStrategyMobile from '../../images/home/slideshow/brand-strategy-mobile.png';
+import uiUx from '../../images/home/slideshow/ui-ux.jpg';
+import uiUxMobile from '../../images/home/slideshow/ui-ux-mobile.png';
+import architecture from '../../images/home/slideshow/architecture.jpg';
+import architectureMobile from '../../images/home/slideshow/architecture-mobile.png';
+import retail from '../../images/home/slideshow/retail.jpg';
+import retailMobile from '../../images/home/slideshow/retail-mobile.jpg';
 
 function StudioSlideshow() {
 
@@ -56,14 +58,21 @@ function StudioSlideshow() {
 				'Training Centre Building Design and architecture is critical to the success of a skill development centre and sets the first impression.',
 				'FURNITURE DESIGN'
 			]
-		}
+		},
+		/*{
+			captionHead:'Retail Innovation Strategy & Design', 
+			captionContent: [
+				"Our mantra is, 'Innovation through retail design'. We connect to customers through emotionally rich interiors and drive engagement.",
+				'RETAIL'
+			]
+		}*/
 	];
 	const [carouselContent, setCarouselContent] = useState(carouselContents[0]);
 	const handleSelect = (selectedIndex) => {
 	    setIndex(selectedIndex);
 	    setTimeout(function() {
 	    	setCarouselContent(carouselContents[selectedIndex]);	
-	    },600)
+	    },800)
 	    
 	};
 
@@ -78,6 +87,7 @@ function StudioSlideshow() {
 					<span style={{backgroundColor: (index===2) ? '#ff0000':'#d8d8d8'}}></span>
 					<span style={{backgroundColor: (index===3) ? '#ff0000':'#d8d8d8'}}></span>
 					<span style={{backgroundColor: (index===4) ? '#ff0000':'#d8d8d8'}}></span>
+					<span style={{backgroundColor: (index===5) ? '#ff0000':'#d8d8d8'}}></span>
 				</div>)}
 				<p className='design-type'><span>{slideContent.captionContent[1]}</span><span><img src={arrowIcon} alt='arrow'/></span></p>
 			</>
@@ -108,7 +118,7 @@ function StudioSlideshow() {
 					      alt="Brand Strategy Agency Slide"
 					    />
 					  </Carousel.Item>}
-					  {<Carousel.Item className='brand-strategy-slide'>
+					  {<Carousel.Item className='architecture-slide'>
 					    <img
 					      className="d-block w-100"
 					      src={(width >= 768) ? uiUx : uiUxMobile}
@@ -122,6 +132,13 @@ function StudioSlideshow() {
 					      alt="Architecture Slide"
 					    />
 					  </Carousel.Item>}
+					  {/*<Carousel.Item className='architecture-slide'>
+					    <img
+					      className="d-block w-100"
+					      src={(width >= 768) ? retail : retailMobile}
+					      alt="Architecture Slide"
+					    />
+					  </Carousel.Item>*/}
 				</Carousel>
 				{(width >= 768) && (
 					<div className='studio-slide-caption'>

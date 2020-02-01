@@ -17,7 +17,7 @@ function ServiceOffered() {
 			<Row>
 				<Col className='service-offered-desc'>
 					<p>Service we offer</p>
-					<p>We make sure every design is taken seriously and built to the most significant detail. Everybody in Studio Karankal, irrespective of hierarchy gets to give constructive feedback and improve our products and services.</p>
+					<p>We make sure each Corporate / Cafe / Retail Design - is given prime importance and built to perfection. Everybody in Studio Karankal, contributes to improve products and services.</p>
 				</Col>
 			</Row>
 			<Row>
@@ -26,7 +26,7 @@ function ServiceOffered() {
 				</Col>
 			</Row>
 			<Row className='know-more-wrapper'>
-				<Col><span>Know More</span><img src={arrowIcon} alt='Arrow-icon' /></Col>
+				<Col><span>KNOW MORE</span><img src={arrowIcon} alt='Arrow-icon' /></Col>
 			</Row>
 		</div>
 	);

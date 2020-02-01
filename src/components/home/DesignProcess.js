@@ -27,7 +27,7 @@ function DesignProcess() {
 			<Row className='design-process-img-details'>
 				<Col md={3} xs={6} className='design-process-img-desc' style={{paddingLeft: (width >=768) && '2em'}}>
 					{(width < 768) && <Image src={discovery} />}
-					<p>DISCOVERY & STRATEGY</p>
+					<p>CLIENT MEETING</p>
 					<p>Visioning & Strategy Planning & Scheduling Understanding the space Client Interview Gather Brand Assets</p>
 				</Col>
 				<Col md={3} xs={6} className='design-process-img-desc'>
@@ -37,17 +37,17 @@ function DesignProcess() {
 				</Col>
 				<Col md={3} xs={6} className='design-process-img-desc'>
 					{(width < 768) && <Image src={ideate} />}
-					<p>IDEATE & PROTOTYPE</p>
+					<p>DESIGN DEVELOPMENT</p>
 					<p>Concept Refinement Develop Concepts Design Specifications Detail Drawings Develop Prototypes</p>
 				</Col>
 				<Col md={3}  xs={6} className='design-process-img-desc'>
 					{(width < 768) && <Image src={implitation} />}
-					<p>IMPLITATION</p>
+					<p>EXECUTION</p>
 					<p>Coordination with other trades Implementation Budget Schedule Installation Produce and Install Project Complete</p>
 				</Col>
 			</Row>
 			<Row className='know-more-wrapper'>
-				<Col><span>Know More</span><img src={arrowIcon} alt='Arrow-icon' /></Col>
+				<Col><span>KNOW MORE</span><img src={arrowIcon} alt='Arrow-icon' /></Col>
 			</Row>
 		</div>
 	);

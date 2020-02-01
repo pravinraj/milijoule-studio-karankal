@@ -51,9 +51,9 @@ function WorkArea() {
 	return (
 		<div className='work-area-wrapper'>
 			<Row>
-				<Col xl={7} lg={8} sm={12} className='work-area-desc'>
-					<p>Area of Work</p>
-					<p>studio Karankal collaborated with the best local artist and designer  to give the best curated artwork and products for making your unique space</p>
+				<Col lg={6} sm={12} className='work-area-desc'>
+					<p>Area of work</p>
+					<p>Studio Karankal collaborates with the best designers, developers and manufacturer to give end-to-end-solutions for your unique spaces.</p>
 				</Col>
 			</Row>
 			<Row className='work-area-list'>
@@ -70,16 +70,16 @@ function WorkArea() {
 					  	<Figure.Caption bsPrefix='figure-caption work-area-image-caption'>
 					    	{(width >= 768) ? (
 					    		<>
-					    			<p>CAFE AND RESTAURANT</p>
-					   				<p>Visitors at your cafe and restaurant need to know the legendary tale behind your brand. Do you have one that needs to be told?</p>
+					    			<p>TELLA TALES ( Interior Design )</p>
+					   				<p>Tella tales is the first Nutella themed café where a customer can satisfy his Nutella cravings satisfied in by way of pizzas, crepes, sandwiches, and shakes</p>
 					   			</>
 					   		) : (
 						   			<>
 							   			<p>
-							   				<span className='work-area-caption-mobile-heading'>CAFE AND RESTAURANT</span>
+							   				<span className='work-area-caption-mobile-heading'>TELLA TALES ( Interior Design )</span>
 							   				<span className={isExpandCafe ? 'work-area-up-arrow' : 'work-area-down-arrow'} onClick={()=> {setExpandCafe(!isExpandCafe); setExpandCorporate(false); setExpandRetail(false)}}></span>
 							   			</p>
-							   			{isExpandCafe && (<p className='work-area-caption-mobile-desc'>Visitors at your cafe and restaurant need to know the legendary tale behind your brand. Do you have one that needs to be told?</p>)}
+							   			{isExpandCafe && (<p className='work-area-caption-mobile-desc'>Tella tales is the first Nutella themed café where a customer can satisfy his Nutella cravings satisfied in by way of pizzas, crepes, sandwiches, and shakes</p>)}
 						   			</>
 					   			)}
 					  	</Figure.Caption>
@@ -99,16 +99,16 @@ function WorkArea() {
 					  	{
 					  		(width>=768) ? (
 					  			<>
-					  				<p>CORPORATE</p>
-					    			<p>A lively workspace with ergonomic seating enhances energy levels, preps up productivity, and positively influences clients.</p>
+					  				<p>JANELA ( Branding and Packaging )</p>
+					    			<p>This exclusive chocolate brand is from Goa. We created a package design that reflects its rich heritage..</p>
 					  			</>
 					  		) : (
 					  			<>
 						   			<p>
-						   				<span className='work-area-caption-mobile-heading'>CORPORATE</span>
+						   				<span className='work-area-caption-mobile-heading'>JANELA ( Branding and Packaging )</span>
 						   				<span className={isExpandCorporate ? 'work-area-up-arrow' : 'work-area-down-arrow'} onClick={()=> {setExpandCafe(false); setExpandCorporate(!isExpandCorporate); setExpandRetail(false)}}></span>
 						   			</p>
-						   			{isExpandCorporate && (<p className='work-area-caption-mobile-desc'>A lively workspace with ergonomic seating enhances energy levels, preps up productivity, and positively influences clients.</p>)}
+						   			{isExpandCorporate && (<p className='work-area-caption-mobile-desc'>This exclusive chocolate brand is from Goa. We created a package design that reflects its rich heritage..</p>)}
 					   			</>
 					  		)
 					  	}
@@ -130,15 +130,15 @@ function WorkArea() {
 					  		{
 					  			(width >= 768) ?
 						  			(<>
-							    		<p>RETAIL</p>
-							    		<p>A spellbinding ambience at your retail space makes customers stay longer and spend more. Is your store ready to handle the crowd?</p>
+							    		<p>TRANGULAR ( Custom Furniture )</p>
+							    		<p>We chose triangles as the primary element while building this piece of abstract furniture. It can be transformed into a chair to bench.</p>
 							    	</>) : (
 							    	<>
 							   			<p>
-							   				<span className='work-area-caption-mobile-heading'>RETAIL</span>
+							   				<span className='work-area-caption-mobile-heading'>TRANGULAR ( Custom Furniture )</span>
 							   				<span className={isExpandRetail ? 'work-area-up-arrow' : 'work-area-down-arrow'} onClick={() => {setExpandCafe(false); setExpandCorporate(false); setExpandRetail(!isExpandRetail)}}></span>
 							   			</p>
-							   			{isExpandRetail && (<p className='work-area-caption-mobile-desc'>A spellbinding ambience at your retail space makes customers stay longer and spend more. Is your store ready to handle the crowd?</p>)}
+							   			{isExpandRetail && (<p className='work-area-caption-mobile-desc'>We chose triangles as the primary element while building this piece of abstract furniture. It can be transformed into a chair to bench.</p>)}
 					   				</>
 
 							    	)
@@ -148,7 +148,7 @@ function WorkArea() {
 				</Col>
 			</Row>
 			<Row className='know-more-wrapper'>
-				<Col><span>ALL PROJECTS</span><img src={arrowIcon} alt='Arrow-icon' /></Col>
+				<Col><span>VIEW ALL PROJECTS</span><img src={arrowIcon} alt='Arrow-icon' /></Col>
 			</Row>
 		</div>
 	);

@@ -26,11 +26,11 @@ function NavigationBar(argument) {
 					<Navbar.Brand href="#" bsPrefix='navbar brand-image'><img src={brandImage} alt='brandImage'/></Navbar.Brand>
 				  	<Navbar id="responsive-navbar-nav" bsPrefix={width > 768 ? 'navbar studio-navbar':''}>
 				  		<Nav className="mx-auto" >
-				  			<Nav.Link bsPrefix='nav-link route-type'><NavLink exact activeClassName='activeNav' to='/about-studio/team'>About</NavLink></Nav.Link>
-					      	<Nav.Link bsPrefix='nav-link route-type'><NavLink exact activeClassName='activeNav' to='/category/all'>Projects</NavLink></Nav.Link>
-					      	<Nav.Link href='https://karankal.store/' target='_blank' bsPrefix='nav-link route-type'><a>Shop</a></Nav.Link>
-					      	<Nav.Link bsPrefix='nav-link route-type'><NavLink exact activeClassName='activeNav' to='/blog'>Blog</NavLink></Nav.Link>
-					      	<NavDropdown className='contact-us-dropdown custom-carets' title="Contact Us" id="collasible-nav-dropdown">
+				  			<Nav.Link bsPrefix='nav-link route-type'><NavLink exact activeClassName='activeNav' to='/about-studio/team'>ABOUT</NavLink></Nav.Link>
+					      	<Nav.Link bsPrefix='nav-link route-type'><NavLink exact activeClassName='activeNav' to='/category/all'>WORK</NavLink></Nav.Link>
+					      	<Nav.Link href='https://karankal.store/' target='_blank' bsPrefix='nav-link route-type'><a>STORE</a></Nav.Link>
+					      	<Nav.Link bsPrefix='nav-link route-type' href='https://studiokarankal.wordpress.com/' target='_blank'><a>BLOG</a></Nav.Link>
+					      	<NavDropdown className='contact-us-dropdown custom-carets' title="CONTACT" id="collasible-nav-dropdown">
 					       		<NavDropdown.Item href="#action/3.1" className='contact-us-dropdown-item'><img className='mail-icon' src={mail} alt='mail-icon' /><span className='contact-detail'>hello@karankal.com</span></NavDropdown.Item>
 					       		<NavDropdown.Divider />
 					       		<NavDropdown.Item href="#action/3.2" className='contact-us-dropdown-item'><img className='phone-icon' src={phone} alt='phone-icon' /><span className='contact-detail'>+917829 475707</span></NavDropdown.Item>				       		
