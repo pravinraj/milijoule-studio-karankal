@@ -116,7 +116,25 @@
 }
 
 .About-us-page .founder-image {
-  width: 100%;
+  width: 43%;
+}
+
+@media only screen and (max-width:600px){
+  .About-us-page .founder-image {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width:600px){
+  .About-us-page .founder-image {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width:768px){
+  .About-us-page .founder-image {
+    width: 43%;
+  }
 }
 
 .About-us-page .name {

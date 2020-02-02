@@ -1,5 +1,4 @@
 import pageImage from '../../images/category/aboutUsImages/pageImage.jpg';
-import firmnew from '../../images/category/aboutUsImages/firmnew.jpg';
 import rahulkarankal from '../../images/category/aboutUsImages/home.jpg';
 import kintanchauhan from '../../images/category/aboutUsImages/kintanchauhan.jpeg';
 import shrirambonagiri from '../../images/category/aboutUsImages/shrirambonagiri.jpg';
@@ -24,6 +23,13 @@ import furniture from '../../images/category/expertiseImages/furniture.svg';
 let firm = {
   pageImage,
   aboutFirm: [
+    {
+      text: 'Studio Karankal is an independent studio based in Bangalore and a one stop shop  for Cafe, Restaurant and  Corporate Space Design Solutions',
+      subText: [
+        'We are providing the best design and manufacturing solutions for startups, and established businesses.',
+        'Our unique, honest,  contextual, and futuristic approach gives better brand experience for customers, whether it is cafes, restaurants or corporates.'
+      ]
+    },
     {
       text: 'Philosophy',
       subText: [
