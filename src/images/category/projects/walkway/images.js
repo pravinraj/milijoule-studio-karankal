@@ -24,7 +24,7 @@ export default {
     "Now, what's the idea behind the walkway?",
     "We all wear shoes outside right? Our time is spent commuting to work, or interacting with others, on the walkway. Many use this route, whether it is for boarding the metro train or dashing off to the office or tech park. Simply put, the walkway is a place where your & shoes feel at home & That's how the concept came about. Attachments area. "
   ],
-  projectName: 'Walkway',
+  projectName: 'Walkon',
   realProjectName: 'walkway',
   projectTypes: ['fixture', 'furniture', 'store design'],
   categoryTypes: ['retail']

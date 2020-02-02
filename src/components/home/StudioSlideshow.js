@@ -148,7 +148,7 @@ function StudioSlideshow() {
 						<div className='caption-background'></div>
 					</>
 				)}		
-				<span className='mouse-pointer'><img src={mouse} alt='mouse pointer' /></span>
+				{/*<span className='mouse-pointer'><img src={mouse} alt='mouse pointer' /></span>*/}
 			</Row>
 			{(width < 768) && (<div className='studio-slide-caption'>{slideCaptionContent(carouselContent, index)}</div>)}
 		</div>
