@@ -26,7 +26,7 @@ function NavigationBar(argument) {
 					<Navbar.Brand href="#" bsPrefix='navbar brand-image'><img src={brandImage} alt='brandImage'/></Navbar.Brand>
 				  	<Navbar id="responsive-navbar-nav" bsPrefix={width > 768 ? 'navbar studio-navbar':''}>
 				  		<Nav className="mx-auto" >
-				  			<Nav.Link bsPrefix='nav-link route-type'><NavLink exact activeClassName='activeNav' to='/about-studio/team'>ABOUT</NavLink></Nav.Link>
+				  			<Nav.Link bsPrefix='nav-link route-type'><NavLink exact activeClassName='activeNav' to='/about-studio/firm'>ABOUT</NavLink></Nav.Link>
 					      	<Nav.Link bsPrefix='nav-link route-type'><NavLink exact activeClassName='activeNav' to='/category/all'>WORK</NavLink></Nav.Link>
 					      	<Nav.Link href='https://karankal.store/' target='_blank' bsPrefix='nav-link route-type'><a>STORE</a></Nav.Link>
 					      	<Nav.Link bsPrefix='nav-link route-type' href='https://studiokarankal.wordpress.com/' target='_blank'><a>BLOG</a></Nav.Link>

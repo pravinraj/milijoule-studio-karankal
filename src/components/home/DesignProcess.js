@@ -27,23 +27,19 @@ function DesignProcess() {
 			<Row className='design-process-img-details'>
 				<Col md={3} xs={6} className='design-process-img-desc' style={{paddingLeft: (width >=768) && '2em'}}>
 					{(width < 768) && <Image src={discovery} />}
-					<p>CLIENT MEETING</p>
-					<p>Visioning & Strategy Planning & Scheduling Understanding the space Client Interview Gather Brand Assets</p>
+					<p>CLIENT MEETING</p>					
 				</Col>
 				<Col md={3} xs={6} className='design-process-img-desc'>
 					{(width < 768) && <Image src={customerResearch} />}
 					<p>USER/CUSTOMER RESEARCH</p>
-					<p>Competitive Analysis User/Customer Research Gather Proposed Materials Implementation Budget Concept Presentation</p>
 				</Col>
 				<Col md={3} xs={6} className='design-process-img-desc'>
 					{(width < 768) && <Image src={ideate} />}
-					<p>DESIGN DEVELOPMENT</p>
-					<p>Concept Refinement Develop Concepts Design Specifications Detail Drawings Develop Prototypes</p>
+					<p>DESIGN DEVELOPMENT</p>					
 				</Col>
 				<Col md={3}  xs={6} className='design-process-img-desc'>
 					{(width < 768) && <Image src={implitation} />}
 					<p>EXECUTION</p>
-					<p>Coordination with other trades Implementation Budget Schedule Installation Produce and Install Project Complete</p>
 				</Col>
 			</Row>
 			<Row className='know-more-wrapper'>

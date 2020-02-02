@@ -1,4 +1,5 @@
 import pageImage from '../../images/category/aboutUsImages/pageImage.jpg';
+import firmnew from '../../images/category/aboutUsImages/firmnew.jpg';
 import rahulkarankal from '../../images/category/aboutUsImages/home.jpg';
 import kintanchauhan from '../../images/category/aboutUsImages/kintanchauhan.jpeg';
 import shrirambonagiri from '../../images/category/aboutUsImages/shrirambonagiri.jpg';

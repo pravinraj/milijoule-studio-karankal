@@ -13,6 +13,7 @@ import ServiceOffered from '../components/home/ServiceOffered';
 import DesignProcess from '../components/home/DesignProcess';
 import Testimonals from '../components/home/Testimonals';
 import Feature from '../components/home/Feature';
+import Story from '../components/home/Story';
 // import ContactUs from '../components/home/ContactUs';
 import ContactUs  from '../components/category/contactus/ContactUs';
 import contactOptions  from '../components/category/contactus/ContactOptions';
@@ -35,6 +36,7 @@ function Home() {
 							<DesignProcess/>
 							<Testimonals/>
 							<Feature/>
+							<Story/>
 						</Col>
 					<Col md={1} sm ={0} className='home-content-margin'></Col>
 				</Row>

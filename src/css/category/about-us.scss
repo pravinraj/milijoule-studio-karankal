@@ -78,7 +78,7 @@
 }
 
 .About-us-header > .Project-page-title {
-  margin: 10px 20px 0px;
+  margin: 10px 4px 0px;
 }
 
 .About-us-page .state-page {
@@ -101,7 +101,7 @@
 }
 
 .About-us-page .subText {
-  font-weight: 300;
+  font-weight: inherit;
   margin-top: 10px;
   color: rgba(33, 33, 33, 1);
   font-size: 17px;
@@ -155,6 +155,7 @@
 
 .About-us-page .expertiseImage {
   margin: 10px 0px;
+  width: auto;
 }
 
 .About-us-page .tagline {

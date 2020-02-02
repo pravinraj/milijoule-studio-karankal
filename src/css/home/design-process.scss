@@ -67,7 +67,6 @@
 			}
 
 			p:last-child {
-			    font-weight: normal;
 			    line-height: 1.59;
 			    text-align: center;
 			    color: #4a4a4a;
@@ -194,6 +193,13 @@
 			.design-process-img-desc {
 				p {
 					font-size: 14px;
+					font-family: Proxima Nova Rg;
+				    font-weight: bold;
+				    font-stretch: normal;
+				    font-style: normal;
+				    line-height: normal;
+				    letter-spacing: normal;
+				    color: #000000;
 				}
 			}
 

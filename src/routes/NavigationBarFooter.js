@@ -57,7 +57,7 @@ function NavigationBarFooter() {
 					</Col>
 					<Col xs={3} className='footer-images-container my-auto'>
 						<Nav.Link href="#" bsPrefix='nav-link nav-images'>
-							<NavLink exact activeClassName='activeNav' to='/shopify'>
+							<NavLink exact activeClassName='activeNav' to='/category/all'>
 							{/*<Figure>
 							  <Figure.Image
 							    width={40}

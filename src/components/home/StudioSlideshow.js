@@ -9,7 +9,7 @@ import cafeMobile from '../../images/home/slideshow/cafe-mobile.png';
 import mouse from '../../images/home/slideshow/mouse.png';
 import arrowIcon from  '../../images/home/arrow-icon.png';
 import customFurniture from '../../images/home/slideshow/custom-furniture.jpg';
-import customFurnitureMobile from '../../images/home/slideshow/custom-furniture-mobile.png';
+import customFurnitureMobile from '../../images/home/slideshow/custom-furniture-mobile.jpg';
 import brandStrategy from '../../images/home/slideshow/brand-strategy.jpg';
 import brandStrategyMobile from '../../images/home/slideshow/brand-strategy-mobile.png';
 import uiUx from '../../images/home/slideshow/ui-ux.jpg';
@@ -39,7 +39,7 @@ function StudioSlideshow() {
 			]
 		},
 		{
-			captionHead:'Brand Strategy Agency', 
+			captionHead:'Brand Identity & Packaging Design ', 
 			captionContent: [
 				'Creating customised brand strategies to help expand your overall reach, and attract new customers',
 				'BRANDING AND PACKAGING'
@@ -53,19 +53,19 @@ function StudioSlideshow() {
 			]
 		},
 		{
-			captionHead:'Horticulture Architecture and Design', 
+			captionHead:'Architecture and Design', 
 			captionContent: [
 				'Training Centre Building Design and architecture is critical to the success of a skill development centre and sets the first impression.',
 				'FURNITURE DESIGN'
 			]
 		},
-		/*{
+		{
 			captionHead:'Retail Innovation Strategy & Design', 
 			captionContent: [
 				"Our mantra is, 'Innovation through retail design'. We connect to customers through emotionally rich interiors and drive engagement.",
 				'RETAIL'
 			]
-		}*/
+		}
 	];
 	const [carouselContent, setCarouselContent] = useState(carouselContents[0]);
 	const handleSelect = (selectedIndex) => {
@@ -79,8 +79,8 @@ function StudioSlideshow() {
 	const slideCaptionContent = (slideContent, index) => {
 		return (
 			<>
-				<p className={(index===4) && 'architecture-heading'} >{slideContent.captionHead}</p>
-				<p className={(index===4) && 'architecture-content'}>{slideContent.captionContent[0]}</p>
+				<p>{slideContent.captionHead}</p>
+				<p className={'architecture-content'}>{slideContent.captionContent[0]}</p>
 				{(width<768) &&(<div className='slideshow-indicator'>
 					<span style={{backgroundColor: (index===0) ? '#ff0000':'#d8d8d8'}}></span>
 					<span style={{backgroundColor: (index===1) ? '#ff0000':'#d8d8d8'}}></span>
@@ -132,22 +132,25 @@ function StudioSlideshow() {
 					      alt="Architecture Slide"
 					    />
 					  </Carousel.Item>}
-					  {/*<Carousel.Item className='architecture-slide'>
+					  {<Carousel.Item className='architecture-slide'>
 					    <img
 					      className="d-block w-100"
 					      src={(width >= 768) ? retail : retailMobile}
 					      alt="Architecture Slide"
 					    />
-					  </Carousel.Item>*/}
+					  </Carousel.Item>}
 				</Carousel>
 				{(width >= 768) && (
-					<div className='studio-slide-caption'>
-						{slideCaptionContent(carouselContent, index)}
-					</div>
+					<>
+						<div className='studio-slide-caption'>
+							{slideCaptionContent(carouselContent, index)}
+						</div>
+						<div className='caption-background'></div>
+					</>
 				)}		
 				<span className='mouse-pointer'><img src={mouse} alt='mouse pointer' /></span>
 			</Row>
-			{(width < 768) && (<div className='studio-slide-caption'z>{slideCaptionContent(carouselContent, index)}</div>)}
+			{(width < 768) && (<div className='studio-slide-caption'>{slideCaptionContent(carouselContent, index)}</div>)}
 		</div>
 			
 	);
