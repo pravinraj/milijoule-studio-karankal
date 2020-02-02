@@ -19,6 +19,10 @@ import Drawer from '../components/navbar-slider/Drawer';
 
 function NavigationBar(argument) {
 	const width = window.innerWidth;
+	const blogView = () => {
+		const elemn = document.getElementById('blog-wrapper-id');
+		elemn.scrollIntoView();
+	}
 	return (
 		<div>
 			<Container>
@@ -29,7 +33,7 @@ function NavigationBar(argument) {
 				  			<Nav.Link bsPrefix='nav-link route-type'><NavLink exact activeClassName='activeNav' to='/about-studio/firm'>ABOUT</NavLink></Nav.Link>
 					      	<Nav.Link bsPrefix='nav-link route-type'><NavLink exact activeClassName='activeNav' to='/category/all'>WORK</NavLink></Nav.Link>
 					      	<Nav.Link href='https://karankal.store/' target='_blank' bsPrefix='nav-link route-type'><a>STORE</a></Nav.Link>
-					      	<Nav.Link bsPrefix='nav-link route-type' href='https://studiokarankal.wordpress.com/' target='_blank'><a>BLOG</a></Nav.Link>
+					      	<Nav.Link bsPrefix='nav-link route-type' onClick={() => blogView()}><a>BLOG</a></Nav.Link>
 					      	<NavDropdown className='contact-us-dropdown custom-carets' title="CONTACT" id="collasible-nav-dropdown">
 					       		<NavDropdown.Item href="#action/3.1" className='contact-us-dropdown-item'><img className='mail-icon' src={mail} alt='mail-icon' /><span className='contact-detail'>hello@karankal.com</span></NavDropdown.Item>
 					       		<NavDropdown.Divider />

@@ -33,6 +33,10 @@ function NavigationBarFooter() {
 	        setOpacity('1');
 	    }, 150);
 	}, false);
+	const blogView = () => {
+		const elemn = document.getElementById('blog-wrapper-id');
+		elemn.scrollIntoView();
+	}
 	return (
 		<Navbar fixed='bottom' className='studio-footer-wrapper' collapseOnSelect expand="lg" style={{display: navDisplay, opacity: opacityValue}}>
 				<Row>
@@ -94,7 +98,7 @@ function NavigationBarFooter() {
 						</Nav.Link>
 					</Col>
 					<Col xs={3} className='footer-images-container my-auto'>
-						<Nav.Link href='https://studiokarankal.wordpress.com/' target='_blank' bsPrefix='nav-link nav-images'>
+						<Nav.Link onClick={() => blogView()} bsPrefix='nav-link nav-images'>
 							<a>
 							{/*<Figure>
 							  <Figure.Image

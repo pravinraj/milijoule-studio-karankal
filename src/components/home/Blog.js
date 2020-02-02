@@ -12,8 +12,7 @@ import blog3 from  '../../images/home/blog/blog-3.png';
 
 function Blog(props) {
 	return (
-		<div className='blog-wrapper'>
-			<a name='blog-wrapper-id'></a>
+		<div className='blog-wrapper' id='blog-wrapper-id'>
 			<Row>
 				<Col xl={8} lg={12} sm={12} className='blog-desc'>
 					<p>Blog</p>
