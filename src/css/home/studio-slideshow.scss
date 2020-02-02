@@ -184,6 +184,7 @@
 		}
 
 		.design-type {
+			cursor: pointer;
 			color: #e53532;
 			font-weight: 600;
 			margin-top: 39px;
@@ -274,7 +275,7 @@
 				}
 			}
 
-			.design-type{
+			.design-type, .design-type a{
 				color: #e53532;
 				font-weight: 600;
 				margin-top: 32px;;
@@ -425,6 +426,10 @@
 				.design-type{
 					span:first-child{
 						font-size:17px;
+						color: #e53532;
+						&:hover {
+							color: #e53532;
+						}
 					}
 					font-size: 1.106vw;	
 					img {

@@ -10,7 +10,7 @@ import serviceOfferedMobile from  '../../images/home/service-offered/service-off
 
 import arrowIcon from  '../../images/home/arrow-icon.png';
 
-function ServiceOffered() {
+function ServiceOffered(props) {
 	const width = window.innerWidth;
 	return (
 		<div className='service-offered-wrapper'>
@@ -25,7 +25,7 @@ function ServiceOffered() {
 					  { (width >= 768) ? (<Image src={serviceOffered} />) : (<Image src={serviceOfferedMobile} />) }
 				</Col>
 			</Row>
-			<Row className='know-more-wrapper'>
+			<Row className='know-more-wrapper' onClick={() => {props.props.history.push('/about-studio/expertise')}}>
 				<Col><span>KNOW MORE</span><img src={arrowIcon} alt='Arrow-icon' /></Col>
 			</Row>
 		</div>

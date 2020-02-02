@@ -11,7 +11,7 @@ import corporate from '../../images/home/work-area/corporate.png';
 import retail from '../../images/home/work-area/retail.png';
 import arrowIcon from  '../../images/home/arrow-icon.png';
 
-function WorkArea() {
+function WorkArea(props) {
 	const width = window.innerWidth;
 	const [isExpandCafe, setExpandCafe] = useState(false);
 	const [isExpandCorporate, setExpandCorporate] = useState(false);
@@ -59,7 +59,7 @@ function WorkArea() {
 			<Row className='work-area-list'>
 				<Col sm={12} xl={4} lg={4} md={4}>
 					<Figure bsPrefix='figure work-area-image'>
-						<div>
+						<div onClick={() => props.props.history.push('/category/all/tellatales')}>
 							<Figure.Image
 								width={(width >= 768) ? 356 : 301}
 							    height={(width >= 768) ? 356 : 290}
@@ -87,7 +87,7 @@ function WorkArea() {
 				</Col>
 				<Col sm={12} xl={4} lg={4} md={4}>
 					<Figure bsPrefix='figure work-area-image'>
-						<div>
+						<div onClick={() => props.props.history.push('/category/all/janela')}>
 							<Figure.Image
 								width={(width >= 768) ? 356 : 301}
 							    height={(width >= 768) ? 356 : 290}
@@ -118,7 +118,7 @@ function WorkArea() {
 				</Col>
 				<Col sm={12} xl={4} lg={4} md={4}>
 					<Figure bsPrefix='figure work-area-image'>
-						<div>
+						<div onClick={() => props.props.history.push('/category/all/triangular')}>
 							<Figure.Image
 								width={(width >= 768) ? 356 : 301}
 							    height={(width >= 768) ? 356 : 290}
@@ -147,7 +147,7 @@ function WorkArea() {
 					</Figure>
 				</Col>
 			</Row>
-			<Row className='know-more-wrapper'>
+			<Row className='know-more-wrapper' onClick={() => {props.props.history.push('/category/all')}}>
 				<Col><span>VIEW ALL PROJECTS</span><img src={arrowIcon} alt='Arrow-icon' /></Col>
 			</Row>
 		</div>

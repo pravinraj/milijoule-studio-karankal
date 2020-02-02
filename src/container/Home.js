@@ -18,7 +18,7 @@ import Story from '../components/home/Story';
 import ContactUs  from '../components/category/contactus/ContactUs';
 import contactOptions  from '../components/category/contactus/ContactOptions';
 
-function Home() {
+function Home(props) {
 	const width = window.innerWidth;
 	let screenWidth = window.screen.availWidth;
 	return (
@@ -27,12 +27,12 @@ function Home() {
 				<Row>
 					<Col md={1} sm={0} className='home-content-margin'></Col>
 						<Col md={10} sm={12} className='home-content-detail'>
-							<StudioSlideshow/>
+							<StudioSlideshow props={{...props}}/>
 							<OneStopShop/>
 							<CuratedProducts/>
-							<WorkArea/>
-							<Blog/>
-							<ServiceOffered/>
+							<WorkArea props={{...props}}/>
+							<Blog props={{...props}}/>
+							<ServiceOffered props={{...props}}/>
 							<DesignProcess/>
 							<Testimonals/>
 							<Feature/>

@@ -10,9 +10,10 @@ import blog1 from  '../../images/home/blog/blog-1.png';
 import blog2 from  '../../images/home/blog/blog-2.png';
 import blog3 from  '../../images/home/blog/blog-3.png';
 
-function Blog() {
+function Blog(props) {
 	return (
 		<div className='blog-wrapper'>
+			<a name='blog-wrapper-id'></a>
 			<Row>
 				<Col xl={8} lg={12} sm={12} className='blog-desc'>
 					<p>Blog</p>
@@ -22,7 +23,7 @@ function Blog() {
 			<Row className='blog-images-wrapper'>
 				<Col md={4} sm={12} className='blog-list'>
 					<Figure bsPrefix='figure blog-image'>
-						<a href='https://studiokarankal.wordpress.com/2018/10/25/the-most-effective-method-to-buildmulti-sensorial-experience-in-restaurants-cafes' target='_blank'>
+						<a href='https://karankal.store/blogs/blog/2020-cafe-design-trends' target='_blank'>
 						<div>
 							<Figure.Image
 								width={302}
@@ -42,7 +43,7 @@ function Blog() {
 				</Col>
 				<Col md={4} sm={12} className='blog-list'>
 					<Figure bsPrefix='figure blog-image'>
-						<a href='https://studiokarankal.wordpress.com/2018/10/25/how-restaurant-lighting-helps-toset-the-mood' target='_blank'>
+						<a href='https://karankal.store/blogs/blog/why-do-most-restaurants-fail-before-celebrating-their-first-anniversary' target='_blank'>
 						<div>
 							<Figure.Image
 								width={302}
@@ -62,7 +63,7 @@ function Blog() {
 				</Col>
 				<Col md={4} sm={12} className='blog-list'>
 					<Figure bsPrefix='figure blog-image'>
-						<a href='https://studiokarankal.wordpress.com/2020/01/27/how-do-you-design-a-restaurant' target='_blank'>
+						<a href='https://karankal.store/blogs/blog/the-sensory-experience-of-restaurants' target='_blank'>
 							<div>
 								<Figure.Image
 									width={302}
@@ -82,7 +83,7 @@ function Blog() {
 				</Col>
 			</Row>
 			<Row className='know-more-wrapper'>
-				<Col><a href='https://studiokarankal.wordpress.com/' target='_blank'><span>KNOW MORE</span><img src={arrowIcon} alt='Arrow-icon' /></a></Col>
+				<Col><a href='https://www.karankal.store' target='_blank'><span>KNOW MORE</span><img src={arrowIcon} alt='Arrow-icon' /></a></Col>
 			</Row>
 		</div>
 	);

@@ -37,7 +37,7 @@ function NavigationBar(argument) {
 				      		</NavDropdown>
 				      	</Nav>
 			      		<Nav className='nav-images-list'>
-			      			<Nav.Link href="#" bsPrefix='nav-link nav-images'><img src={share} alt='share' /></Nav.Link>
+			      			{/*<Nav.Link href="#" bsPrefix='nav-link nav-images'><img src={share} alt='share' /></Nav.Link>*/}
 				      		{/*<Nav.Link href="#" bsPrefix='nav-link nav-images'><img src={search} alt='search' /></Nav.Link>
 					      	<Nav.Link href="#" bsPrefix='nav-link nav-images'><img src={nounProfile} alt='nounProfile' /></Nav.Link>
 					      	<Nav.Link href="#" bsPrefix='nav-link nav-images'><img src={cart} alt='cart' /></Nav.Link>*/}

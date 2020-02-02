@@ -19,7 +19,7 @@ import architectureMobile from '../../images/home/slideshow/architecture-mobile.
 import retail from '../../images/home/slideshow/retail.jpg';
 import retailMobile from '../../images/home/slideshow/retail-mobile.jpg';
 
-function StudioSlideshow() {
+function StudioSlideshow(props) {
 
 	const [index, setIndex] = useState(0);
 	const width = window.innerWidth;
@@ -29,42 +29,48 @@ function StudioSlideshow() {
 			captionContent: [
 				'An excellent restaurant interior design attracts new diners and retains existing ones.',
 				'INTERIOR DESIGN'
-			]
+			],
+			linkRouting: '/category/all/tellatales'
 		},
 		{
 			captionHead:'Custom Furniture Makers', 
 			captionContent: [
 				'When you have a unique taste, custom designed furniture is what you need to enrich your interiors and wow your clients.',
 				'BUY PRODUCTS'
-			]
+			],
+			karankalRouting: 'https://www.karankal.store'
 		},
 		{
 			captionHead:'Brand Identity & Packaging Design ', 
 			captionContent: [
 				'Creating customised brand strategies to help expand your overall reach, and attract new customers',
 				'BRANDING AND PACKAGING'
-			]
+			],
+			linkRouting: '/category/all/janela'
 		},
 		{
 			captionHead:'UI/UX To Drive Engagement', 
 			captionContent: [
 				'User Interface and User Experience (UI/UX) are essential to gaining customer engagement and creating a buzz online',
-				'FURNITURE DESIGN'
-			]
+				'DIGITAL DESIGN'
+			],
+			linkRouting: '/category/all/circularjourney'
 		},
 		{
 			captionHead:'Architecture and Design', 
 			captionContent: [
 				'Training Centre Building Design and architecture is critical to the success of a skill development centre and sets the first impression.',
 				'FURNITURE DESIGN'
-			]
+			],
+			linkRouting: '/category/all/agrotie'
 		},
 		{
 			captionHead:'Retail Innovation Strategy & Design', 
 			captionContent: [
 				"Our mantra is, 'Innovation through retail design'. We connect to customers through emotionally rich interiors and drive engagement.",
 				'RETAIL'
-			]
+			],
+			linkRouting: '/category/all/walkway'
 		}
 	];
 	const [carouselContent, setCarouselContent] = useState(carouselContents[0]);
@@ -89,7 +95,8 @@ function StudioSlideshow() {
 					<span style={{backgroundColor: (index===4) ? '#ff0000':'#d8d8d8'}}></span>
 					<span style={{backgroundColor: (index===5) ? '#ff0000':'#d8d8d8'}}></span>
 				</div>)}
-				<p className='design-type'><span>{slideContent.captionContent[1]}</span><span><img src={arrowIcon} alt='arrow'/></span></p>
+				{slideContent.linkRouting && (<p className='design-type' onClick={() => props.props.history.push(slideContent.linkRouting)}><span>{slideContent.captionContent[1]}</span><span><img src={arrowIcon} alt='arrow'/></span></p>)}
+				{slideContent.karankalRouting && (<p className='design-type'><a href={slideContent.karankalRouting} target='_blank'><span>{slideContent.captionContent[1]}</span><span><img src={arrowIcon} alt='arrow'/></span></a></p>)}
 			</>
 		);
 	};
